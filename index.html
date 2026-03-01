@@ -237,6 +237,24 @@
     border-radius: 12px;
     font-size: 0.7rem;
     color: var(--text-muted);
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .genre-tag:hover {
+    border-color: var(--accent);
+    background: var(--search-bg);
+  }
+
+  .badge-cert[data-filter] {
+    cursor: pointer;
+    transition: border-color 0.2s;
+    border: 1px solid transparent;
+  }
+
+  .badge-cert[data-filter]:hover {
+    border-color: #f0c040;
   }
 
   .card-artist {
@@ -448,12 +466,12 @@ function renderCard(item) {
   const genres = Array.isArray(item.genres) ? item.genres : item.genres ? [item.genres] : [];
   if (genres.length) {
     html += '<div class="card-genres">';
-    genres.forEach(g => { html += `<span class="genre-tag">${esc(g)}</span>`; });
+    genres.forEach(g => { html += `<span class="genre-tag" data-filter="genre" data-value="${esc(g)}">${esc(g)}</span>`; });
     html += '</div>';
   }
 
   const meta = [];
-  if (item.cert) meta.push(`<span class="badge badge-cert">${esc(item.cert)}</span>`);
+  if (item.cert) meta.push(`<span class="badge badge-cert" data-filter="cert" data-value="${esc(item.cert)}">${esc(item.cert)}</span>`);
   if (item.rating) meta.push(`<span class="badge badge-rating">${item.rating}</span>`);
   if (item.runtime) meta.push(`<span class="badge badge-runtime">${item.runtime} min</span>`);
   if (item.resolution) meta.push(`<span class="badge badge-res">${esc(item.resolution)}</span>`);
@@ -510,6 +528,15 @@ function setFilter(filter) {
   render();
 }
 
+function searchByTag(filter, value) {
+  activeFilter = filter;
+  searchTerm = value;
+  document.getElementById('search').value = value;
+  updateFilterPills();
+  render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 // Add artist pill dynamically (it's not in the HTML by default to keep things clean)
 (function addArtistPill() {
   const pills = document.getElementById('filter-pills');
@@ -526,6 +553,13 @@ document.getElementById('filter-pills').addEventListener('click', e => {
   const pill = e.target.closest('.filter-pill');
   if (!pill) return;
   setFilter(pill.dataset.filter);
+});
+
+// --- Tappable tags on cards ---
+document.getElementById('cards').addEventListener('click', e => {
+  const tag = e.target.closest('[data-filter][data-value]');
+  if (!tag) return;
+  searchByTag(tag.dataset.filter, tag.dataset.value);
 });
 
 // --- Event listeners ---
