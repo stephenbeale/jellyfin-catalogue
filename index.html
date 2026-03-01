@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jellyfin Catalogue</title>
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --surface: #1a1a2e;
+    --card: #16213e;
+    --accent: #00b4d8;
+    --accent-dim: #0077b6;
+    --text: #e0e0e0;
+    --text-muted: #8a8a9a;
+    --border: #2a2a4a;
+    --search-bg: #1e1e3a;
+    --tag-bg: #252545;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  .header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .header h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .header h1 span { font-size: 1.4rem; }
+
+  .tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 12px;
+  }
+
+  .tab {
+    flex: 1;
+    padding: 10px 8px;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+  }
+
+  .tab.active {
+    background: var(--accent-dim);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  .tab .count {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+
+  .controls {
+    display: flex;
+    gap: 8px;
+  }
+
+  .search-box {
+    flex: 1;
+    position: relative;
+  }
+
+  .search-box input {
+    width: 100%;
+    padding: 10px 12px 10px 36px;
+    background: var(--search-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 0.95rem;
+    outline: none;
+  }
+
+  .search-box input:focus { border-color: var(--accent); }
+
+  .search-box::before {
+    content: '\1F50D';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+    pointer-events: none;
+  }
+
+  .sort-btn {
+    padding: 10px 14px;
+    background: var(--search-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .sort-btn:active { background: var(--card); }
+
+  .results-info {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    background: var(--bg);
+  }
+
+  .cards {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .card {
+    background: var(--card);
+    border-radius: 10px;
+    padding: 14px;
+    border: 1px solid var(--border);
+  }
+
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 4px;
+    line-height: 1.3;
+  }
+
+  .card-year {
+    color: var(--accent);
+    font-weight: 400;
+    margin-left: 6px;
+    font-size: 0.9rem;
+  }
+
+  .card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 8px 0;
+    align-items: center;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  .badge-cert { background: #3a2a0a; color: #f0c040; }
+  .badge-rating { background: #0a2a1a; color: #40d080; }
+  .badge-runtime { background: #1a1a3a; color: #8080d0; }
+  .badge-res { background: #2a1a2a; color: #d080c0; }
+  .badge-episodes { background: #1a2a3a; color: #60b0e0; }
+
+  .card-genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 6px;
+  }
+
+  .genre-tag {
+    padding: 2px 8px;
+    background: var(--tag-bg);
+    border-radius: 12px;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+  }
+
+  .card-artist {
+    font-size: 0.85rem;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+
+  .card-overview {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+    margin-top: 6px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  .loading {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+    font-size: 1rem;
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-muted);
+  }
+
+  @media (min-width: 600px) {
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 12px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+    .header { padding: 16px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span>&#127916;</span> Jellyfin Catalogue</h1>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="movies">
+      <span class="count" id="count-movies">-</span>Movies
+    </button>
+    <button class="tab" data-tab="tv">
+      <span class="count" id="count-tv">-</span>TV
+    </button>
+    <button class="tab" data-tab="music">
+      <span class="count" id="count-music">-</span>Music
+    </button>
+  </div>
+
+  <div class="controls">
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Search titles..." autocomplete="off">
+    </div>
+    <button class="sort-btn" id="sort-btn">A-Z</button>
+  </div>
+</div>
+
+<div class="results-info" id="results-info"></div>
+<div class="cards" id="cards"></div>
+<div class="footer" id="footer"></div>
+
+<script>
+let data = null;
+let activeTab = 'movies';
+let sortMode = 'name'; // 'name' or 'year'
+let searchTerm = '';
+
+async function init() {
+  const cardsEl = document.getElementById('cards');
+  cardsEl.innerHTML = '<div class="loading">Loading catalogue...</div>';
+
+  try {
+    const res = await fetch('catalogue.json');
+    data = await res.json();
+  } catch (e) {
+    cardsEl.innerHTML = '<div class="loading">Failed to load catalogue.json</div>';
+    return;
+  }
+
+  document.getElementById('count-movies').textContent = data.movies.length;
+  document.getElementById('count-tv').textContent = data.tv.length;
+  document.getElementById('count-music').textContent = data.music.length;
+  document.getElementById('footer').textContent = 'Last updated: ' + formatDate(data.updated);
+
+  render();
+}
+
+function formatDate(iso) {
+  const d = new Date(iso);
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+}
+
+function render() {
+  const items = getFilteredItems();
+  const cardsEl = document.getElementById('cards');
+  const infoEl = document.getElementById('results-info');
+
+  if (items.length === 0) {
+    cardsEl.innerHTML = '<div class="no-results">No results found</div>';
+    infoEl.textContent = '';
+    return;
+  }
+
+  const total = data[activeTab].length;
+  infoEl.textContent = searchTerm
+    ? `${items.length} of ${total} results`
+    : `${total} items`;
+
+  cardsEl.innerHTML = items.map(item => renderCard(item)).join('');
+}
+
+function getFilteredItems() {
+  if (!data) return [];
+  let items = [...data[activeTab]];
+
+  if (searchTerm) {
+    const q = searchTerm.toLowerCase();
+    items = items.filter(item => {
+      const g = Array.isArray(item.genres) ? item.genres : item.genres ? [item.genres] : [];
+      const fields = [item.name, item.artist, ...g];
+      return fields.some(f => f && f.toLowerCase().includes(q));
+    });
+  }
+
+  items.sort((a, b) => {
+    if (sortMode === 'year') {
+      const ya = a.year || 0, yb = b.year || 0;
+      if (yb !== ya) return yb - ya;
+    }
+    return (a.name || '').localeCompare(b.name || '');
+  });
+
+  return items;
+}
+
+function renderCard(item) {
+  let html = '<div class="card">';
+
+  html += `<div class="card-title">${esc(item.name)}`;
+  if (item.year) html += `<span class="card-year">(${item.year})</span>`;
+  html += '</div>';
+
+  if (item.artist) {
+    html += `<div class="card-artist">${esc(item.artist)}</div>`;
+  }
+
+  const genres = Array.isArray(item.genres) ? item.genres : item.genres ? [item.genres] : [];
+  if (genres.length) {
+    html += '<div class="card-genres">';
+    genres.forEach(g => { html += `<span class="genre-tag">${esc(g)}</span>`; });
+    html += '</div>';
+  }
+
+  const meta = [];
+  if (item.cert) meta.push(`<span class="badge badge-cert">${esc(item.cert)}</span>`);
+  if (item.rating) meta.push(`<span class="badge badge-rating">${item.rating}</span>`);
+  if (item.runtime) meta.push(`<span class="badge badge-runtime">${item.runtime} min</span>`);
+  if (item.resolution) meta.push(`<span class="badge badge-res">${esc(item.resolution)}</span>`);
+  if (item.episodes !== undefined) meta.push(`<span class="badge badge-episodes">${item.episodes} eps</span>`);
+  if (meta.length) html += `<div class="card-meta">${meta.join('')}</div>`;
+
+  if (item.overview) {
+    html += `<div class="card-overview">${esc(item.overview)}</div>`;
+  }
+
+  html += '</div>';
+  return html;
+}
+
+function esc(str) {
+  if (!str) return '';
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
+}
+
+// --- Event listeners ---
+
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelector('.tab.active').classList.remove('active');
+    tab.classList.add('active');
+    activeTab = tab.dataset.tab;
+    document.getElementById('search').placeholder =
+      activeTab === 'music' ? 'Search titles, artists...' : 'Search titles...';
+    render();
+  });
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  searchTerm = e.target.value.trim();
+  render();
+});
+
+document.getElementById('sort-btn').addEventListener('click', () => {
+  const btn = document.getElementById('sort-btn');
+  if (sortMode === 'name') {
+    sortMode = 'year';
+    btn.textContent = 'Year';
+  } else {
+    sortMode = 'name';
+    btn.textContent = 'A-Z';
+  }
+  render();
+});
+
+init();
+</script>
+</body>
+</html>
