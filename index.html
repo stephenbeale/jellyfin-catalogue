@@ -424,7 +424,7 @@ function getFilteredItems() {
         case 'cert':
           return item.cert && item.cert.toLowerCase().includes(q);
         default: // 'all'
-          return [item.name, item.artist, item.director, ...g, ...a]
+          return [item.name, item.artist, item.director, item.overview, ...g, ...a]
             .some(f => f && f.toLowerCase().includes(q))
             || (item.year && String(item.year).includes(q))
             || (item.cert && item.cert.toLowerCase().includes(q));
