@@ -55,10 +55,45 @@ function Truncate-Overview {
     return $text.Substring(0, $maxLen).TrimEnd() + '...'
 }
 
+# --- People lookup (actors & directors for movies and TV) ---
+Write-Host 'Querying people (actors & directors)...'
+$peopleRaw = Invoke-Sqlite @"
+SELECT
+    p.ItemId,
+    p.Name,
+    p.PersonType
+FROM People p
+JOIN TypedBaseItems t ON t.guid = p.ItemId
+WHERE p.PersonType IN ('Actor', 'Director')
+  AND t.type IN (
+    'MediaBrowser.Controller.Entities.Movies.Movie',
+    'MediaBrowser.Controller.Entities.TV.Series'
+  )
+ORDER BY p.ItemId, p.PersonType, p.ListOrder;
+"@
+
+$actorsMap = @{}
+$directorMap = @{}
+foreach ($p in $peopleRaw) {
+    $id = $p.ItemId
+    if ($p.PersonType -eq 'Actor') {
+        if (-not $actorsMap.ContainsKey($id)) { $actorsMap[$id] = @() }
+        if ($actorsMap[$id].Count -lt 5) {
+            $actorsMap[$id] += $p.Name
+        }
+    } elseif ($p.PersonType -eq 'Director') {
+        if (-not $directorMap.ContainsKey($id)) {
+            $directorMap[$id] = $p.Name
+        }
+    }
+}
+Write-Host "  Loaded $($actorsMap.Count) items with actors, $($directorMap.Count) with directors"
+
 # --- Movies ---
 Write-Host 'Querying movies...'
 $moviesRaw = Invoke-Sqlite @"
 SELECT
+    t.guid AS Id,
     t.Name,
     t.ProductionYear,
     t.Genres,
@@ -89,6 +124,8 @@ foreach ($m in $moviesRaw) {
     if ($m.CommunityRating) {
         $rating = [math]::Round([double]$m.CommunityRating, 1)
     }
+    $actors = if ($actorsMap.ContainsKey($m.Id)) { ,$actorsMap[$m.Id] } else { ,@() }
+    $director = if ($directorMap.ContainsKey($m.Id)) { $directorMap[$m.Id] } else { $null }
     $movies += [ordered]@{
         name       = $m.Name
         year       = $m.ProductionYear
@@ -97,6 +134,8 @@ foreach ($m in $moviesRaw) {
         cert       = if ($m.OfficialRating) { $m.OfficialRating } else { $null }
         runtime    = $runtime
         resolution = $resolution
+        actors     = $actors
+        director   = $director
         overview   = Truncate-Overview $m.Overview
     }
 }
@@ -106,6 +145,7 @@ Write-Host "  Found $($movies.Count) movies"
 Write-Host 'Querying TV series...'
 $tvRaw = Invoke-Sqlite @"
 SELECT
+    s.guid AS Id,
     s.Name,
     s.ProductionYear,
     s.Genres,
@@ -126,6 +166,8 @@ foreach ($s in $tvRaw) {
     if ($s.CommunityRating) {
         $rating = [math]::Round([double]$s.CommunityRating, 1)
     }
+    $actors = if ($actorsMap.ContainsKey($s.Id)) { ,$actorsMap[$s.Id] } else { ,@() }
+    $director = if ($directorMap.ContainsKey($s.Id)) { $directorMap[$s.Id] } else { $null }
     $tv += [ordered]@{
         name     = $s.Name
         year     = $s.ProductionYear
@@ -133,6 +175,8 @@ foreach ($s in $tvRaw) {
         rating   = $rating
         cert     = if ($s.OfficialRating) { $s.OfficialRating } else { $null }
         episodes = [int]$s.EpisodeCount
+        actors   = $actors
+        director = $director
         overview = Truncate-Overview $s.Overview
     }
 }
