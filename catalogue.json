@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-01T12:08:52Z",
+    "updated":  "2026-03-01T12:09:44Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -11281,47 +11281,9 @@
            ],
     "music":  [
                   {
-                      "name":  "                              ",
-                      "year":  null,
-                      "artist":  "KRS-One",
-                      "genres":  [
-                                     "Other",
-                                     "Rap \u0026 Hip-Hop"
-                                 ]
-                  },
-                  {
-                      "name":  "                              ",
-                      "year":  null,
-                      "artist":  "                              ",
-                      "genres":  "Other"
-                  },
-                  {
-                      "name":  "                              ",
-                      "year":  null,
-                      "artist":  "DJ Quik|Digable Planets|The Pharcyde|Various Artists|Dead Prez|Unknown Artist|Blackalicious|Mos Def|Talib Kweli|Ice Cube                      |Arrested Development|Blackstreet|De La Soul|Janet Jackson|MOP|Soundtrack|Rahzel|Rahzel                        |Redman|The Notorious B.I.G.|Mos Def \u0026 Talib Kweli|Cannibus                      |De La Soul                    |DJ Quik                       |DJ Quicksilver|DJ Yoda|Donell Jones ft Left Eye|Eazy D|Eric B \u0026  Rakim|Estelle|Fabolous|Digital Underground|George Clinton|Grandmaster Flash|Heavy D \u0026 The Boyz|Notorious B.I.G.|Joe ft Mystikal|Ozomatli \u0026 Jurassic 5|Kanye West|Koffee Brown|Lucy Pearl|D\u0027Angelo \u0026 Erykah Badu|Method Man|Mary J Blige ft Method Man|Method Man \u0026 Redman|Missy Elliott|Mobb Deep|Montel Jordan ft LL Cool J|Nelly Furtado|Nice and Smooth|Noreaga|Original Soundtrack|Pharoahe Monch|Raphael Saadiq|Sir Mix Alot|The Game|Warren G|Will Smith|Tony Touch,  Xzibit, Defari|Xzibit|Young MC",
-                      "genres":  [
-                                     "Rap \u0026 Hip-Hop",
-                                     "misc",
-                                     "Other",
-                                     "Freestyle",
-                                     "Rap \u0026 Hip Hop",
-                                     "R\u0026B",
-                                     "Rap",
-                                     "Avantgarde",
-                                     "Sound Clip",
-                                     "Hip-Hop",
-                                     "Rock",
-                                     "Hip Hop",
-                                     "Hip Hop/R\u0026B",
-                                     "genre",
-                                     "Hip Hop/Rap",
-                                     "Alternative"
-                                 ]
-                  },
-                  {
                       "name":  "\"6 Feet Deep\"",
                       "year":  null,
-                      "artist":  "Gravediggaz                   |Gravediggaz",
+                      "artist":  "Gravediggaz",
                       "genres":  "Hip-Hop"
                   },
                   {
@@ -11409,7 +11371,7 @@
                   {
                       "name":  "4th Dimensional Rocketships Going Up",
                       "year":  2004,
-                      "artist":  "The Gift of Gab|Gift of Gab|Gift Of Gab",
+                      "artist":  "The Gift of Gab",
                       "genres":  "Hip-Hop"
                   },
                   {
@@ -11515,13 +11477,13 @@
                   {
                       "name":  "100% Colombian",
                       "year":  1998,
-                      "artist":  "Fun Lovin\u0027 Criminals|B.B. King; Fun Lovin\u0027 Criminals",
+                      "artist":  "Fun Lovin\u0027 Criminals",
                       "genres":  "Rap \u0026 Hip-Hop"
                   },
                   {
                       "name":  "430 West Presents Detroit Calling",
                       "year":  2001,
-                      "artist":  "Michael Buble|Lawrence Burden|Various Artists|Jane Pow|Shelby Lynne|Talking Heads",
+                      "artist":  "Michael Buble",
                       "genres":  [
                                      "Electronica",
                                      "Other",
@@ -11595,7 +11557,7 @@
                   {
                       "name":  "Above The Rim Soundtrack",
                       "year":  null,
-                      "artist":  "Tha Dogg Pound Gangsters|2nd II None|Nate Dogg And Warren G|Thug Life|The Lady Of Rage|CPO Boss Hog|O.F.T.B.|Rhythm And Knowledge",
+                      "artist":  "Tha Dogg Pound Gangsters",
                       "genres":  "Other"
                   },
                   {
@@ -11605,9 +11567,9 @@
                       "genres":  "Rock"
                   },
                   {
-                      "name":  "Acoustic                      ",
+                      "name":  "Acoustic",
                       "year":  null,
-                      "artist":  "Foo Fighters|Foo Fighters                  ",
+                      "artist":  "Foo Fighters",
                       "genres":  [
                                      "Grunge",
                                      "Acoustic",
@@ -11635,13 +11597,7 @@
                   {
                       "name":  "Africa 100",
                       "year":  2005,
-                      "artist":  "Brigth Engelberts \u0026 The B.E. Movement|Antibalas Afrobeat Orchestra|Oscar Sulley \u0026 The Uhuru Dance Band|Thony Shorby Nyenwi|Ogyatanaa Show Band|Wallias Band|Lemma Demissew|Apagya Show Band|Fela Ransome Kuti \u0026 Africa 70|Monomono|Ofo The Black Company|Joe Mensah|Lijadu Sisters|Bembeya Jazz National",
-                      "genres":  "Afrobeat"
-                  },
-                  {
-                      "name":  "Africa 100",
-                      "year":  2005,
-                      "artist":  "Fela Anikulapo Kuti \u0026 Africa 70|Girma Beyene|Marijata|Segun Bucknor \u0026 His Revolution|Oscar Sulley \u0026 The Uhuru Dance Band|Geraldo Pine|Super Eagles|Orlando Julius \u0026 His Modern Aces|Matata|Ayalew Mesfin|Super Mambo 69|Babatunde Olatunji|Dick Khoza|Orchestra Baobab|Os Bongos|Getatchew Mekurya",
+                      "artist":  "Brigth Engelberts \u0026 The B.E. Movement",
                       "genres":  "Afrobeat"
                   },
                   {
@@ -11653,7 +11609,13 @@
                   {
                       "name":  "Africa 100",
                       "year":  2005,
-                      "artist":  "Manu Dibango|Ebo Taylor|Hugh Masakela \u0026 The Union Of South Africa|Sweet Talks|Rob|William Onyeabor|Bahta Gebre Heywet|Ayalew Mesfin \u0026 Black Lion Band|Sahara All Stars Band Jos|Christy Azuma \u0026 Uppers International|Mahmoud Ahmed|Alemayehu Eshete|Salif Keita|Assagai",
+                      "artist":  "Fela Anikulapo Kuti \u0026 Africa 70",
+                      "genres":  "Afrobeat"
+                  },
+                  {
+                      "name":  "Africa 100",
+                      "year":  2005,
+                      "artist":  "Manu Dibango",
                       "genres":  "Afrobeat"
                   },
                   {
@@ -11677,25 +11639,25 @@
                   {
                       "name":  "Africa 100",
                       "year":  2005,
-                      "artist":  "Bob Pinado \u0026 His Sound Casters|Koola Lobitos|3Rd Generation Band|Mercury Dance Band|Mahmoud Ahmed|E.T. Mensah \u0026 His Tempos Band|Bembeya Jazz National|Tamrat Ferendji \u0026 Sensation Band|Matata|Lekan Animashaun|Dick Khoza|Tesfa Maryam Kidane|Mulatu Astatque|Kokolo|Tlahoun Gessessee",
+                      "artist":  "Bob Pinado \u0026 His Sound Casters",
                       "genres":  "Afrobeat"
                   },
                   {
                       "name":  "Africa 100",
                       "year":  2005,
-                      "artist":  "Girma Beyene|Tp Orchestra Poly-Rhythmo De Cotonou Dahomey|Sweet Talks|African Brothers|Dan Boadi \u0026 His African Internationals|Manu Dibango|George Danquah|Mulatu Astatque|Gaspar Lawal|Moussa Doumbia|Fred Fisher|Konono No. 1|Fela Ransome Kuti \u0026 Africa 70",
+                      "artist":  "Girma Beyene",
                       "genres":  "Afrobeat"
                   },
                   {
                       "name":  "Africa 100",
                       "year":  2005,
-                      "artist":  "Gyedu Blay-Ambolley \u0026 The Steneboofs|Jingo|Joni Haastrup|Honny \u0026 The Bees Band|Yahoos|Blo|Tlahoun Gessesse|K. Frimpong \u0026 His Cubano Fiestas|Fela Ransome Kuti \u0026 Africa 70|Manu Dibango|Alemayehu Eshete|Shina Williams \u0026 His African Percussionists",
+                      "artist":  "Gyedu Blay-Ambolley \u0026 The Steneboofs",
                       "genres":  "Afrobeat"
                   },
                   {
                       "name":  "Africa 100",
                       "year":  2005,
-                      "artist":  "Lourdes Van Dunem|Guerilla|Peter King|Samuel Belay|Ebo Taylor|Tony Allen \u0026 His Afro Messengers|Johnson Mkhalali|King Sunny Ade \u0026 His African Beats|Amaswazi Emvelo|Pacific Express|Miriam Makeba|Youssou N\u0027dour \u0026 Etoile De Dakar|Tunde Williams \u0026 Africa 70|The Funkees|Ladysmith Black Mambazo",
+                      "artist":  "Lourdes Van Dunem",
                       "genres":  "Afrobeat"
                   },
                   {
@@ -11707,7 +11669,7 @@
                   {
                       "name":  "African Herbsman",
                       "year":  null,
-                      "artist":  "Bob Marley|Bob Marley |Bob Marley \u0026 the Wailers",
+                      "artist":  "Bob Marley",
                       "genres":  "Reggae"
                   },
                   {
@@ -11737,7 +11699,7 @@
                   {
                       "name":  "All Eyez On Me Dig Remastered",
                       "year":  null,
-                      "artist":  "2Pac|2 Pac",
+                      "artist":  "2Pac",
                       "genres":  [
                                      "Other",
                                      "Rap"
@@ -11776,9 +11738,9 @@
                       "genres":  "World"
                   },
                   {
-                      "name":  "American Gangster             ",
+                      "name":  "American Gangster",
                       "year":  2007,
-                      "artist":  "Jay-Z                         ",
+                      "artist":  "Jay-Z",
                       "genres":  "Hip-Hop"
                   },
                   {
@@ -11873,7 +11835,7 @@
                   {
                       "name":  "Antidiotico",
                       "year":  2007,
-                      "artist":  "Orishas|Kayliah Feat. Orishas|Da Weasel Feat. Orishas|Carlos Jean Feat. Orishas",
+                      "artist":  "Orishas",
                       "genres":  "Hip-Hop"
                   },
                   {
@@ -12051,7 +12013,7 @@
                   {
                       "name":  "Back To Black",
                       "year":  2006,
-                      "artist":  "Amy Winehouse |Amy Winehouse",
+                      "artist":  "Amy Winehouse",
                       "genres":  "Alternative"
                   },
                   {
@@ -12061,9 +12023,9 @@
                       "genres":  "Ambient"
                   },
                   {
-                      "name":  "Bacobens Rock Top 500        ",
+                      "name":  "Bacobens Rock Top 500",
                       "year":  null,
-                      "artist":  "Crosby, Stills, Nash \u0026 Young|Crosby, Stills, Nash \u0026 Young  ",
+                      "artist":  "Crosby, Stills, Nash \u0026 Young",
                       "genres":  [
                                      "Classic Rock",
                                      "Folk/Rock"
@@ -12072,7 +12034,7 @@
                   {
                       "name":  "Bacobens Rock Top 500",
                       "year":  null,
-                      "artist":  "George Harrison|Various Artists",
+                      "artist":  "George Harrison",
                       "genres":  "Rock"
                   },
                   {
@@ -12117,7 +12079,7 @@
                   {
                       "name":  "Barrington Levy Meets Frankie",
                       "year":  1984,
-                      "artist":  "Barrington Levy|Frankie Paul",
+                      "artist":  "Barrington Levy",
                       "genres":  "Reggae"
                   },
                   {
@@ -12165,7 +12127,7 @@
                   {
                       "name":  "Be a Man",
                       "year":  2003,
-                      "artist":  "\"Macho Man\" Randy Savage|Macho Man Randy Savage",
+                      "artist":  "\"Macho Man\" Randy Savage",
                       "genres":  "Rap"
                   },
                   {
@@ -12343,7 +12305,7 @@
                   {
                       "name":  "Behind The Front",
                       "year":  1998,
-                      "artist":  "The Black Eyed Peas|Black Eyed Peas",
+                      "artist":  "The Black Eyed Peas",
                       "genres":  "Hip-Hop"
                   },
                   {
@@ -12403,7 +12365,7 @@
                   {
                       "name":  "The Best of 1990-2000 [Japan]",
                       "year":  2002,
-                      "artist":  "U2|Unknown Artist",
+                      "artist":  "U2",
                       "genres":  "Alternative"
                   },
                   {
@@ -12545,7 +12507,7 @@
                   {
                       "name":  "The Best, Vol 2",
                       "year":  2024,
-                      "artist":  "The Dubliners|The Irish Rovers|Various Artists",
+                      "artist":  "The Dubliners",
                       "genres":  [
                                      "Irish Celtic",
                                      "Traditional"
@@ -12566,7 +12528,7 @@
                   {
                       "name":  "the big come up",
                       "year":  2002,
-                      "artist":  "The Black Keys|the black keys",
+                      "artist":  "The Black Keys",
                       "genres":  "Rock"
                   },
                   {
@@ -12668,7 +12630,7 @@
                   {
                       "name":  "Blazing Arrow",
                       "year":  2002,
-                      "artist":  "Blackalicious|BlackaliciousBA",
+                      "artist":  "Blackalicious",
                       "genres":  [
                                      "Funk",
                                      "Rap \u0026 Hip-Hop",
@@ -12907,7 +12869,7 @@
                   {
                       "name":  "Bossa n┬¿Rosses",
                       "year":  2006,
-                      "artist":  "Morgan Bianco \u0026 G-Spliff|Freedom Dub|Natalie Renoir \u0026 DJ Leao|Groove Da Praia|Aneka|Sixth Finger Feat. Dew|Banda Do Sul Feat. Natascha|Scubba|Ghetto Blaster Ltd.|Glambeats Corp.|United Rhythms Of Brazil|Amazonics|S├úo Vicente Feat. Ituana",
+                      "artist":  "Morgan Bianco \u0026 G-Spliff",
                       "genres":  "Unknown"
                   },
                   {
@@ -12994,13 +12956,13 @@
                   {
                       "name":  "Broader Than Broadway",
                       "year":  1990,
-                      "artist":  "Barrington  Levy|Barrington Levy",
+                      "artist":  "Barrington  Levy",
                       "genres":  "Reggae"
                   },
                   {
                       "name":  "Bronx Meets Brooklyn",
                       "year":  2004,
-                      "artist":  "Mos Def And Minnesota|Mos Def",
+                      "artist":  "Mos Def And Minnesota",
                       "genres":  "Hip Hop/Rap"
                   },
                   {
@@ -13099,7 +13061,7 @@
                   {
                       "name":  "Cadillac Records Sdtrk (Disc 1)",
                       "year":  1954,
-                      "artist":  "Various Artists|Cadillac Records (Motion Picture Soundtrack)|Raphael Saadiq|Solange Knowles|Mary Mary|Little Walter|TM Century",
+                      "artist":  "Various Artists",
                       "genres":  [
                                      "General Film/TV Music",
                                      "Data \u0026 Other",
@@ -13210,7 +13172,7 @@
                   {
                       "name":  "Cold Water Music",
                       "year":  1995,
-                      "artist":  "Aim|Various Artists|aim|Unknown|Aim Feat. Diamond D",
+                      "artist":  "Aim",
                       "genres":  [
                                      "Electronica",
                                      "Lo-Fi",
@@ -13237,7 +13199,7 @@
                   {
                       "name":  "Collection - CD1",
                       "year":  null,
-                      "artist":  "The Traveling Wilburys|Traveling Wilburys",
+                      "artist":  "The Traveling Wilburys",
                       "genres":  {
 
                                  }
@@ -13275,9 +13237,9 @@
                       "genres":  "Rock"
                   },
                   {
-                      "name":  "Come Along \u0026 Ride This Train, ",
+                      "name":  "Come Along \u0026 Ride This Train,",
                       "year":  2000,
-                      "artist":  "Johnny Cash|Various Artists|Johnny Cash \u0026 Anita Carter",
+                      "artist":  "Johnny Cash",
                       "genres":  "Country"
                   },
                   {
@@ -13349,9 +13311,9 @@
                       "genres":  "Fado"
                   },
                   {
-                      "name":  " Concerto Em Lisboa (2006)",
+                      "name":  "Concerto Em Lisboa (2006)",
                       "year":  null,
-                      "artist":  "Mariza ",
+                      "artist":  "Mariza",
                       "genres":  {
 
                                  }
@@ -13433,7 +13395,7 @@
                   {
                       "name":  "Cross road Blues",
                       "year":  null,
-                      "artist":  "Robert Johnson|Various Artists|Muddy Waters|Robert Johnson -",
+                      "artist":  "Robert Johnson",
                       "genres":  [
                                      "Blues",
                                      "Other",
@@ -13533,7 +13495,7 @@
                   {
                       "name":  "Dango Tour 2007 - Official Soundtrack",
                       "year":  null,
-                      "artist":  "Various Artists|The Pharcyde|Ozomatli|Les McCann|Funkadelic|Greens Keepers|Juanes|Fatback Band|Manu Chao|Mark Ronson ft. Alex Greenwald|Digital Underground|Suggs|Roni Size \u0026 Reprazent|Unknown|George Clinton|The Three Degrees",
+                      "artist":  "Various Artists",
                       "genres":  [
                                      "Rock",
                                      "Soul Jazz",
@@ -13570,7 +13532,7 @@
                   {
                       "name":  "Def Jamaica",
                       "year":  2003,
-                      "artist":  "Ziggy Marley|Various Artists|Ziggy Marley \u0026 The Melody Makers|Ziggy Marley \u0026amp;amp;amp;amp;|Ziggy Marley \u0026 the Melody Makers",
+                      "artist":  "Ziggy Marley",
                       "genres":  [
                                      "Reggae",
                                      "Reggae - hawaiian"
@@ -13587,7 +13549,7 @@
                   {
                       "name":  "Delinquent habits",
                       "year":  1996,
-                      "artist":  "Delinquent Habits|delinquent Habits",
+                      "artist":  "Delinquent Habits",
                       "genres":  [
                                      "Rap",
                                      "Gangsta",
@@ -13619,7 +13581,7 @@
                   {
                       "name":  "di3va",
                       "year":  null,
-                      "artist":  "DEWI DEWI|3 Diva|Agnes Monica|Geisha|Gita Gutawa|MAIA Ft. CINTA LAURA|Sherina|Berbagi Suami Original Motion Picture Soundtrack|Vierra",
+                      "artist":  "DEWI DEWI",
                       "genres":  [
                                      "Pop",
                                      "Other",
@@ -13629,7 +13591,7 @@
                   {
                       "name":  "di3va",
                       "year":  null,
-                      "artist":  "Va|Various Artists|DEWI DEWI|Mariah Carey|3 Diva|Adele|Agnes Monica|Amy Winehouse|Amy Winehouse                 |Anggun|Beyonce|The Black Eyed Peas|http://gfanmusic.blogspot.com|Britney Spears|E - Box Entertainment (c) - Vivere Pericoloso Mente !|Chris Brown|Craig David|Emma Bunton|Geisha|Gita Gutawa|50 First Dates|17. SUPERSTAR|\u003cUnknown\u003e|Kat DeLuna|Katy Perry|08 Just Dance|07 Poker Face|Cannibal Corpse|Leona Lewis|Little Bit|Madonna|MAIA Ft. CINTA LAURA|Michael Bubl├®|Mulan Jameela Feat.Mita|Pussycat Dolls|A.R. Rahman|Sherina|SiNEAD O\u0027CONNOR|Carpenters|Berbagi Suami Original Motion Picture Soundtrack|The Saturdays|The Ting Tings|Vierra|Whitney Houston|Shakira",
+                      "artist":  "Va",
                       "genres":  [
                                      "Pop",
                                      "Indie",
@@ -13652,7 +13614,7 @@
                   {
                       "name":  "di3va",
                       "year":  null,
-                      "artist":  "Va|Various Artists|DEWI DEWI|Mariah Carey|3 Diva|Adele|Agnes Monica|Amy Winehouse|Amy Winehouse                 |Anggun|Beyonce|The Black Eyed Peas|http://gfanmusic.blogspot.com|Britney Spears|E - Box Entertainment (c) - Vivere Pericoloso Mente !|Chris Brown|Craig David|Emma Bunton|Geisha|Gita Gutawa|50 First Dates|17. SUPERSTAR|\u003cUnknown\u003e|Kat DeLuna|Katy Perry|08 Just Dance|07 Poker Face|Cannibal Corpse|Leona Lewis|Little Bit|Madonna|MAIA Ft. CINTA LAURA|Michael Bubl├®|Mulan Jameela Feat.Mita|Pussycat Dolls|A.R. Rahman|Sherina|SiNEAD O\u0027CONNOR|Carpenters|Berbagi Suami Original Motion Picture Soundtrack|The Saturdays|The Ting Tings|Vierra|Whitney Houston|Shakira",
+                      "artist":  "Va",
                       "genres":  [
                                      "Pop",
                                      "Indie",
@@ -13760,9 +13722,9 @@
                       "genres":  "Rap"
                   },
                   {
-                      "name":  "Doesn\u0027t Remind Me CDS         ",
+                      "name":  "Doesn\u0027t Remind Me CDS",
                       "year":  2005,
-                      "artist":  "Audioslave                    ",
+                      "artist":  "Audioslave",
                       "genres":  "Rock"
                   },
                   {
@@ -13776,7 +13738,7 @@
                   {
                       "name":  "Doll Domination 2.0",
                       "year":  2009,
-                      "artist":  "Pussycat Dolls|A.R. Rahman",
+                      "artist":  "Pussycat Dolls",
                       "genres":  [
                                      "Pop",
                                      "Other"
@@ -13841,7 +13803,7 @@
                   {
                       "name":  "The Dubliners The Very Best Of",
                       "year":  null,
-                      "artist":  "Dubliners|The Dubliners",
+                      "artist":  "Dubliners",
                       "genres":  "Other"
                   },
                   {
@@ -13927,7 +13889,7 @@
                   {
                       "name":  "Easy Rider",
                       "year":  1969,
-                      "artist":  "Original Soundtrack|Steppenwolf",
+                      "artist":  "Original Soundtrack",
                       "genres":  "Soundtrack"
                   },
                   {
@@ -14082,7 +14044,7 @@
                   {
                       "name":  "Every Day",
                       "year":  2002,
-                      "artist":  "The Cinematic Orchestra ",
+                      "artist":  "The Cinematic Orchestra",
                       "genres":  "Jazz Fusion"
                   },
                   {
@@ -14153,7 +14115,7 @@
                   {
                       "name":  "Faster Than the Speed of Night",
                       "year":  1983,
-                      "artist":  "Various Artists|Soundtrack|Bonnie Tyler|Kool \u0026 the Gang|Eurythmics|INXS",
+                      "artist":  "Various Artists",
                       "genres":  [
                                      "World",
                                      "Soul and R\u0026B",
@@ -14205,7 +14167,7 @@
                   {
                       "name":  "Fight to Win",
                       "year":  2001,
-                      "artist":  "Femi Anikulapo Kuti|Femi Kuti",
+                      "artist":  "Femi Anikulapo Kuti",
                       "genres":  [
                                      "World",
                                      "Jazz"
@@ -14258,7 +14220,7 @@
                   {
                       "name":  "Five Themes (2009) [FLAC]",
                       "year":  null,
-                      "artist":  "The Blind Boys of Alabama|Tom Waits|The Neville Brothers|Domaje|Steve Earle - Way Down in the Hole",
+                      "artist":  "The Blind Boys of Alabama",
                       "genres":  {
 
                                  }
@@ -14332,7 +14294,7 @@
                   {
                       "name":  "For The Love Of House Vol 3",
                       "year":  null,
-                      "artist":  "ATFC presents Onephatdeeva|Barbara Pennington|Cleptomaniacs feat Bryan Chambers|Crown Heights Affair|Hosted by lovely Gloria // May 2007|eddie cheeba|George Clinton|J Majik|Martin Solveig|Prince|Third World|Urban Magic",
+                      "artist":  "ATFC presents Onephatdeeva",
                       "genres":  [
                                      "Funky/Club House",
                                      "Other",
@@ -14401,7 +14363,7 @@
                   {
                       "name":  "Freedom Writers",
                       "year":  2007,
-                      "artist":  "Common|Soundtrack",
+                      "artist":  "Common",
                       "genres":  [
                                      "Other",
                                      "Rap",
@@ -14505,7 +14467,7 @@
                       "genres":  "Soul And R\u0026B"
                   },
                   {
-                      "name":  "Funkmaster Flex Presents The ",
+                      "name":  "Funkmaster Flex Presents The",
                       "year":  1995,
                       "artist":  "Various",
                       "genres":  "Other"
@@ -14537,7 +14499,7 @@
                   {
                       "name":  "Gang Starr / Full Clip: A Deca",
                       "year":  null,
-                      "artist":  "Gang Starr_cd2|Gang Starr",
+                      "artist":  "Gang Starr_cd2",
                       "genres":  "Hip-Hop"
                   },
                   {
@@ -14736,7 +14698,7 @@
                   {
                       "name":  "Greatest Hits",
                       "year":  2000,
-                      "artist":  "The Cure|The Cure ",
+                      "artist":  "The Cure",
                       "genres":  [
                                      "Alternative Pop/Rock",
                                      "Pop"
@@ -14831,7 +14793,7 @@
                   {
                       "name":  "Guitar Town",
                       "year":  2002,
-                      "artist":  "Steve Earle|Steve Earle \u0026 The Dukes",
+                      "artist":  "Steve Earle",
                       "genres":  [
                                      "Country",
                                      "Rock",
@@ -15105,7 +15067,7 @@
                   {
                       "name":  "Hypersonic",
                       "year":  null,
-                      "artist":  "Perry Farrell|Jane\u0027s Addiction|Porno for Pyros               ",
+                      "artist":  "Perry Farrell",
                       "genres":  [
                                      "Other",
                                      "Rock/Pop",
@@ -15502,13 +15464,13 @@
                   {
                       "name":  "Kaya",
                       "year":  1978,
-                      "artist":  "Bob Marley \u0026 the Wailers|Bob Marley \u0026 The Wailers",
+                      "artist":  "Bob Marley \u0026 the Wailers",
                       "genres":  "Reggae"
                   },
                   {
                       "name":  "Kaya",
                       "year":  1978,
-                      "artist":  "Bob Marley \u0026 the Wailers|Bob Marley \u0026 The Wailers",
+                      "artist":  "Bob Marley \u0026 the Wailers",
                       "genres":  "Reggae"
                   },
                   {
@@ -15586,7 +15548,7 @@
                   {
                       "name":  "Kona Town",
                       "year":  null,
-                      "artist":  "LBDA|Orishas|Funkdoobiest|Gypsy Kings|Pepper|artist|Delinquent Habits|Lootpack|Syleena Johnson",
+                      "artist":  "LBDA",
                       "genres":  [
                                      "Other",
                                      "Rock/Pop",
@@ -15611,7 +15573,7 @@
                   {
                       "name":  "KROQ Almost Acoustic Christmas",
                       "year":  2002,
-                      "artist":  "Audioslave                    ",
+                      "artist":  "Audioslave",
                       "genres":  "Rock"
                   },
                   {
@@ -15623,7 +15585,7 @@
                   {
                       "name":  "La storia 1-2",
                       "year":  null,
-                      "artist":  "Rino Gaetano|Various Artists|Rino Gaetano - La storia 1|Unknown|rino gaetano",
+                      "artist":  "Rino Gaetano",
                       "genres":  [
                                      "Rock",
                                      "Pop",
@@ -15634,7 +15596,7 @@
                   {
                       "name":  "Lady Gaga",
                       "year":  null,
-                      "artist":  "08 Just Dance|07 Poker Face",
+                      "artist":  "08 Just Dance",
                       "genres":  "Other"
                   },
                   {
@@ -15726,7 +15688,7 @@
                       "genres":  "Blues"
                   },
                   {
-                      "name":  "Lemonade ",
+                      "name":  "Lemonade",
                       "year":  2006,
                       "artist":  "G- Love \u0026 Special Sauce",
                       "genres":  "Rock"
@@ -15794,7 +15756,7 @@
                   {
                       "name":  "Life After Death (Disc 1)",
                       "year":  1997,
-                      "artist":  "The Notorious B.I.G.|Notorious B.I.G.",
+                      "artist":  "The Notorious B.I.G.",
                       "genres":  [
                                      "Hip-Hop",
                                      "Rap"
@@ -15919,9 +15881,9 @@
                                  }
                   },
                   {
-                      "name":  "Live At The Astoria In London ",
+                      "name":  "Live At The Astoria In London",
                       "year":  2003,
-                      "artist":  "Audioslave                    ",
+                      "artist":  "Audioslave",
                       "genres":  "Rock"
                   },
                   {
@@ -15939,7 +15901,7 @@
                   {
                       "name":  "Live at the Hollywood Palladium \u002796",
                       "year":  1992,
-                      "artist":  "Rage Against the Machine|Rage Against The Machine|Soundtrack|Various Artists",
+                      "artist":  "Rage Against the Machine",
                       "genres":  [
                                      "Rock",
                                      "Soundtrack",
@@ -15953,7 +15915,7 @@
                   {
                       "name":  "Live at the Hollywood Palladium \u002796",
                       "year":  1992,
-                      "artist":  "Rage Against the Machine|Rage Against The Machine|Soundtrack|Various Artists",
+                      "artist":  "Rage Against the Machine",
                       "genres":  [
                                      "Rock",
                                      "Soundtrack",
@@ -15981,7 +15943,7 @@
                   {
                       "name":  "Live At KROQ Weenie Roast 05-2",
                       "year":  2005,
-                      "artist":  "Audioslave                    ",
+                      "artist":  "Audioslave",
                       "genres":  "Rock"
                   },
                   {
@@ -15993,7 +15955,7 @@
                   {
                       "name":  "Live At The X Lounge 6",
                       "year":  null,
-                      "artist":  "Jason Mraz|Jason Mraz                    |Unknown",
+                      "artist":  "Jason Mraz",
                       "genres":  [
                                      "General Unclassifiable",
                                      "Other",
@@ -16005,9 +15967,9 @@
                                  ]
                   },
                   {
-                      "name":  "Live EP                       ",
+                      "name":  "Live EP",
                       "year":  2006,
-                      "artist":  "Audioslave                    ",
+                      "artist":  "Audioslave",
                       "genres":  "Rock"
                   },
                   {
@@ -16032,15 +15994,15 @@
                       "genres":  "Rock"
                   },
                   {
-                      "name":  "Live In Cuba DVDA             ",
+                      "name":  "Live In Cuba DVDA",
                       "year":  2005,
-                      "artist":  "Audioslave                    ",
+                      "artist":  "Audioslave",
                       "genres":  "Rock"
                   },
                   {
-                      "name":  "Live In Los Angeles,CA 12-07  ",
+                      "name":  "Live In Los Angeles,CA 12-07",
                       "year":  2003,
-                      "artist":  "Audioslave                    ",
+                      "artist":  "Audioslave",
                       "genres":  "Rock"
                   },
                   {
@@ -16070,15 +16032,15 @@
                   {
                       "name":  "Live Schuba\u0027s Tavern (1-15-03)",
                       "year":  null,
-                      "artist":  "Jason Mraz                    ",
+                      "artist":  "Jason Mraz",
                       "genres":  {
 
                                  }
                   },
                   {
-                      "name":  "Live(Remastered)              ",
+                      "name":  "Live(Remastered)",
                       "year":  2003,
-                      "artist":  "AC/DC                         ",
+                      "artist":  "AC/DC",
                       "genres":  "Classic Rock"
                   },
                   {
@@ -16129,7 +16091,7 @@
                   {
                       "name":  "The London Muddy Waters Sessio",
                       "year":  1972,
-                      "artist":  "Muddy Waters|Muddy Waters/Rory Gallagher",
+                      "artist":  "Muddy Waters",
                       "genres":  "Blues"
                   },
                   {
@@ -16179,7 +16141,7 @@
                   {
                       "name":  "THE LOST ONE",
                       "year":  null,
-                      "artist":  "Big L|NOTORIOUS BIG, TUPAC, BIG PUN, BIG L, AND ODB",
+                      "artist":  "Big L",
                       "genres":  [
                                      "Rap \u0026 Hip-Hop",
                                      "Rap"
@@ -16230,7 +16192,7 @@
                   {
                       "name":  "Lowdown Dirty Dog Blues",
                       "year":  2000,
-                      "artist":  "Son House|Charley Patton",
+                      "artist":  "Son House",
                       "genres":  "Blues"
                   },
                   {
@@ -16294,7 +16256,7 @@
                   {
                       "name":  "Mano Negra Illegal",
                       "year":  2001,
-                      "artist":  "Big Mama|Rude Boy System|Les Fils De Teuhpu|Kanjar\u0027Oc|Grave De Grave|Percubaba|Les Hurlements d\u0027L├®o|La Ruda Salska",
+                      "artist":  "Big Mama",
                       "genres":  "Latin"
                   },
                   {
@@ -16308,7 +16270,7 @@
                   {
                       "name":  "Martin Scorsese Presents The Blues - A Musical Journey (Disc 1)",
                       "year":  2003,
-                      "artist":  "Othar Turner \u0026 The Rising Star Fife \u0026 Drum Band|Lightning \u0026 Group|Mamie Smith|W.C. Handy|Bessie Smith|Blind Lemon Jefferson|Furry Lewis|Ma Rainey|Blind Willie Johnson|Louis Armstrong|Frank Stokes|Mississippi John Hurt|Henry Thomas|Leroy Carr|Tommy Johnson|Blind Willie McTell|Tampa Red \u0026 Georgia Tom|Pine Top Smith|Lonnie Johnson|Charley Patton|Blind Blake|Memphis Jug Band|Jimmie Rodgers|Mississippi Sheiks|Son House",
+                      "artist":  "Othar Turner \u0026 The Rising Star Fife \u0026 Drum Band",
                       "genres":  "Blues"
                   },
                   {
@@ -16329,7 +16291,7 @@
                   {
                       "name":  "Massive Reggae",
                       "year":  2008,
-                      "artist":  "Damian \"Jr. Gong\" Marley|Musical Youth|Desmond Dekker|UB40|Jimmy Cliff",
+                      "artist":  "Damian \"Jr. Gong\" Marley",
                       "genres":  "Reggae"
                   },
                   {
@@ -16359,7 +16321,7 @@
                   {
                       "name":  "Maybe You\u0027ve Been Brainwashed Too",
                       "year":  1995,
-                      "artist":  "New Radicals|Soundtrack|Citizen King",
+                      "artist":  "New Radicals",
                       "genres":  "Top 250"
                   },
                   {
@@ -16421,7 +16383,7 @@
                   {
                       "name":  "Milestone",
                       "year":  1991,
-                      "artist":  "Dubliners|The Dubliners|                              |The Dubliners - Wild Rover|The Dubliners - Parcel Of Rogues",
+                      "artist":  "Dubliners",
                       "genres":  [
                                      "Pop",
                                      "Folk",
@@ -16439,7 +16401,7 @@
                   {
                       "name":  "The Mirror Conspiracy",
                       "year":  2000,
-                      "artist":  "Thievery Corporation|Various Artists|Hemisphere",
+                      "artist":  "Thievery Corporation",
                       "genres":  [
                                      "Other",
                                      "Electronica",
@@ -16545,7 +16507,7 @@
                   {
                       "name":  "The Mos Realest",
                       "year":  2005,
-                      "artist":  "Mos Def|Mos Def |Mos Def ft. Yusuf Saad",
+                      "artist":  "Mos Def",
                       "genres":  [
                                      "Hip-Hop",
                                      "Rap",
@@ -16708,7 +16670,7 @@
                   {
                       "name":  "Muddy \u0026 The Wolf",
                       "year":  null,
-                      "artist":  "Howling Wolf and Muddy Waters|Muddy Waters",
+                      "artist":  "Howling Wolf and Muddy Waters",
                       "genres":  "Blues"
                   },
                   {
@@ -16910,7 +16872,7 @@
                   {
                       "name":  "New York Royalty",
                       "year":  null,
-                      "artist":  "The Notorious BIG, Big L, Big Pun|Black Squad",
+                      "artist":  "The Notorious BIG, Big L, Big Pun",
                       "genres":  "Mixtape"
                   },
                   {
@@ -16928,7 +16890,7 @@
                   {
                       "name":  "Nigeria Afrobeat Special - The New Explosive Sound in 1970\u0027s Nigeria",
                       "year":  2010,
-                      "artist":  "Fela \u0026 Africa 70|Eric (Showboy) Akaeze And His Royal Ericos|The Anansa Professionals|Saxon Lee,The Shadows International|Bongos Ikwue \u0026 The Groovies|Orlando Julius|Bob Ohiri \u0026 His Uhuru Sounds|Mad Man Jaga|Godwin Omabuwa \u0026 His Cassanova Dandies|Segun Bucknor\u0027s Revolution|The Black Santiagos",
+                      "artist":  "Fela \u0026 Africa 70",
                       "genres":  "Northeast African"
                   },
                   {
@@ -17080,7 +17042,7 @@
                   {
                       "name":  "One Drop East",
                       "year":  1999,
-                      "artist":  "Salmonella Dub|Rahzel",
+                      "artist":  "Salmonella Dub",
                       "genres":  [
                                      "Dub",
                                      "Rap \u0026 Hip Hop"
@@ -17101,7 +17063,7 @@
                   {
                       "name":  "Only Love",
                       "year":  null,
-                      "artist":  "Various Artists|Doris Day|Mariah Carey|Trademark|John Denver|Selena|Josh Millard|Adele|Amy Winehouse|Amy Winehouse                 |Anggun|The Black Eyed Peas|http://gfanmusic.blogspot.com|Britney Spears|E - Box Entertainment (c) - Vivere Pericoloso Mente !|Chris Brown|Craig David|Emma Bunton|50 First Dates|Forever Love Song Vol-4|17. SUPERSTAR|Va|\u003cUnknown\u003e|Kat DeLuna|Katy Perry|Cannibal Corpse|Leona Lewis|Little Bit|Madonna|Michael Bubl├®|Pete Townshend|Mulan Jameela Feat.Mita|The Rolling Stones|SiNEAD O\u0027CONNOR|Dionne Warwick / Elton John / Friends / Gladys Knight / Stevie Wonder|Carpenters|The Saturdays|The Ting Tings|Whitney Houston|Shakira",
+                      "artist":  "Various Artists",
                       "genres":  [
                                      "Other",
                                      "Country",
@@ -17385,7 +17347,7 @@
                   {
                       "name":  "Portugese (Brazilian)-Short Course-Disc 0",
                       "year":  null,
-                      "artist":  "Pimsleur|Pimsleur |Paul Pimsleur|Artist",
+                      "artist":  "Pimsleur",
                       "genres":  [
                                      "Speech",
                                      "Blues",
@@ -17535,7 +17497,7 @@
                   {
                       "name":  "Radio Soulwax pt 4",
                       "year":  2002,
-                      "artist":  "2 many dj\u0027s|2 Many DJ\u0027s|2 Many Dj\u0027s|2 many dj\u0027s                   ",
+                      "artist":  "2 many dj\u0027s",
                       "genres":  [
                                      "Dance",
                                      "Unknown",
@@ -17624,7 +17586,7 @@
                   {
                       "name":  "Reasonable Doubt",
                       "year":  1996,
-                      "artist":  "Jay-Z|Jay-z|Jay Z  feat Janet Jackson|Jay-Z ft. Notorious B.I.G.",
+                      "artist":  "Jay-Z",
                       "genres":  [
                                      "Hip Hop",
                                      "Hip-Hop",
@@ -17778,7 +17740,7 @@
                   {
                       "name":  "Reloaded",
                       "year":  2005,
-                      "artist":  "Smif \u0027N\u0027 Wessun|Smif \u0027N\u0027 Wessun ft Heltah Skeltah|Smif \u0027N\u0027 Wessun ft Dead Prez|Smif \u0027N\u0027 Wessun ft Buckshot|Smif \u0027N\u0027 Wessun ft Starang \u0026 Tony Touch|Smif \u0027N\u0027 Wessun ft The Boot Camp Click|Smif \u0027N\u0027 Wessun ft Talib Kweli",
+                      "artist":  "Smif \u0027N\u0027 Wessun",
                       "genres":  "Hip-Hop"
                   },
                   {
@@ -17790,7 +17752,7 @@
                   {
                       "name":  "Renegades",
                       "year":  2000,
-                      "artist":  "Rage Against The Machine|Rage Against the Machine",
+                      "artist":  "Rage Against The Machine",
                       "genres":  [
                                      "Rock",
                                      "Punk"
@@ -17909,7 +17871,7 @@
                   {
                       "name":  "The Rocky Mountain Collection",
                       "year":  1996,
-                      "artist":  "Doris Day|John Denver|Selena|Josh Millard|Forever Love Song Vol-4|Various Artists|Pete Townshend|The Rolling Stones|Dionne Warwick / Elton John / Friends / Gladys Knight / Stevie Wonder",
+                      "artist":  "Doris Day",
                       "genres":  [
                                      "Country",
                                      "Latin",
@@ -17924,7 +17886,7 @@
                   {
                       "name":  "The Rocky Mountain Collection",
                       "year":  1996,
-                      "artist":  "Doris Day|John Denver|Selena|Josh Millard|Forever Love Song Vol-4|Various Artists|Pete Townshend|The Rolling Stones|Dionne Warwick / Elton John / Friends / Gladys Knight / Stevie Wonder",
+                      "artist":  "Doris Day",
                       "genres":  [
                                      "Country",
                                      "Latin",
@@ -18023,7 +17985,7 @@
                   {
                       "name":  "Running on Empty",
                       "year":  2004,
-                      "artist":  "Jackson Browne|                              ",
+                      "artist":  "Jackson Browne",
                       "genres":  "rock"
                   },
                   {
@@ -18065,7 +18027,7 @@
                   {
                       "name":  "School Was My Hustle",
                       "year":  2007,
-                      "artist":  "Kidz in the Hall|Naledge and Double O Are Kidz in the Hall",
+                      "artist":  "Kidz in the Hall",
                       "genres":  "Hip Hop/Rap"
                   },
                   {
@@ -18121,7 +18083,7 @@
                   {
                       "name":  "The Secret Of Life",
                       "year":  2003,
-                      "artist":  "The Ukulele Orchestra Of Great Britain|Na-Mi-Tee The Ukulele Orchestra Of Great Britain|The Ukulele Orchestra of great britain|The Ukulele Orchestra of Great Britain",
+                      "artist":  "The Ukulele Orchestra Of Great Britain",
                       "genres":  "General Easy Listening"
                   },
                   {
@@ -18133,7 +18095,7 @@
                   {
                       "name":  "Selected Ambient Works 85-92",
                       "year":  2009,
-                      "artist":  "Aphex Twin|Caustic Window|Power-Pill|Aphex Twin                    ",
+                      "artist":  "Aphex Twin",
                       "genres":  [
                                      "Electronica",
                                      "Pop"
@@ -18160,19 +18122,19 @@
                   {
                       "name":  "September Sessions/O.S.T.",
                       "year":  2002,
-                      "artist":  "Jack Johnson|Jack Johnson; The September Sessions Band|Greyboy; Jack Johnson; Karl Denson|G. Love \u0026 Special Sauce|Ozomatli|Bombay The Hard Way|Princes of Babylon|Beat Down Sound",
+                      "artist":  "Jack Johnson",
                       "genres":  "Soundtrack"
                   },
                   {
                       "name":  "September Sessions/O.S.T.",
                       "year":  2002,
-                      "artist":  "Jack Johnson|Jack Johnson; The September Sessions Band|Greyboy; Jack Johnson; Karl Denson|G. Love \u0026 Special Sauce|Ozomatli|Bombay The Hard Way|Princes of Babylon|Beat Down Sound",
+                      "artist":  "Jack Johnson",
                       "genres":  "Soundtrack"
                   },
                   {
-                      "name":  "Sessions @ AOL Music          ",
+                      "name":  "Sessions @ AOL Music",
                       "year":  2005,
-                      "artist":  "Audioslave                    ",
+                      "artist":  "Audioslave",
                       "genres":  "Rock"
                   },
                   {
@@ -18363,9 +18325,9 @@
                                  }
                   },
                   {
-                      "name":  "Son House And The Great Delta ",
+                      "name":  "Son House And The Great Delta",
                       "year":  1990,
-                      "artist":  "Son House|Willie Brown",
+                      "artist":  "Son House",
                       "genres":  "Blues"
                   },
                   {
@@ -18392,7 +18354,7 @@
                   {
                       "name":  "Songs to learn",
                       "year":  null,
-                      "artist":  "Stereophonics|R.E.M.|REM|Jason Mraz|Red Hot Chili Peppers|Jim Croce|Jane\u0027s Addiction|Soundtrack|Nacha Pop|Various|Fleetwood Mac|Ben E. King|Bob Marley|Eagle Eye Cherry|Jackson Browne|Eagles",
+                      "artist":  "Stereophonics",
                       "genres":  [
                                      "Top 40",
                                      "Blues",
@@ -18633,13 +18595,13 @@
                   {
                       "name":  "Sublime",
                       "year":  null,
-                      "artist":  "Sublime|Sublime                       ",
+                      "artist":  "Sublime",
                       "genres":  "Rock"
                   },
                   {
                       "name":  "Sublime",
                       "year":  1995,
-                      "artist":  "Sublime|Arctic Monkeys",
+                      "artist":  "Sublime",
                       "genres":  [
                                      "Rock",
                                      "Alternative \u0026 Punk"
@@ -18729,7 +18691,7 @@
                   {
                       "name":  "Teacher Don\u0027t Teach Me Nonsense [Bonus Track]",
                       "year":  1987,
-                      "artist":  "Fela Anikulapo Kuti|Fela Kuti",
+                      "artist":  "Fela Anikulapo Kuti",
                       "genres":  "World"
                   },
                   {
@@ -18791,19 +18753,19 @@
                   {
                       "name":  "Thicker Than Water: Original Soundtrack",
                       "year":  2003,
-                      "artist":  "Jack Johnson|G. Love; Jack Johnson|Finley Quaye|G. Love; T. Ray|Voyces|Jack Johnson; Todd Hannigan|Natural Calamity|Anandji; Kalyanji|G. Love; Special Sauce|The Meters|Smoke City|Ferni Apodaca; Sylvia Apodaca; Todd Hannigan|Harpers Bizarre",
+                      "artist":  "Jack Johnson",
                       "genres":  "Soundtrack"
                   },
                   {
                       "name":  "Thicker Than Water: Original Soundtrack",
                       "year":  2003,
-                      "artist":  "Jack Johnson|G. Love; Jack Johnson|Finley Quaye|G. Love; T. Ray|Voyces|Jack Johnson; Todd Hannigan|Natural Calamity|Anandji; Kalyanji|G. Love; Special Sauce|The Meters|Smoke City|Ferni Apodaca; Sylvia Apodaca; Todd Hannigan|Harpers Bizarre",
+                      "artist":  "Jack Johnson",
                       "genres":  "Soundtrack"
                   },
                   {
                       "name":  "thickfreakness",
                       "year":  2003,
-                      "artist":  "The Black Keys|the black keys",
+                      "artist":  "The Black Keys",
                       "genres":  "Rock"
                   },
                   {
@@ -18842,7 +18804,7 @@
                   {
                       "name":  "This Is My Promo Vol. 2",
                       "year":  2005,
-                      "artist":  "Sway|Sway, Bruza \u0026 Baby Blue|Sway Ft. Pyrelli|Terri Walker Ft. Sway|Sway \u0026 Baby Blue Ft. Suwese|Sway Ft. DJ Wonder|Sway Ft. Nate James|The Mitchell Brothers Ft. Sway \u0026 Mike Skinner|DJ Shux Ft. Sway|Sway Ft. DJ Caramac|Sway Ft. Millennium Tug \u0026 Charlie Boy",
+                      "artist":  "Sway",
                       "genres":  "UK Hip Hop"
                   },
                   {
@@ -18854,7 +18816,7 @@
                   {
                       "name":  "Three",
                       "year":  null,
-                      "artist":  "John Butler Trio|The John Butler Trio|Unknown Artist|Jonathan Butler",
+                      "artist":  "John Butler Trio",
                       "genres":  [
                                      "Other",
                                      "genre",
@@ -18892,15 +18854,15 @@
                       "genres":  "Rock"
                   },
                   {
-                      "name":  "Till Death Do Us Part         ",
+                      "name":  "Till Death Do Us Part",
                       "year":  2004,
-                      "artist":  "Cypress Hill                  ",
+                      "artist":  "Cypress Hill",
                       "genres":  "Hip-Hop"
                   },
                   {
                       "name":  "Till Death Do Us Part",
                       "year":  2004,
-                      "artist":  "Cypress Hill                  |Cypress Hill",
+                      "artist":  "Cypress Hill",
                       "genres":  "Hip-Hop"
                   },
                   {
@@ -18969,7 +18931,7 @@
                   {
                       "name":  "To Let",
                       "year":  2002,
-                      "artist":  "Xavier Rudd|Coldcut",
+                      "artist":  "Xavier Rudd",
                       "genres":  [
                                      "Soft Rock",
                                      "Alt-Folk",
@@ -19168,7 +19130,7 @@
                   {
                       "name":  "The Ultimate Collection",
                       "year":  2004,
-                      "artist":  "Michael Jackson|The Jackson 5",
+                      "artist":  "Michael Jackson",
                       "genres":  [
                                      "Other",
                                      "Disco",
@@ -19176,7 +19138,7 @@
                                  ]
                   },
                   {
-                      "name":  "The Ultimate Collection (disc ",
+                      "name":  "The Ultimate Collection (disc",
                       "year":  2004,
                       "artist":  "Michael Jackson",
                       "genres":  "Blues"
@@ -19238,7 +19200,7 @@
                   {
                       "name":  "Under Review [DVD]",
                       "year":  null,
-                      "artist":  "Silver Mount Zion|earle2006-07-15d2|Van Morrison|earle2006-07-15d1|Steve Earle/The Del McCoury Band|Various Artists|Cass Elliot|Keith Whitley|Janis Ian|Breaking Benjamin",
+                      "artist":  "Silver Mount Zion",
                       "genres":  [
                                      "Rock",
                                      "Country",
@@ -19267,7 +19229,7 @@
                   {
                       "name":  "The Unknown",
                       "year":  2000,
-                      "artist":  "Mark B and Blade|Mark B \u0026 Blade",
+                      "artist":  "Mark B and Blade",
                       "genres":  "Hip Hop"
                   },
                   {
@@ -19416,7 +19378,7 @@
                   {
                       "name":  "Urbanrenewalprogam/Ninjatune",
                       "year":  2002,
-                      "artist":  "Prefuse 73|Caural|Aesop Rock|Mos Def and Diverse|Diverse|Mr.Lif|Souls of Mischief|RJD2|While|El-p|DJ Food|Via Tania|Miho Hatori|Tortoise|Themselves|SecretMuffin",
+                      "artist":  "Prefuse 73",
                       "genres":  "Trip-Hop"
                   },
                   {
@@ -19436,7 +19398,7 @@
                   {
                       "name":  "Version",
                       "year":  2007,
-                      "artist":  "Mark Ronson|Mark Ronson Ft. The Daptone Horns|Mark Ronson Ft. Lily Allen|Mark Ronson Ft. Daniel Merriweather|Mark Ronson Ft. Tiggers|Mark Ronson Ft. Amy Winehouse|Mark Ronson Ft. Paul Smith|Mark Ronson Ft. Santo Gold|Mark Ronson Ft. Phantom Planet|Mark Ronson Ft. Kenna|Mark Ronson Ft. Robbie Williams|Mark Ronson Ft. Kasabian",
+                      "artist":  "Mark Ronson",
                       "genres":  "Pop"
                   },
                   {
@@ -19514,7 +19476,7 @@
                   {
                       "name":  "The Very Best Of Jackson Browne",
                       "year":  2004,
-                      "artist":  "Browne, Jackson|Jackson Browne",
+                      "artist":  "Browne, Jackson",
                       "genres":  "Rock"
                   },
                   {
@@ -19550,7 +19512,7 @@
                   {
                       "name":  "Vol.2 Hard Knock Life",
                       "year":  null,
-                      "artist":  "Jay-Z|Jay-Z                         ",
+                      "artist":  "Jay-Z",
                       "genres":  "Rap"
                   },
                   {
@@ -19574,7 +19536,7 @@
                   {
                       "name":  "Walk The Line OST",
                       "year":  1996,
-                      "artist":  "Joaquin Phoenix|Reese Witherspoon|Tyler Hilton|Joaquin Phoenix \u0026 Reese Witherspoon|Waylon Malloy Payne|Jonathan Rice|Shooter Jennings|Carl Smith",
+                      "artist":  "Joaquin Phoenix",
                       "genres":  [
                                      "Soundtrack",
                                      "COUNTRY TWANG MIX 1"
@@ -19651,7 +19613,7 @@
                   {
                       "name":  "Welcome To Jamrock",
                       "year":  2005,
-                      "artist":  "damian marley|Damian Marley",
+                      "artist":  "damian marley",
                       "genres":  "Reggae"
                   },
                   {
@@ -19742,7 +19704,7 @@
                   {
                       "name":  "Wild Style",
                       "year":  null,
-                      "artist":  "Soundtrack|Busy Bee Vs. Rodney Cee|Double Trouble|Unknown Artist|Fab 5 Freddy",
+                      "artist":  "Soundtrack",
                       "genres":  "Soundtrack"
                   },
                   {
