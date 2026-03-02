@@ -366,7 +366,9 @@ async function init() {
   document.getElementById('count-movies').textContent = data.movies.length;
   document.getElementById('count-tv').textContent = data.tv.length;
   document.getElementById('count-music').textContent = data.music.length;
-  document.getElementById('footer').textContent = 'Last updated: ' + formatDate(data.updated);
+  document.getElementById('footer').innerHTML =
+    'Last updated: ' + formatDate(data.updated) +
+    ' &middot; <a href="https://buymeacoffee.com/stephenbeale" target="_blank" rel="noopener noreferrer" style="color:var(--accent,#f0a500);opacity:0.7;">Buy me a coffee</a>';
 
   updateFilterPills();
   render();
