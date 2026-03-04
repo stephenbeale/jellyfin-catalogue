@@ -218,6 +218,7 @@
     font-weight: 500;
   }
 
+  .badge-label { opacity: 0.6; margin-right: 3px; font-weight: 400; }
   .badge-cert { background: #3a2a0a; color: #f0c040; }
   .badge-rating { background: #0a2a1a; color: #40d080; }
   .badge-runtime { background: #1a1a3a; color: #8080d0; }
@@ -474,10 +475,10 @@ function renderCard(item) {
 
   const meta = [];
   if (item.cert) meta.push(`<span class="badge badge-cert" data-filter="cert" data-value="${esc(item.cert)}">${esc(item.cert)}</span>`);
-  if (item.rating) meta.push(`<span class="badge badge-rating">${item.rating}</span>`);
-  if (item.runtime) meta.push(`<span class="badge badge-runtime">${item.runtime} min</span>`);
-  if (item.resolution) meta.push(`<span class="badge badge-res">${esc(item.resolution)}</span>`);
-  if (item.episodes !== undefined) meta.push(`<span class="badge badge-episodes">${item.episodes} eps</span>`);
+  if (item.rating) meta.push(`<span class="badge badge-rating"><span class="badge-label">IMDb</span> ${item.rating}</span>`);
+  if (item.runtime) meta.push(`<span class="badge badge-runtime"><span class="badge-label">Runtime</span> ${item.runtime} min</span>`);
+  if (item.resolution) meta.push(`<span class="badge badge-res"><span class="badge-label">Res</span> ${esc(item.resolution)}</span>`);
+  if (item.episodes !== undefined) meta.push(`<span class="badge badge-episodes"><span class="badge-label">Episodes</span> ${item.episodes}</span>`);
   if (meta.length) html += `<div class="card-meta">${meta.join('')}</div>`;
 
   if (item.overview) {
