@@ -218,10 +218,13 @@
     font-weight: 500;
   }
 
+  .badge-label { opacity: 0.6; margin-right: 3px; font-weight: 400; }
   .badge-cert { background: #3a2a0a; color: #f0c040; }
   .badge-rating { background: #0a2a1a; color: #40d080; }
   .badge-runtime { background: #1a1a3a; color: #8080d0; }
-  .badge-res { background: #2a1a2a; color: #d080c0; }
+  .badge-bluray { background: #1a1a3a; color: #60a0ff; font-weight: 600; }
+  .badge-hd { background: #1a2a1a; color: #80c060; }
+  .badge-dvd { background: #2a2a2a; color: #999; }
   .badge-episodes { background: #1a2a3a; color: #60b0e0; }
 
   .card-genres {
@@ -474,10 +477,20 @@ function renderCard(item) {
 
   const meta = [];
   if (item.cert) meta.push(`<span class="badge badge-cert" data-filter="cert" data-value="${esc(item.cert)}">${esc(item.cert)}</span>`);
-  if (item.rating) meta.push(`<span class="badge badge-rating">${item.rating}</span>`);
-  if (item.runtime) meta.push(`<span class="badge badge-runtime">${item.runtime} min</span>`);
-  if (item.resolution) meta.push(`<span class="badge badge-res">${esc(item.resolution)}</span>`);
-  if (item.episodes !== undefined) meta.push(`<span class="badge badge-episodes">${item.episodes} eps</span>`);
+  if (item.rating) meta.push(`<span class="badge badge-rating"><span class="badge-label">IMDb</span> ${item.rating}</span>`);
+  if (item.runtime) meta.push(`<span class="badge badge-runtime"><span class="badge-label">Runtime</span> ${item.runtime} min</span>`);
+  if (item.resolution) {
+    const [w, h] = item.resolution.split('x').map(Number);
+    const maxDim = Math.max(w, h);
+    if (maxDim >= 1920) {
+      meta.push(`<span class="badge badge-bluray">Blu-ray</span>`);
+    } else if (maxDim >= 1280) {
+      meta.push(`<span class="badge badge-hd">HD</span>`);
+    } else {
+      meta.push(`<span class="badge badge-dvd">DVD</span>`);
+    }
+  }
+  if (item.episodes !== undefined) meta.push(`<span class="badge badge-episodes"><span class="badge-label">Episodes</span> ${item.episodes}</span>`);
   if (meta.length) html += `<div class="card-meta">${meta.join('')}</div>`;
 
   if (item.overview) {
