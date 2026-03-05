@@ -226,6 +226,8 @@
   .badge-hd { background: #1a2a1a; color: #80c060; }
   .badge-dvd { background: #2a2a2a; color: #999; }
   .badge-episodes { background: #1a2a3a; color: #60b0e0; }
+  .badge-collection { background: #2a1a2a; color: #d080d0; cursor: pointer; border: 1px solid transparent; transition: border-color 0.2s; }
+  .badge-collection:hover { border-color: #d080d0; }
 
   .card-genres {
     display: flex;
@@ -339,6 +341,7 @@
     <button class="filter-pill" data-filter="year">Year</button>
     <button class="filter-pill" data-filter="actor">Actor</button>
     <button class="filter-pill" data-filter="director">Director</button>
+    <button class="filter-pill" data-filter="collection">Collection</button>
     <button class="filter-pill" data-filter="cert">Cert</button>
   </div>
 </div>
@@ -426,10 +429,12 @@ function getFilteredItems() {
           return a.some(v => v.toLowerCase().includes(q));
         case 'director':
           return item.director && item.director.toLowerCase().includes(q);
+        case 'collection':
+          return item.collection && item.collection.toLowerCase().includes(q);
         case 'cert':
           return item.cert && item.cert.toLowerCase().includes(q);
         default: // 'all'
-          return [item.name, item.artist, item.director, item.overview, ...g, ...a]
+          return [item.name, item.artist, item.director, item.overview, item.collection, ...g, ...a]
             .some(f => f && f.toLowerCase().includes(q))
             || (item.year && String(item.year).includes(q))
             || (item.cert && item.cert.toLowerCase().includes(q));
@@ -490,6 +495,7 @@ function renderCard(item) {
       meta.push(`<span class="badge badge-dvd">DVD</span>`);
     }
   }
+  if (item.collection) meta.push(`<span class="badge badge-collection" data-filter="collection" data-value="${esc(item.collection)}">${esc(item.collection)}</span>`);
   if (item.episodes !== undefined) meta.push(`<span class="badge badge-episodes"><span class="badge-label">Episodes</span> ${item.episodes}</span>`);
   if (meta.length) html += `<div class="card-meta">${meta.join('')}</div>`;
 
@@ -518,6 +524,7 @@ const filterPlaceholders = {
   actor: 'Search by actor...',
   artist: 'Search by artist...',
   director: 'Search by director...',
+  collection: 'Search by collection...',
   cert: 'Search by certificate...'
 };
 
@@ -525,10 +532,12 @@ function updateFilterPills() {
   const pills = document.getElementById('filter-pills');
   pills.querySelectorAll('.filter-pill').forEach(p => {
     const f = p.dataset.filter;
-    // Music: show artist instead of actor/director
+    // Music: show artist instead of actor/director/collection
     if (activeTab === 'music') {
-      p.style.display = (f === 'actor' || f === 'director') ? 'none' : '';
+      p.style.display = (f === 'actor' || f === 'director' || f === 'collection') ? 'none' : '';
       if (f === 'artist') p.style.display = '';
+    } else if (activeTab === 'tv') {
+      p.style.display = (f === 'artist' || f === 'collection') ? 'none' : '';
     } else {
       p.style.display = (f === 'artist') ? 'none' : '';
     }

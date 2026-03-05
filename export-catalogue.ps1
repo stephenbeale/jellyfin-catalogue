@@ -89,6 +89,26 @@ foreach ($p in $peopleRaw) {
 }
 Write-Host "  Loaded $($actorsMap.Count) items with actors, $($directorMap.Count) with directors"
 
+# --- Collections (BoxSets) lookup ---
+Write-Host 'Querying collections (BoxSets)...'
+$collectionsRaw = Invoke-Sqlite @"
+SELECT
+    bs.Name AS CollectionName,
+    m.guid AS MovieId
+FROM TypedBaseItems bs
+JOIN AncestorIds ai ON ai.AncestorId = bs.guid
+JOIN TypedBaseItems m ON m.guid = ai.ItemId
+WHERE bs.type = 'MediaBrowser.Controller.Entities.Movies.BoxSet'
+  AND m.type = 'MediaBrowser.Controller.Entities.Movies.Movie'
+ORDER BY bs.SortName, m.SortName;
+"@
+
+$collectionMap = @{}
+foreach ($c in $collectionsRaw) {
+    $collectionMap[$c.MovieId] = $c.CollectionName
+}
+Write-Host "  Found $($collectionMap.Count) movies in collections"
+
 # --- Movies ---
 Write-Host 'Querying movies...'
 $moviesRaw = Invoke-Sqlite @"
@@ -126,6 +146,7 @@ foreach ($m in $moviesRaw) {
     }
     $actors = if ($actorsMap.ContainsKey($m.Id)) { ,$actorsMap[$m.Id] } else { ,@() }
     $director = if ($directorMap.ContainsKey($m.Id)) { $directorMap[$m.Id] } else { $null }
+    $collection = if ($collectionMap.ContainsKey($m.Id)) { $collectionMap[$m.Id] } else { $null }
     $movies += [ordered]@{
         name       = $m.Name
         year       = $m.ProductionYear
@@ -137,6 +158,7 @@ foreach ($m in $moviesRaw) {
         actors     = $actors
         director   = $director
         overview   = Truncate-Overview $m.Overview
+        collection = $collection
     }
 }
 Write-Host "  Found $($movies.Count) movies"
