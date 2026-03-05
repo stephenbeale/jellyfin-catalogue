@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-04T14:06:34Z",
+    "updated":  "2026-03-05T09:11:24Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -159,22 +159,6 @@
                        "cert":  null,
                        "runtime":  102,
                        "resolution":  "426x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
-                       "name":  "A1_t07",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  5,
-                       "resolution":  "432x720",
                        "actors":  [
 
                                   ],
@@ -666,6 +650,29 @@
                        "overview":  "As the Iranian revolution reaches a boiling point, a CIA \u0027exfiltration\u0027 specialist concocts a risky plan to free six Americans who have found shelter at the home of the Canadian ambassador."
                    },
                    {
+                       "name":  "Armageddon",
+                       "year":  1998,
+                       "genres":  [
+                                      "Action",
+                                      "Thriller",
+                                      "Science Fiction",
+                                      "Adventure"
+                                  ],
+                       "rating":  6.8,
+                       "cert":  "GB-12",
+                       "runtime":  153,
+                       "resolution":  "274x714",
+                       "actors":  [
+                                      "Bruce Willis",
+                                      "Billy Bob Thornton",
+                                      "Ben Affleck",
+                                      "Liv Tyler",
+                                      "Will Patton"
+                                  ],
+                       "director":  "Michael Bay",
+                       "overview":  "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller..."
+                   },
+                   {
                        "name":  "Arnhem \u0026 Burma A Bridge Too Far",
                        "year":  2026,
                        "genres":  [
@@ -783,22 +790,6 @@
                                   ],
                        "director":  "George T. Miller",
                        "overview":  "A 1920s mail pilot and a rich man\u0027s daughter crash-land on a mountain full of hungry wolves."
-                   },
-                   {
-                       "name":  "B1_t00",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  94,
-                       "resolution":  "554x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "B1_T04-2",
@@ -1521,22 +1512,6 @@
                                   ],
                        "director":  "Ridley Scott",
                        "overview":  "When U.S. Rangers and an elite Delta Force team attempt to kidnap two underlings of a Somali warlord, their Black Hawk helicopters are shot down, and the Americans suffer heavy casualties, facing inte..."
-                   },
-                   {
-                       "name":  "Black Hawk Down-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  30,
-                       "resolution":  "574x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "Black Narcissus",
@@ -2264,20 +2239,26 @@
                        "overview":  "As the west rapidly becomes civilized, a pair of outlaws in 1890s Wyoming find themselves pursued by a posse and decide to flee to South America in hopes of evading the law."
                    },
                    {
-                       "name":  "C1_t05",
-                       "year":  null,
+                       "name":  "Cadillac Records",
+                       "year":  2008,
                        "genres":  [
-
+                                      "Drama",
+                                      "History",
+                                      "Music"
                                   ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  null,
-                       "resolution":  null,
+                       "rating":  7.1,
+                       "cert":  "R",
+                       "runtime":  109,
+                       "resolution":  "256x608",
                        "actors":  [
-
+                                      "Adrien Brody",
+                                      "Jeffrey Wright",
+                                      "Gabrielle Union",
+                                      "Columbus Short",
+                                      "Cedric the Entertainer"
                                   ],
-                       "director":  null,
-                       "overview":  null
+                       "director":  "Darnell Martin",
+                       "overview":  "The story of sex, violence, race and rock and roll in 1950s Chicago, and the exciting but turbulent lives of some of America\u0027s musical legends, including Muddy Waters, Leonard Chess, Little Walter, Ho..."
                    },
                    {
                        "name":  "The Caiman",
@@ -5997,6 +5978,27 @@
                        "overview":  "The spoiled daughter of a Georgia plantation owner conducts a tumultuous romance with a cynical profiteer during the American Civil War and Reconstruction Era."
                    },
                    {
+                       "name":  "A Good Day to Die Hard",
+                       "year":  2013,
+                       "genres":  [
+                                      "Action",
+                                      "Thriller"
+                                  ],
+                       "rating":  5.3,
+                       "cert":  "GB-12A",
+                       "runtime":  94,
+                       "resolution":  "554x720",
+                       "actors":  [
+                                      "Bruce Willis",
+                                      "Jai Courtney",
+                                      "Sebastian Koch",
+                                      "Yuliya Snigir",
+                                      "Radivoje Bukvi─ç"
+                                  ],
+                       "director":  "John Moore",
+                       "overview":  "Iconoclastic, take-no-prisoners cop John McClane, finds himself for the first time on foreign soil after traveling to Moscow to help his wayward son Jack - unaware that Jack is really a highly-trained..."
+                   },
+                   {
                        "name":  "Good Kill",
                        "year":  2015,
                        "genres":  [
@@ -6677,22 +6679,6 @@
                        "overview":  "Hellboy comes to England, where he must defeat Nimue, Merlin\u0027s consort and the Blood Queen. But their battle will bring about the end of the world, a fate he desperately tries to turn away."
                    },
                    {
-                       "name":  "Hellboy 2 The Golden Army-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  115,
-                       "resolution":  "552x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
                        "name":  "Hellboy II: The Golden Army",
                        "year":  2008,
                        "genres":  [
@@ -6701,8 +6687,8 @@
                                   ],
                        "rating":  6.8,
                        "cert":  "GB-12A",
-                       "runtime":  155,
-                       "resolution":  "562x720",
+                       "runtime":  115,
+                       "resolution":  "552x720",
                        "actors":  [
                                       "Ron Perlman",
                                       "Selma Blair",
@@ -8468,6 +8454,29 @@
                        "overview":  "Ted Kramer is a career man for whom his work comes before his family. His wife Joanna cannot take this anymore, so she decides to leave him. Ted is now faced with the tasks of housekeeping and taking..."
                    },
                    {
+                       "name":  "L.A. Confidential",
+                       "year":  1997,
+                       "genres":  [
+                                      "Crime",
+                                      "Mystery",
+                                      "Thriller",
+                                      "Drama"
+                                  ],
+                       "rating":  7.8,
+                       "cert":  "GB-18",
+                       "runtime":  132,
+                       "resolution":  "424x718",
+                       "actors":  [
+                                      "Kevin Spacey",
+                                      "Russell Crowe",
+                                      "Guy Pearce",
+                                      "James Cromwell",
+                                      "Kim Basinger"
+                                  ],
+                       "director":  "Curtis Hanson",
+                       "overview":  "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner."
+                   },
+                   {
                        "name":  "La Ciencia de los Sue├▒os",
                        "year":  2024,
                        "genres":  [
@@ -8486,22 +8495,6 @@
                                   ],
                        "director":  "Juan Jos├® Narv├íez",
                        "overview":  "Music video for colombian band \u0027Volc├ín\u0027.  The sands of time are racing against J, who has just awakened from his death to experience a psychedelic journey through his past lives and an encounter with..."
-                   },
-                   {
-                       "name":  "LA Confidential",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  132,
-                       "resolution":  "424x718",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "La Dolce Vita",
@@ -8739,38 +8732,24 @@
                    },
                    {
                        "name":  "The Last Emperor",
-                       "year":  1986,
+                       "year":  1987,
                        "genres":  [
                                       "Drama",
                                       "History"
                                   ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  156,
-                       "resolution":  "434x714",
-                       "actors":  [
-                                      "Tony Leung Ka-fai",
-                                      "Margaret Lee",
-                                      "Lee Din-Hing"
-                                  ],
-                       "director":  "Li Han-Hsiang",
-                       "overview":  "A 1986 film directed by Li Han-Hsiang. Nominated for Best Film in the 6th annual Hong Kong Film Awards."
-                   },
-                   {
-                       "name":  "Last Emperor-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
+                       "rating":  7.6,
+                       "cert":  "GB-15",
                        "runtime":  210,
                        "resolution":  "434x714",
                        "actors":  [
-
+                                      "John Lone",
+                                      "Joan Chen",
+                                      "Peter O\u0027Toole",
+                                      "Ruocheng Ying",
+                                      "Victor Wong"
                                   ],
-                       "director":  null,
-                       "overview":  null
+                       "director":  "Bernardo Bertolucci",
+                       "overview":  "A dramatic history of Pu Yi, the last of the Emperors of China, from his lofty birth and brief reign in the Forbidden City, the object of worship by half a billion people; through his abdication, his..."
                    },
                    {
                        "name":  "The Last King of Scotland",
@@ -9222,22 +9201,6 @@
                        "overview":  "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he\u0027s not dodging his followers or being scolded by his shrill mother,..."
                    },
                    {
-                       "name":  "Life of Brian-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  111,
-                       "resolution":  "572x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
                        "name":  "Lincoln",
                        "year":  2012,
                        "genres":  [
@@ -9521,22 +9484,6 @@
                                   ],
                        "director":  "Ken Annakin",
                        "overview":  "The retelling of June 6, 1944, from the perspectives of the Germans, US, British, Canadians, and the Free French. Marshall Erwin Rommel, touring the defenses being established as part of the Reich\u0027s A..."
-                   },
-                   {
-                       "name":  "Lord of the Rings The Two Towers-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  43,
-                       "resolution":  "434x700",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "The Lord of the Rings: The Fellowship of the Ring",
@@ -10702,22 +10649,6 @@
                        "overview":  "King Arthur, accompanied by his squire, recruits his Knights of the Round Table, including Sir Bedevere the Wise, Sir Lancelot the Brave, Sir Robin the Not-Quite-So-Brave-As-Sir-Lancelot and Sir Galah..."
                    },
                    {
-                       "name":  "Monty Python and the Holy Grail-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  47,
-                       "resolution":  "576x702",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
                        "name":  "Moon",
                        "year":  2009,
                        "genres":  [
@@ -11026,22 +10957,6 @@
                                   ],
                        "director":  "Jared Hess",
                        "overview":  "A listless and alienated teenager decides to help his new friend win the class presidency in their small western high school, while he must deal with his bizarre family life back home."
-                   },
-                   {
-                       "name":  "Napoleon Dynamite-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  44,
-                       "resolution":  "572x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "National Lampoon\u0027s Christmas Vacation",
@@ -11421,22 +11336,6 @@
                                   ],
                        "director":  "Steven Soderbergh",
                        "overview":  "Despite pulling off one of the biggest heists in Las Vegas history and splitting the $160 million take, each of the infamous Ocean\u0027s crew have tried to go straight, lay low and live a legit life ... b..."
-                   },
-                   {
-                       "name":  "Ocean\u0027s Twelve-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  27,
-                       "resolution":  "416x700",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "Octopussy",
@@ -14191,22 +14090,6 @@
                                   ],
                        "director":  "Sam Raimi",
                        "overview":  "The seemingly invincible Spider-Man goes up against an all-new crop of villainsÔÇöincluding the shape-shifting Sandman. While Spider-ManÔÇÖs superpowers are altered by an alien organism, his alter ego..."
-                   },
-                   {
-                       "name":  "Spiderman 3-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  19,
-                       "resolution":  "570x718",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "The Spitfire Story",
@@ -17919,6 +17802,21 @@
                               ],
                    "director":  null,
                    "overview":  "Spitting Image is an award winning British satirical puppet show, created by Peter Fluck, Roger Law and Martin Lambie-Nairn. The series was produced by Spitting Image Productions for Central Independe..."
+               },
+               {
+                   "name":  "Stephen Hawking\u0027s Universe",
+                   "year":  1997,
+                   "genres":  [
+                                  "Documentary"
+                              ],
+                   "rating":  5.1,
+                   "cert":  null,
+                   "episodes":  6,
+                   "actors":  [
+                                  "Stephen Hawking"
+                              ],
+                   "director":  null,
+                   "overview":  "A six-part astronomical documentary series featuring the theoretical physicist Stephen Hawking."
                },
                {
                    "name":  "Tenko",
