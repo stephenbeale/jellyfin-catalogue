@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-05T09:11:24Z",
+    "updated":  "2026-03-07T14:09:14Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -629,6 +629,27 @@
                        "overview":  "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterio..."
                    },
                    {
+                       "name":  "Apollo 13",
+                       "year":  1995,
+                       "genres":  [
+                                      "Drama",
+                                      "History"
+                                  ],
+                       "rating":  7.5,
+                       "cert":  "GB-PG",
+                       "runtime":  134,
+                       "resolution":  "436x720",
+                       "actors":  [
+                                      "Tom Hanks",
+                                      "Bill Paxton",
+                                      "Kevin Bacon",
+                                      "Gary Sinise",
+                                      "Ed Harris"
+                                  ],
+                       "director":  "Ron Howard",
+                       "overview":  "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1970, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of..."
+                   },
+                   {
                        "name":  "Argo",
                        "year":  2012,
                        "genres":  [
@@ -1054,6 +1075,22 @@
                        "overview":  "Downtrodden writer Henry and distressed goddess Wanda aren\u0027t exactly husband and wife: they\u0027re wedded to their bar stools. But, they like each other\u0027s companyÔÇöand Barfly captures their giddy, gin-so..."
                    },
                    {
+                       "name":  "Barton Fink",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  112,
+                       "resolution":  "552x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
                        "name":  "BASEketball",
                        "year":  1998,
                        "genres":  [
@@ -1229,6 +1266,27 @@
                        "overview":  "Astonished to find the Beast has a deep-seated hatred for the Christmas season, Belle endeavors to change his mind on the matter."
                    },
                    {
+                       "name":  "Benda Bilili!",
+                       "year":  2010,
+                       "genres":  [
+                                      "Documentary",
+                                      "Music"
+                                  ],
+                       "rating":  6.3,
+                       "cert":  "GB-PG",
+                       "runtime":  86,
+                       "resolution":  "1038x1916",
+                       "actors":  [
+                                      "L├®on Likabu",
+                                      "Roger Landu",
+                                      "Coco Ngambali Yakala",
+                                      "Theo Nsituvuidi",
+                                      "Claude Kinunu Montana"
+                                  ],
+                       "director":  "Renaud Barret",
+                       "overview":  "Ricky has a dream: to make Staff Benda Bilili the best band in Congo Kinshasa. Roger, a street child, more than ever wants to join these stars of the ghetto, who get around in customized tricycles. To..."
+                   },
+                   {
                        "name":  "Ben-Hur",
                        "year":  1959,
                        "genres":  [
@@ -1303,22 +1361,6 @@
                        "cert":  null,
                        "runtime":  70,
                        "resolution":  "480x710",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
-                       "name":  "Beyond Realism with Brian Ryder",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  61,
-                       "resolution":  "576x698",
                        "actors":  [
 
                                   ],
@@ -1432,8 +1474,8 @@
                        "overview":  "Three 1960s California surfers fool around, drift apart and reunite years later to ride epic waves."
                    },
                    {
-                       "name":  "Biggie.and.Tupac.[Documentary",
-                       "year":  2002,
+                       "name":  "Biggie and Tupac",
+                       "year":  null,
                        "genres":  [
 
                                   ],
@@ -1611,6 +1653,25 @@
                                   ],
                        "director":  "William Friedkin",
                        "overview":  "Pete Bell, a college basketball coach is under a lot of pressure. His team isn\u0027t winning and he cannot attract new players. The stars of the future are secretly being paid by boosters. This practice i..."
+                   },
+                   {
+                       "name":  "Blue Horizon",
+                       "year":  2004,
+                       "genres":  [
+                                      "Documentary"
+                                  ],
+                       "rating":  7,
+                       "cert":  null,
+                       "runtime":  95,
+                       "resolution":  "390x718",
+                       "actors":  [
+                                      "Andy Irons",
+                                      "Dave Rastovich",
+                                      "Kelly Slater",
+                                      "Bruce Irons"
+                                  ],
+                       "director":  "Jack McCoy",
+                       "overview":  "The world\u0027s most renowned surfing cinematographer, Jack McCoy, spends two years following two of the world\u0027s greatest surfers: Andy Irons, a highly competetive and driven surfer, set on beating Kelly..."
                    },
                    {
                        "name":  "The Blues Brothers",
@@ -2343,46 +2404,20 @@
                        "overview":  "After being threatened during a confession, a good-natured priest must battle the dark forces closing in around him."
                    },
                    {
-                       "name":  "Capitalism: A Love Story",
-                       "year":  2009,
+                       "name":  "Capitalism A Love Story",
+                       "year":  2025,
                        "genres":  [
-                                      "Documentary",
-                                      "History"
+
                                   ],
-                       "rating":  7.1,
-                       "cert":  "GB-12A",
+                       "rating":  null,
+                       "cert":  null,
                        "runtime":  122,
                        "resolution":  "576x720",
                        "actors":  [
-                                      "Michael Moore",
-                                      "Elijah Cummings",
-                                      "Marcy Kaptur",
-                                      "Bernie Sanders",
-                                      "Elizabeth Warren"
+
                                   ],
-                       "director":  "Michael Moore",
-                       "overview":  "Michael Moore comes home to the issue he\u0027s been examining throughout his career: the disastrous impact of corporate dominance on the everyday lives of Americans (and by default, the rest of the world)..."
-                   },
-                   {
-                       "name":  "Capitalism: A Love Story",
-                       "year":  2009,
-                       "genres":  [
-                                      "Documentary",
-                                      "History"
-                                  ],
-                       "rating":  7.1,
-                       "cert":  "GB-12A",
-                       "runtime":  127,
-                       "resolution":  null,
-                       "actors":  [
-                                      "Michael Moore",
-                                      "Elijah Cummings",
-                                      "Marcy Kaptur",
-                                      "Bernie Sanders",
-                                      "Elizabeth Warren"
-                                  ],
-                       "director":  "Michael Moore",
-                       "overview":  "Michael Moore comes home to the issue he\u0027s been examining throughout his career: the disastrous impact of corporate dominance on the everyday lives of Americans (and by default, the rest of the world)..."
+                       "director":  null,
+                       "overview":  null
                    },
                    {
                        "name":  "Captain Corelli\u0027s Mandolin",
@@ -4038,27 +4073,19 @@
                    },
                    {
                        "name":  "A Dog\u0027s Purpose",
-                       "year":  2017,
+                       "year":  2025,
                        "genres":  [
-                                      "Adventure",
-                                      "Comedy",
-                                      "Fantasy",
-                                      "Family",
-                                      "Drama"
+
                                   ],
-                       "rating":  7.6,
-                       "cert":  "GB-PG",
+                       "rating":  null,
+                       "cert":  null,
                        "runtime":  96,
                        "resolution":  "428x720",
                        "actors":  [
-                                      "Josh Gad",
-                                      "KJ Apa",
-                                      "Britt Robertson",
-                                      "Dennis Quaid",
-                                      "Peggy Lipton"
+
                                   ],
-                       "director":  "Lasse Hallstr├Âm",
-                       "overview":  "A dog goes on quest to discover his purpose in life over the course of several lifetimes with multiple owners."
+                       "director":  null,
+                       "overview":  null
                    },
                    {
                        "name":  "Don Juan DeMarco",
@@ -4700,6 +4727,27 @@
                        "overview":  "11-year-old Nicolas lives with his mother in a seaside housing estate. The only place that ever sees any activity is the hospital. It is there that all the boys from the village are forced to undergo..."
                    },
                    {
+                       "name":  "Excalibur",
+                       "year":  1981,
+                       "genres":  [
+                                      "Adventure",
+                                      "Fantasy"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-15",
+                       "runtime":  135,
+                       "resolution":  "576x718",
+                       "actors":  [
+                                      "Nigel Terry",
+                                      "Nicol Williamson",
+                                      "Helen Mirren",
+                                      "Nicholas Clay",
+                                      "Paul Geoffrey"
+                                  ],
+                       "director":  "John Boorman",
+                       "overview":  "Arthur fulfills his fate by bringing together the Knights of the Round Table at Camelot and unifying the country. However, this flawed monarch faces greater tests ahead in pursuit of love, the Holy Gr..."
+                   },
+                   {
                        "name":  "Exit Through the Gift Shop",
                        "year":  2010,
                        "genres":  [
@@ -4742,26 +4790,20 @@
                        "overview":  "Maverick cop Orin Boyd always brings down the domestic terrorists he tracks, but he ruffles feathers with his unorthodox techniques -- and soon finds himself reassigned to the toughest district in Det..."
                    },
                    {
-                       "name":  "Exodus: Gods and Kings",
-                       "year":  2014,
+                       "name":  "Exodus Gods and Kings",
+                       "year":  2026,
                        "genres":  [
-                                      "Adventure",
-                                      "Drama",
-                                      "Action"
+
                                   ],
-                       "rating":  5.9,
-                       "cert":  "GB-15",
+                       "rating":  null,
+                       "cert":  null,
                        "runtime":  150,
                        "resolution":  "800x1920",
                        "actors":  [
-                                      "Christian Bale",
-                                      "Joel Edgerton",
-                                      "Ben Kingsley",
-                                      "John Turturro",
-                                      "Aaron Paul"
+
                                   ],
-                       "director":  "Ridley Scott",
-                       "overview":  "The defiant leader Moses rises up against the Egyptian Pharaoh Ramses, setting 400,000 slaves on a monumental journey of escape from Egypt and its terrifying cycle of deadly plagues."
+                       "director":  null,
+                       "overview":  null
                    },
                    {
                        "name":  "Fahrenheit 11/9",
@@ -5174,23 +5216,19 @@
                    },
                    {
                        "name":  "Food Matters",
-                       "year":  2010,
+                       "year":  2008,
                        "genres":  [
-                                      "Documentary"
+
                                   ],
-                       "rating":  6.7,
+                       "rating":  null,
                        "cert":  null,
                        "runtime":  78,
                        "resolution":  "352x640",
                        "actors":  [
-                                      "Andrew Saul",
-                                      "Charlotte Gerson",
-                                      "Dan Rogers",
-                                      "David Wolfe",
-                                      "Ian Brighthope"
+
                                   ],
-                       "director":  "James Colquhoun",
-                       "overview":  "With nutritionally-depleted foods, chemical additives and our tendency to rely upon pharmaceutical drugs to treat what\u0027s wrong with our malnourished bodies, it\u0027s no wonder that modern society is getti..."
+                       "director":  null,
+                       "overview":  null
                    },
                    {
                        "name":  "Footloose",
@@ -6147,6 +6185,28 @@
                        "overview":  "A group of Welsh rugby union fans go over to see Wales play France in the final match of the Six Nations tournament."
                    },
                    {
+                       "name":  "Gravity",
+                       "year":  2013,
+                       "genres":  [
+                                      "Science Fiction",
+                                      "Thriller",
+                                      "Drama"
+                                  ],
+                       "rating":  7.2,
+                       "cert":  "GB-12A",
+                       "runtime":  91,
+                       "resolution":  "800x1920",
+                       "actors":  [
+                                      "Sandra Bullock",
+                                      "George Clooney",
+                                      "Ed Harris",
+                                      "Orto Ignatiussen",
+                                      "Phaldut Sharma"
+                                  ],
+                       "director":  "Alfonso Cuar├│n",
+                       "overview":  "Dr. Ryan Stone, a brilliant medical engineer, is on her first Shuttle mission, with veteran astronaut Matt Kowalski in command of his last flight before retiring. But on a seemingly routine spacewalk,..."
+                   },
+                   {
                        "name":  "The Great Escape",
                        "year":  1963,
                        "genres":  [
@@ -6787,38 +6847,6 @@
                        "overview":  "The movie follows the perspective of several characters (such as Japanese victims, soldiers, American prisoners of war and others) and how they lived or tried to survive the effects felt during the af..."
                    },
                    {
-                       "name":  "History of the Eagles-Part 1",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  120,
-                       "resolution":  "480x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
-                       "name":  "History of Eagles-Part 2",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  68,
-                       "resolution":  "480x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
                        "name":  "Hitchiker\u0027s Guide to the Galaxy",
                        "year":  2026,
                        "genres":  [
@@ -7457,17 +7485,17 @@
                        "name":  "In the Name of the People",
                        "year":  1985,
                        "genres":  [
-                                      "Documentary"
+
                                   ],
-                       "rating":  6,
+                       "rating":  null,
                        "cert":  null,
                        "runtime":  74,
                        "resolution":  "400x528",
                        "actors":  [
-                                      "Martin Sheen"
+
                                   ],
-                       "director":  "Frank Christopher",
-                       "overview":  "In the Name of the People is a 1985 documentary film directed by Frank Christopher about the Salvadoran Civil War. The film follows four filmmakers who secretly entered El Salvador, marched with guerr..."
+                       "director":  null,
+                       "overview":  null
                    },
                    {
                        "name":  "Inception",
@@ -8066,6 +8094,26 @@
                                   ],
                        "director":  "Christian Carion",
                        "overview":  "France, 1914, during World War I. On Christmas Eve, an extraordinary event takes place in the bloody no man\u0027s land that the French and the Scots dispute with the GermansÔÇª"
+                   },
+                   {
+                       "name":  "The Judge",
+                       "year":  2014,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  7.3,
+                       "cert":  "GB-15",
+                       "runtime":  136,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Robert Downey Jr.",
+                                      "Robert Duvall",
+                                      "Vera Farmiga",
+                                      "Vincent D\u0027Onofrio",
+                                      "Jeremy Strong"
+                                  ],
+                       "director":  "David Dobkin",
+                       "overview":  "A successful lawyer returns to his hometown for his mother\u0027s funeral only to discover that his estranged father, the town\u0027s judge, is suspected of murder."
                    },
                    {
                        "name":  "Judy",
@@ -9443,6 +9491,27 @@
                        "overview":  "Dr. Dempsey, an American scientist, is sent to Scotland to disprove the existence of the Loch Ness Monster. He is shocked when Laura, an inn-keeper, introduces him to a small family of Nessie-dinosaur..."
                    },
                    {
+                       "name":  "Lock, Stock and Two Smoking Barrels",
+                       "year":  1998,
+                       "genres":  [
+                                      "Comedy",
+                                      "Crime"
+                                  ],
+                       "rating":  8.1,
+                       "cert":  "GB-18",
+                       "runtime":  103,
+                       "resolution":  "552x716",
+                       "actors":  [
+                                      "Vinnie Jones",
+                                      "Jason Flemyng",
+                                      "Dexter Fletcher",
+                                      "Nick Moran",
+                                      "Jason Statham"
+                                  ],
+                       "director":  "Guy Ritchie",
+                       "overview":  "A card shark and his unwillingly-enlisted friends need to make a lot of cash quick after losing a sketchy poker match. To do this they decide to pull a heist on a small-time gang who happen to be oper..."
+                   },
+                   {
                        "name":  "The Lone Runner",
                        "year":  1986,
                        "genres":  [
@@ -9484,6 +9553,22 @@
                                   ],
                        "director":  "Ken Annakin",
                        "overview":  "The retelling of June 6, 1944, from the perspectives of the Germans, US, British, Canadians, and the Free French. Marshall Erwin Rommel, touring the defenses being established as part of the Reich\u0027s A..."
+                   },
+                   {
+                       "name":  "The Lord of the Rings The Fellowship of the Ring-extras",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  42,
+                       "resolution":  "574x692",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
                    },
                    {
                        "name":  "The Lord of the Rings: The Fellowship of the Ring",
@@ -10880,6 +10965,29 @@
                        "overview":  "A shy boy is unable to make friends in Yazoo City, Mississippi in 1942, until his parents give him a terrier puppy for his ninth birthday. The dog, which he names Skip, becomes well known and loved th..."
                    },
                    {
+                       "name":  "Mystic River",
+                       "year":  2003,
+                       "genres":  [
+                                      "Thriller",
+                                      "Crime",
+                                      "Drama",
+                                      "Mystery"
+                                  ],
+                       "rating":  7.7,
+                       "cert":  "GB-15",
+                       "runtime":  132,
+                       "resolution":  "426x720",
+                       "actors":  [
+                                      "Sean Penn",
+                                      "Tim Robbins",
+                                      "Kevin Bacon",
+                                      "Laurence Fishburne",
+                                      "Marcia Gay Harden"
+                                  ],
+                       "director":  "Clint Eastwood",
+                       "overview":  "The lives of three men who were childhood friends are shattered when one of them suffers a family tragedy."
+                   },
+                   {
                        "name":  "The Naked Gun",
                        "year":  2025,
                        "genres":  [
@@ -11731,6 +11839,38 @@
                                   ],
                        "director":  "Guillermo del Toro",
                        "overview":  "In postÔÇôcivil war Spain, 10-year-old Ofelia moves with her pregnant mother to live under the control of her cruel stepfather. Drawn into a mysterious labyrinth, she meets a faun who reveals that she..."
+                   },
+                   {
+                       "name":  "Part 1",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  120,
+                       "resolution":  "480x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Part 2",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  68,
+                       "resolution":  "480x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
                    },
                    {
                        "name":  "Passchendale",
@@ -13136,6 +13276,30 @@
                                   ],
                        "director":  "Brian Trenchard-Smith",
                        "overview":  "After the fall of Tobruk in June 1942, U.S. Army sergeant Joe Gunn leads his tank into the Sahara desert, in order to evade advancing Rommel\u0027s forces and reach Allied lines. Along the way he picks up..."
+                   },
+                   {
+                       "name":  "Saints and Soldiers",
+                       "year":  2003,
+                       "genres":  [
+                                      "War",
+                                      "Drama",
+                                      "Action",
+                                      "Adventure",
+                                      "History"
+                                  ],
+                       "rating":  6.3,
+                       "cert":  "GB-15",
+                       "runtime":  87,
+                       "resolution":  "554x688",
+                       "actors":  [
+                                      "Corbin Allred",
+                                      "Alexander Polinsky",
+                                      "Kirby Heyborne",
+                                      "Larry Bagby",
+                                      "Peter Holden"
+                                  ],
+                       "director":  "Ryan Little",
+                       "overview":  "Five American soldiers fighting in Europe during World War II struggle to return to Allied territory after being separated from U.S. forces during the historic Malmedy Massacre."
                    },
                    {
                        "name":  "Salvador",
@@ -15393,6 +15557,27 @@
                        "overview":  "An independent short gay film, filmed as a social experiment on the streets of Myeongdong."
                    },
                    {
+                       "name":  "Tunisian Victory",
+                       "year":  1944,
+                       "genres":  [
+                                      "Documentary",
+                                      "War"
+                                  ],
+                       "rating":  6.2,
+                       "cert":  null,
+                       "runtime":  76,
+                       "resolution":  "530x632",
+                       "actors":  [
+                                      "Leo Genn",
+                                      "Burgess Meredith",
+                                      "Bernard Miles",
+                                      "Jacques Duchesne",
+                                      "George S. Patton"
+                                  ],
+                       "director":  "Frank Capra",
+                       "overview":  "Documentary made by the U.S. Army Signal Corps after the North African campaign."
+                   },
+                   {
                        "name":  "Twelve Monkeys",
                        "year":  1995,
                        "genres":  [
@@ -15844,6 +16029,22 @@
                                   ],
                        "director":  "John Glen",
                        "overview":  "A newly-developed microchip designed by Zorin Industries for the British Government that can survive the electromagnetic radiation caused by a nuclear explosion has landed in the hands of the KGB. Jam..."
+                   },
+                   {
+                       "name":  "Vincent and Theo",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  51,
+                       "resolution":  "576x702",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
                    },
                    {
                        "name":  "Volver",
@@ -16332,6 +16533,28 @@
                                   ],
                        "director":  "Bruce Robinson",
                        "overview":  "Two out-of-work actors -- the anxious, luckless Marwood and his acerbic, alcoholic friend, Withnail -- spend their days drifting between their squalid flat, the unemployment office and the pub. When t..."
+                   },
+                   {
+                       "name":  "The Wolf of Wall Street",
+                       "year":  2013,
+                       "genres":  [
+                                      "Crime",
+                                      "Drama",
+                                      "Comedy"
+                                  ],
+                       "rating":  8,
+                       "cert":  "GB-18",
+                       "runtime":  173,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Leonardo DiCaprio",
+                                      "Jonah Hill",
+                                      "Margot Robbie",
+                                      "Matthew McConaughey",
+                                      "Kyle Chandler"
+                                  ],
+                       "director":  "Martin Scorsese",
+                       "overview":  "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort\u0027s autobiography."
                    },
                    {
                        "name":  "The World Is Not Enough",
@@ -17586,7 +17809,7 @@
                               ],
                    "rating":  7.4,
                    "cert":  "GB-PG",
-                   "episodes":  0,
+                   "episodes":  7,
                    "actors":  [
 
                               ],
@@ -18145,6 +18368,22 @@
                                  ]
                   },
                   {
+                      "name":  "15 Minute Italian",
+                      "year":  2006,
+                      "artist":  "Dorling Kindersley",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
+                      "name":  "15 Minute Italian",
+                      "year":  2006,
+                      "artist":  "Dorling Kindersley",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "16 Greatest Hits",
                       "year":  1987,
                       "artist":  "Little Richard",
@@ -18465,14 +18704,6 @@
                   {
                       "name":  "_Loose Singles",
                       "year":  null,
-                      "artist":  "Funkdoobiest",
-                      "genres":  [
-                                     "Other"
-                                 ]
-                  },
-                  {
-                      "name":  "_Loose Singles",
-                      "year":  null,
                       "artist":  "Raphael Saadiq",
                       "genres":  [
                                      "Other"
@@ -18731,14 +18962,6 @@
                                  ]
                   },
                   {
-                      "name":  "The Acoustic Folk Box (Disc 4)",
-                      "year":  2002,
-                      "artist":  "Fernhill",
-                      "genres":  [
-                                     "British Folk"
-                                 ]
-                  },
-                  {
                       "name":  "Africa 100",
                       "year":  2005,
                       "artist":  "Ayalew Mesfin \u0026 Black Lion Band",
@@ -18938,7 +19161,7 @@
                       "year":  2007,
                       "artist":  "Tinariwen",
                       "genres":  [
-
+                                     "Blues"
                                  ]
                   },
                   {
@@ -19204,6 +19427,14 @@
                                  ]
                   },
                   {
+                      "name":  "Automatic for the People",
+                      "year":  1992,
+                      "artist":  "R.E.M.",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Awfully Deep",
                       "year":  2005,
                       "artist":  "Roots Manuva",
@@ -19305,7 +19536,8 @@
                       "artist":  "Amy Winehouse",
                       "genres":  [
                                      "Alternative",
-                                     "Jazz/Soul"
+                                     "Jazz/Soul",
+                                     "R\u0026B"
                                  ]
                   },
                   {
@@ -19731,6 +19963,14 @@
                                  ]
                   },
                   {
+                      "name":  "The Best Of",
+                      "year":  null,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "The Best Of - Once In A Lifeti",
                       "year":  1992,
                       "artist":  "Talking Heads",
@@ -19848,6 +20088,14 @@
                       "artist":  "Jackson Browne",
                       "genres":  [
                                      "Other"
+                                 ]
+                  },
+                  {
+                      "name":  "The Best of James Bond: 30th Anniversary Collection",
+                      "year":  1992,
+                      "artist":  "Various Artists",
+                      "genres":  [
+
                                  ]
                   },
                   {
@@ -20382,22 +20630,6 @@
                                  ]
                   },
                   {
-                      "name":  "Bonnaroo 6-21-02",
-                      "year":  2002,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Tango"
-                                 ]
-                  },
-                  {
-                      "name":  "Bonus Tracks",
-                      "year":  null,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Other"
-                                 ]
-                  },
-                  {
                       "name":  "Bossa n┬¿Rosses",
                       "year":  2006,
                       "artist":  "Morgan Bianco \u0026 G-Spliff",
@@ -20548,14 +20780,6 @@
                       "year":  2001,
                       "artist":  "Jack Johnson",
                       "genres":  [
-                                     "Acoustic"
-                                 ]
-                  },
-                  {
-                      "name":  "Brushfire Fairytales",
-                      "year":  2001,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
                                      "Rock"
                                  ]
                   },
@@ -20565,22 +20789,6 @@
                       "artist":  "Jack Johnson",
                       "genres":  [
                                      "Rock"
-                                 ]
-                  },
-                  {
-                      "name":  "Brushfire Fairytales",
-                      "year":  2001,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Rock"
-                                 ]
-                  },
-                  {
-                      "name":  "Brushfire Fairytales",
-                      "year":  2001,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Acoustic"
                                  ]
                   },
                   {
@@ -20965,6 +21173,14 @@
                                  ]
                   },
                   {
+                      "name":  "Come Find Yourself",
+                      "year":  1996,
+                      "artist":  "Fun Lovin\u0027 Criminals",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Come Find Yourself [Australia Bonus Tracks]",
                       "year":  1996,
                       "artist":  "Fun Lovin\u0027 Criminals",
@@ -21134,10 +21350,11 @@
                   },
                   {
                       "name":  "Cross Road",
-                      "year":  2026,
+                      "year":  1994,
                       "artist":  "Bon Jovi",
                       "genres":  [
-                                     "Rock"
+                                     "Rock",
+                                     "Pop"
                                  ]
                   },
                   {
@@ -21162,15 +21379,6 @@
                       "artist":  "Supreme NTM \u0026 Cut Killer",
                       "genres":  [
                                      "Hip-Hop"
-                                 ]
-                  },
-                  {
-                      "name":  "Cydeways",
-                      "year":  2001,
-                      "artist":  "The Pharcyde",
-                      "genres":  [
-                                     "Other",
-                                     "Alternative"
                                  ]
                   },
                   {
@@ -21962,7 +22170,7 @@
                       "year":  2011,
                       "artist":  "Ben Howard",
                       "genres":  [
-
+                                     "Pop"
                                  ]
                   },
                   {
@@ -22452,37 +22660,13 @@
                                  ]
                   },
                   {
-                      "name":  "Full Clip",
-                      "year":  1999,
-                      "artist":  "Gang Starr",
-                      "genres":  [
-                                     "Instrumental"
-                                 ]
-                  },
-                  {
-                      "name":  "Full Clip: A Decade of Gang Starr [Clean] Disc 2",
-                      "year":  1999,
-                      "artist":  "Gang Starr",
-                      "genres":  [
-                                     "Rap \u0026 Hip-Hop"
-                                 ]
-                  },
-                  {
                       "name":  "Full Clip: A Decade of Gang Starr Disc 1",
                       "year":  1999,
                       "artist":  "Gang Starr",
                       "genres":  [
                                      "Rap \u0026 Hip-Hop",
-                                     "Hip-Hop"
-                                 ]
-                  },
-                  {
-                      "name":  "Full Clip: A Decade of Gang Starr Disc 2",
-                      "year":  1999,
-                      "artist":  "Gang Starr",
-                      "genres":  [
-                                     "Rap \u0026 Hip-Hop",
-                                     "Hip-Hop"
+                                     "Hip-Hop",
+                                     "Instrumental"
                                  ]
                   },
                   {
@@ -22518,6 +22702,14 @@
                                  ]
                   },
                   {
+                      "name":  "Funkdoobiest",
+                      "year":  null,
+                      "artist":  "Funkdoobiest",
+                      "genres":  [
+                                     "Other"
+                                 ]
+                  },
+                  {
                       "name":  "Funkmaster Flex Presents The",
                       "year":  1995,
                       "artist":  "Various",
@@ -22550,17 +22742,17 @@
                                  ]
                   },
                   {
-                      "name":  "Game Theory",
-                      "year":  2006,
-                      "artist":  "The Roots",
+                      "name":  "G Unit",
+                      "year":  null,
+                      "artist":  "Unknown Artist",
                       "genres":  [
-                                     "Hip-Hop"
+
                                  ]
                   },
                   {
-                      "name":  "Gang Starr / Full Clip: A Deca",
-                      "year":  null,
-                      "artist":  "Gang Starr_cd2",
+                      "name":  "Game Theory",
+                      "year":  2006,
+                      "artist":  "The Roots",
                       "genres":  [
                                      "Hip-Hop"
                                  ]
@@ -22611,6 +22803,14 @@
                       "artist":  "Www.Djleak.Com",
                       "genres":  [
                                      "Hip-Hop"
+                                 ]
+                  },
+                  {
+                      "name":  "Gipsy Kings (Greatest Hits)",
+                      "year":  1994,
+                      "artist":  "Gipsy Kings",
+                      "genres":  [
+                                     "World"
                                  ]
                   },
                   {
@@ -22678,6 +22878,14 @@
                                  ]
                   },
                   {
+                      "name":  "Goodbye Country (Hello Nightclub)",
+                      "year":  null,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "gotta go there to come back",
                       "year":  2004,
                       "artist":  "Stereophonics",
@@ -22710,6 +22918,14 @@
                       "genres":  [
                                      "Folk",
                                      "Alternative"
+                                 ]
+                  },
+                  {
+                      "name":  "Great Film Themes",
+                      "year":  1995,
+                      "artist":  "Various Artists",
+                      "genres":  [
+
                                  ]
                   },
                   {
@@ -22875,22 +23091,6 @@
                       "artist":  "Fleetwood Mac/Peter Green",
                       "genres":  [
                                      "Rock"
-                                 ]
-                  },
-                  {
-                      "name":  "Groove Armada - Goodbye Country (Hello Nightclub)",
-                      "year":  null,
-                      "artist":  null,
-                      "genres":  [
-
-                                 ]
-                  },
-                  {
-                      "name":  "Groove.Armada.-.The.Best.Of.(2004).-Sodium_2004_Release",
-                      "year":  null,
-                      "artist":  null,
-                      "genres":  [
-
                                  ]
                   },
                   {
@@ -23315,7 +23515,7 @@
                       "year":  2014,
                       "artist":  "Ben Howard",
                       "genres":  [
-
+                                     "Singer \u0026 Songwriter"
                                  ]
                   },
                   {
@@ -23468,35 +23668,11 @@
                                  ]
                   },
                   {
-                      "name":  "In Between Dreams",
-                      "year":  2005,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Acoustic"
-                                 ]
-                  },
-                  {
-                      "name":  "In Between Dreams",
-                      "year":  2005,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Acoustic"
-                                 ]
-                  },
-                  {
                       "name":  "In Between Dreams [Bonus Track]",
                       "year":  2005,
                       "artist":  "Jack Johnson",
                       "genres":  [
                                      "Alternative"
-                                 ]
-                  },
-                  {
-                      "name":  "In Between Dreams [Bonus Track]",
-                      "year":  2005,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Folk"
                                  ]
                   },
                   {
@@ -23660,6 +23836,14 @@
                                  ]
                   },
                   {
+                      "name":  "It Takes a Thief",
+                      "year":  2026,
+                      "artist":  "Coolio",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Italian Phrasebook and CD",
                       "year":  2026,
                       "artist":  "Collins",
@@ -23729,6 +23913,14 @@
                       "artist":  "Mos Def",
                       "genres":  [
                                      "Rap \u0026 Hip Hop"
+                                 ]
+                  },
+                  {
+                      "name":  "James Bond Themes",
+                      "year":  2013,
+                      "artist":  "The London Theatre Orchestra",
+                      "genres":  [
+                                     "Films/Games"
                                  ]
                   },
                   {
@@ -24107,6 +24299,14 @@
                                  ]
                   },
                   {
+                      "name":  "Legend: The Best of Bob Marley and The Wailers",
+                      "year":  1984,
+                      "artist":  "Bob Marley \u0026 The Wailers",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Legendary 1969 Rochester Sessions",
                       "year":  null,
                       "artist":  "Son House",
@@ -24443,6 +24643,14 @@
                                  ]
                   },
                   {
+                      "name":  "The Live EP",
+                      "year":  2007,
+                      "artist":  "The Black Keys",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Live EP",
                       "year":  2006,
                       "artist":  "Audioslave",
@@ -24694,6 +24902,14 @@
                                  ]
                   },
                   {
+                      "name":  "Louder Than Bombs",
+                      "year":  1994,
+                      "artist":  "The Smiths",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Louder Than War",
                       "year":  2001,
                       "artist":  "Manic Street Preachers",
@@ -24768,7 +24984,7 @@
                       "year":  2012,
                       "artist":  "The Lumineers",
                       "genres":  [
-
+                                     "Alternative"
                                  ]
                   },
                   {
@@ -24825,6 +25041,14 @@
                       "artist":  "Big Mama",
                       "genres":  [
                                      "Latin"
+                                 ]
+                  },
+                  {
+                      "name":  "Mariah Carey",
+                      "year":  1990,
+                      "artist":  "Mariah Carey",
+                      "genres":  [
+                                     "Rock"
                                  ]
                   },
                   {
@@ -24958,10 +25182,10 @@
                   },
                   {
                       "name":  "Melangell",
-                      "year":  2026,
+                      "year":  2019,
                       "artist":  "Llio Rhydderch",
                       "genres":  [
-
+                                     "Alternative"
                                  ]
                   },
                   {
@@ -25073,14 +25297,6 @@
                       "artist":  "Martin Harley",
                       "genres":  [
                                      "Blues"
-                                 ]
-                  },
-                  {
-                      "name":  "Moment Of Truth",
-                      "year":  1998,
-                      "artist":  "Gang Starr",
-                      "genres":  [
-                                     "Hip-Hop"
                                  ]
                   },
                   {
@@ -25401,6 +25617,14 @@
                                  ]
                   },
                   {
+                      "name":  "Musique, Volume 1: 1993ÔÇô2005",
+                      "year":  2006,
+                      "artist":  "Daft Punk",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "My Guitar and Me",
                       "year":  2002,
                       "artist":  "Hubert Sumlin",
@@ -25440,6 +25664,14 @@
                       "artist":  "Bob Marley \u0026 the Wailers",
                       "genres":  [
                                      "Reggae"
+                                 ]
+                  },
+                  {
+                      "name":  "NATUR",
+                      "year":  2025,
+                      "artist":  "Eve Goodman + SERA",
+                      "genres":  [
+
                                  ]
                   },
                   {
@@ -25719,11 +25951,11 @@
                                  ]
                   },
                   {
-                      "name":  "On and On",
-                      "year":  2003,
-                      "artist":  "Jack Johnson",
+                      "name":  "Off the Wall",
+                      "year":  1990,
+                      "artist":  "Michael Jackson",
                       "genres":  [
-                                     "Acoustic"
+
                                  ]
                   },
                   {
@@ -25732,14 +25964,6 @@
                       "artist":  "Jack Johnson",
                       "genres":  [
                                      "Acoustic"
-                                 ]
-                  },
-                  {
-                      "name":  "On And On",
-                      "year":  2003,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Rock"
                                  ]
                   },
                   {
@@ -25855,7 +26079,7 @@
                       "year":  2009,
                       "artist":  "Biffy Clyro",
                       "genres":  [
-                                     "Alternative"
+
                                  ]
                   },
                   {
@@ -26692,6 +26916,14 @@
                                  ]
                   },
                   {
+                      "name":  "Remember Me Promo",
+                      "year":  2026,
+                      "artist":  "British Sea Power",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "The Renaissance",
                       "year":  2008,
                       "artist":  "Q-Tip",
@@ -26706,6 +26938,14 @@
                       "genres":  [
                                      "Rock",
                                      "Punk"
+                                 ]
+                  },
+                  {
+                      "name":  "Reservoir Dogs: Music From the Original Motion Picture Soundtrack",
+                      "year":  1992,
+                      "artist":  "Various Artists",
+                      "genres":  [
+
                                  ]
                   },
                   {
@@ -27075,7 +27315,7 @@
                       "year":  1996,
                       "artist":  "Fugees (Refugee Camp)",
                       "genres":  [
-
+                                     "alternative hip hop"
                                  ]
                   },
                   {
@@ -27330,18 +27570,27 @@
                   },
                   {
                       "name":  "Singles collection - CD ONE",
-                      "year":  2026,
+                      "year":  1999,
                       "artist":  "Cher",
                       "genres":  [
-
+                                     "Pop"
                                  ]
                   },
                   {
                       "name":  "Singles Collection - CD TWO",
-                      "year":  2026,
+                      "year":  1999,
                       "artist":  "Cher",
                       "genres":  [
-                                     "rock"
+                                     "rock",
+                                     "Pop"
+                                 ]
+                  },
+                  {
+                      "name":  "Skeleton Key EP",
+                      "year":  2002,
+                      "artist":  "The Coral",
+                      "genres":  [
+                                     "indie rock"
                                  ]
                   },
                   {
@@ -27535,14 +27784,6 @@
                       "artist":  "Various Artists",
                       "genres":  [
                                      "Rap \u0026 Hip-Hop"
-                                 ]
-                  },
-                  {
-                      "name":  "Soundboy rock",
-                      "year":  2007,
-                      "artist":  "Groove Armada",
-                      "genres":  [
-                                     "Other"
                                  ]
                   },
                   {
@@ -27901,6 +28142,14 @@
                                  ]
                   },
                   {
+                      "name":  "Surrender",
+                      "year":  1999,
+                      "artist":  "The Chemical Brothers",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Swimfan Soundtrack",
                       "year":  2002,
                       "artist":  "Pacifier",
@@ -28045,27 +28294,11 @@
                                  ]
                   },
                   {
-                      "name":  "Thicker Than Water OST",
-                      "year":  2003,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Soundtrack"
-                                 ]
-                  },
-                  {
                       "name":  "Thicker Than Water: Music From a Film by Jack Johnson and the Malloys",
                       "year":  2003,
                       "artist":  "Various Artists",
                       "genres":  [
 
-                                 ]
-                  },
-                  {
-                      "name":  "Thicker Than Water: Original Soundtrack",
-                      "year":  2003,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Soundtrack"
                                  ]
                   },
                   {
@@ -28337,14 +28570,6 @@
                                  ]
                   },
                   {
-                      "name":  "To The sea",
-                      "year":  2010,
-                      "artist":  "Jack Johnson",
-                      "genres":  [
-                                     "Folk"
-                                 ]
-                  },
-                  {
                       "name":  "Tom Jones \u0026 Jools Holland",
                       "year":  2004,
                       "artist":  "Tom Jones/Jools Holland",
@@ -28374,6 +28599,14 @@
                       "artist":  "Barrington Levy",
                       "genres":  [
                                      "Reggae"
+                                 ]
+                  },
+                  {
+                      "name":  "TOTAL UNIVERSE MAN",
+                      "year":  null,
+                      "artist":  "Goons Of Doom",
+                      "genres":  [
+                                     "Other"
                                  ]
                   },
                   {
@@ -28841,6 +29074,14 @@
                                  ]
                   },
                   {
+                      "name":  "Unknown disc (0WRD)",
+                      "year":  2026,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Unknown disc (1MGY)",
                       "year":  2026,
                       "artist":  null,
@@ -28860,6 +29101,14 @@
                       "name":  "Unknown disc (SICF)",
                       "year":  2012,
                       "artist":  "Karriem Riggins",
+                      "genres":  [
+                                     "Rap/Hip Hop"
+                                 ]
+                  },
+                  {
+                      "name":  "Unknown disc (Y5RW)",
+                      "year":  2026,
+                      "artist":  null,
                       "genres":  [
 
                                  ]
@@ -28942,18 +29191,6 @@
                       "artist":  "Mark Ronson",
                       "genres":  [
                                      "Pop"
-                                 ]
-                  },
-                  {
-                      "name":  "Vertigo",
-                      "year":  1999,
-                      "artist":  "Groove Armada",
-                      "genres":  [
-                                     "misc",
-                                     "Techno",
-                                     "genre",
-                                     "Chill out",
-                                     "Other"
                                  ]
                   },
                   {
