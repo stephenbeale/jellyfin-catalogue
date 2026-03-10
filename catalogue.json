@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-07T14:09:14Z",
+    "updated":  "2026-03-10T17:53:19Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -22,6 +22,22 @@
                                   ],
                        "director":  "Delmer Daves",
                        "overview":  "Dan Evans, a small time farmer, is hired to escort Ben Wade, a dangerous outlaw, to Yuma. As Evans and Wade wait for the 3:10 train to Yuma, Wade\u0027s gang is racing to free him."
+                   },
+                   {
+                       "name":  "10cc Alive: The Classic Hits Tour",
+                       "year":  1995,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  87,
+                       "resolution":  "576x700",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  "10CC play their greatest hits live on stage."
                    },
                    {
                        "name":  "12 Years a Slave",
@@ -126,6 +142,28 @@
                                   ],
                        "director":  "Walter Grauman",
                        "overview":  "When Norwegian resistance leader Lieutenant Erik Bergman reports the location of a German V-2 rocket fuel plant, the Royal Air Force\u0027s 633 Squadron is assigned the mission to destroy it. The plant is..."
+                   },
+                   {
+                       "name":  "1917",
+                       "year":  2019,
+                       "genres":  [
+                                      "War",
+                                      "History",
+                                      "Drama"
+                                  ],
+                       "rating":  8,
+                       "cert":  "GB-15",
+                       "runtime":  114,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "George MacKay",
+                                      "Dean-Charles Chapman",
+                                      "Mark Strong",
+                                      "Andrew Scott",
+                                      "Richard Madden"
+                                  ],
+                       "director":  "Sam Mendes",
+                       "overview":  "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers."
                    },
                    {
                        "name":  "2001: A Space Odyssey",
@@ -588,6 +626,28 @@
                        "overview":  "The true story of Louisa Gould, a widow living in Nazi occupied Jersey, who takes in a Russian prisoner of war."
                    },
                    {
+                       "name":  "Ant-Man and the Wasp",
+                       "year":  2018,
+                       "genres":  [
+                                      "Action",
+                                      "Adventure",
+                                      "Science Fiction"
+                                  ],
+                       "rating":  6.9,
+                       "cert":  "GB-12A",
+                       "runtime":  113,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Paul Rudd",
+                                      "Evangeline Lilly",
+                                      "Michael Douglas",
+                                      "Hannah John-Kamen",
+                                      "Randall Park"
+                                  ],
+                       "director":  "Peyton Reed",
+                       "overview":  "Just when his time under house arrest is about to end, Scott Lang once again puts his freedom at risk to help Hope van Dyne and Dr. Hank Pym dive into the quantum realm and try to accomplish, against..."
+                   },
+                   {
                        "name":  "Any Given Sunday",
                        "year":  1999,
                        "genres":  [
@@ -708,6 +768,27 @@
                                   ],
                        "director":  null,
                        "overview":  null
+                   },
+                   {
+                       "name":  "The Art of Getting By",
+                       "year":  2011,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  6.6,
+                       "cert":  "GB-12",
+                       "runtime":  80,
+                       "resolution":  "426x720",
+                       "actors":  [
+                                      "Freddie Highmore",
+                                      "Emma Roberts",
+                                      "Michael Angarano",
+                                      "Elizabeth Reaser",
+                                      "Alicia Silverstone"
+                                  ],
+                       "director":  "Gavin Wiesen",
+                       "overview":  "George, a lonely and fatalistic teen who\u0027s made it all the way to his senior year without ever having done a real day of work, is befriended by Sally, a popular but complicated girl who recognizes in..."
                    },
                    {
                        "name":  "Artifical Intelligence",
@@ -1474,22 +1555,6 @@
                        "overview":  "Three 1960s California surfers fool around, drift apart and reunite years later to ride epic waves."
                    },
                    {
-                       "name":  "Biggie and Tupac",
-                       "year":  null,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  106,
-                       "resolution":  "336x552",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
                        "name":  "Bitter Moon",
                        "year":  1992,
                        "genres":  [
@@ -1556,23 +1621,42 @@
                        "overview":  "When U.S. Rangers and an elite Delta Force team attempt to kidnap two underlings of a Somali warlord, their Black Hawk helicopters are shot down, and the Americans suffer heavy casualties, facing inte..."
                    },
                    {
-                       "name":  "Black Narcissus",
-                       "year":  1929,
+                       "name":  "Black Narcissus-Feature",
+                       "year":  2026,
                        "genres":  [
-                                      "Comedy"
+
                                   ],
                        "rating":  null,
                        "cert":  null,
                        "runtime":  101,
                        "resolution":  "1080x1476",
                        "actors":  [
-                                      "Ford Washington Lee",
-                                      "John \u0027Bubbles\u0027 Sublett",
-                                      "Beulah Hall Jones",
-                                      "Emmett King"
+
                                   ],
-                       "director":  "Paul Powell",
-                       "overview":  "First episode in the Buck \u0026 Bubbles 2-reel comedy series."
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Black Panther",
+                       "year":  2018,
+                       "genres":  [
+                                      "Action",
+                                      "Adventure",
+                                      "Science Fiction"
+                                  ],
+                       "rating":  7.4,
+                       "cert":  "GB-12A",
+                       "runtime":  129,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Chadwick Boseman",
+                                      "Michael B. Jordan",
+                                      "Lupita Nyong\u0027o",
+                                      "Danai Gurira",
+                                      "Martin Freeman"
+                                  ],
+                       "director":  "Ryan Coogler",
+                       "overview":  "King T\u0027Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country\u0027s new leader. However, T\u0027Challa soon finds that he is challenged for the throne..."
                    },
                    {
                        "name":  "Blindsided: The Game",
@@ -1790,6 +1874,27 @@
                                   ],
                        "director":  "Mick Jackson",
                        "overview":  "A former Secret Service agent grudgingly takes an assignment to protect a pop idol who\u0027s threatened by a crazed fan. At first, the safety-obsessed bodyguard and the self-indulgent diva totally clash...."
+                   },
+                   {
+                       "name":  "Bohemian Rhapsody",
+                       "year":  2018,
+                       "genres":  [
+                                      "Music",
+                                      "Drama"
+                                  ],
+                       "rating":  8,
+                       "cert":  "GB-12A",
+                       "runtime":  135,
+                       "resolution":  "804x1920",
+                       "actors":  [
+                                      "Rami Malek",
+                                      "Gwilym Lee",
+                                      "Ben Hardy",
+                                      "Joseph Mazzello",
+                                      "Lucy Boynton"
+                                  ],
+                       "director":  "Bryan Singer",
+                       "overview":  "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock \u0027n\u0027 roll band Queen in 1970. Hit songs become ins..."
                    },
                    {
                        "name":  "Borstal Boy",
@@ -2525,6 +2630,22 @@
                                   ],
                        "director":  "Martin Campbell",
                        "overview":  "Le Chiffre, a banker to the world\u0027s terrorists, is scheduled to participate in a high-stakes poker game in Montenegro, where he intends to use his winnings to establish his financial grip on the terro..."
+                   },
+                   {
+                       "name":  "Casper",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  96,
+                       "resolution":  "552x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
                    },
                    {
                        "name":  "Cast Away",
@@ -3836,6 +3957,27 @@
                        "overview":  "Diamonds are stolen only to be sold again in the international market. James Bond infiltrates a smuggling mission to find out who\u0027s guilty. The mission takes him to Las Vegas where Bond meets his arch..."
                    },
                    {
+                       "name":  "Diana",
+                       "year":  2009,
+                       "genres":  [
+                                      "Short",
+                                      "Drama"
+                                  ],
+                       "rating":  3.2,
+                       "cert":  null,
+                       "runtime":  108,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "Neeraj Singh",
+                                      "Ann Barnett",
+                                      "Edita Floren",
+                                      "Tuba Duman",
+                                      "Nadia Elaine Magnaguagno"
+                                  ],
+                       "director":  "Aleem Khan",
+                       "overview":  "A  young transgender woman rejected by her family in India, lives alone in London, working as a prostitute to pay for hormone therapy. Aleem KhanÔÇÖs remarkable short film is set in 1997 in the wake o..."
+                   },
+                   {
                        "name":  "The Dictator",
                        "year":  2012,
                        "genres":  [
@@ -4073,19 +4215,27 @@
                    },
                    {
                        "name":  "A Dog\u0027s Purpose",
-                       "year":  2025,
+                       "year":  2017,
                        "genres":  [
-
+                                      "Adventure",
+                                      "Comedy",
+                                      "Fantasy",
+                                      "Family",
+                                      "Drama"
                                   ],
-                       "rating":  null,
-                       "cert":  null,
+                       "rating":  7.6,
+                       "cert":  "GB-PG",
                        "runtime":  96,
                        "resolution":  "428x720",
                        "actors":  [
-
+                                      "Josh Gad",
+                                      "KJ Apa",
+                                      "Britt Robertson",
+                                      "Dennis Quaid",
+                                      "Peggy Lipton"
                                   ],
-                       "director":  null,
-                       "overview":  null
+                       "director":  "Lasse Hallstr├Âm",
+                       "overview":  "A dog goes on quest to discover his purpose in life over the course of several lifetimes with multiple owners."
                    },
                    {
                        "name":  "Don Juan DeMarco",
@@ -4790,20 +4940,26 @@
                        "overview":  "Maverick cop Orin Boyd always brings down the domestic terrorists he tracks, but he ruffles feathers with his unorthodox techniques -- and soon finds himself reassigned to the toughest district in Det..."
                    },
                    {
-                       "name":  "Exodus Gods and Kings",
-                       "year":  2026,
+                       "name":  "Exodus: Gods and Kings",
+                       "year":  2014,
                        "genres":  [
-
+                                      "Adventure",
+                                      "Drama",
+                                      "Action"
                                   ],
-                       "rating":  null,
-                       "cert":  null,
+                       "rating":  5.9,
+                       "cert":  "GB-15",
                        "runtime":  150,
                        "resolution":  "800x1920",
                        "actors":  [
-
+                                      "Christian Bale",
+                                      "Joel Edgerton",
+                                      "Ben Kingsley",
+                                      "John Turturro",
+                                      "Aaron Paul"
                                   ],
-                       "director":  null,
-                       "overview":  null
+                       "director":  "Ridley Scott",
+                       "overview":  "The defiant leader Moses rises up against the Egyptian Pharaoh Ramses, setting 400,000 slaves on a monumental journey of escape from Egypt and its terrifying cycle of deadly plagues."
                    },
                    {
                        "name":  "Fahrenheit 11/9",
@@ -5216,19 +5372,23 @@
                    },
                    {
                        "name":  "Food Matters",
-                       "year":  2008,
+                       "year":  2010,
                        "genres":  [
-
+                                      "Documentary"
                                   ],
-                       "rating":  null,
+                       "rating":  6.7,
                        "cert":  null,
                        "runtime":  78,
                        "resolution":  "352x640",
                        "actors":  [
-
+                                      "Andrew Saul",
+                                      "Charlotte Gerson",
+                                      "Dan Rogers",
+                                      "David Wolfe",
+                                      "Ian Brighthope"
                                   ],
-                       "director":  null,
-                       "overview":  null
+                       "director":  "James Colquhoun",
+                       "overview":  "With nutritionally-depleted foods, chemical additives and our tendency to rely upon pharmaceutical drugs to treat what\u0027s wrong with our malnourished bodies, it\u0027s no wonder that modern society is getti..."
                    },
                    {
                        "name":  "Footloose",
@@ -5293,6 +5453,28 @@
                                   ],
                        "director":  "John Glen",
                        "overview":  "A British spy ship has sunk and on board was a hi-tech encryption device. James Bond is sent to find the device that holds British launching instructions before the enemy Soviets get to it first."
+                   },
+                   {
+                       "name":  "Ford v Ferrari",
+                       "year":  2019,
+                       "genres":  [
+                                      "Drama",
+                                      "Action",
+                                      "History"
+                                  ],
+                       "rating":  8,
+                       "cert":  "GB-12A",
+                       "runtime":  146,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Matt Damon",
+                                      "Christian Bale",
+                                      "Jon Bernthal",
+                                      "Caitr├¡ona Balfe",
+                                      "Josh Lucas"
+                                  ],
+                       "director":  "James Mangold",
+                       "overview":  "American car designer Carroll Shelby and the British-born driver Ken Miles work together to battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary r..."
                    },
                    {
                        "name":  "Forks Over Knives",
@@ -6207,6 +6389,27 @@
                        "overview":  "Dr. Ryan Stone, a brilliant medical engineer, is on her first Shuttle mission, with veteran astronaut Matt Kowalski in command of his last flight before retiring. But on a seemingly routine spacewalk,..."
                    },
                    {
+                       "name":  "Grease",
+                       "year":  1978,
+                       "genres":  [
+                                      "Romance",
+                                      "Comedy"
+                                  ],
+                       "rating":  7.4,
+                       "cert":  "GB-PG",
+                       "runtime":  106,
+                       "resolution":  "434x720",
+                       "actors":  [
+                                      "Olivia Newton-John",
+                                      "John Travolta",
+                                      "Stockard Channing",
+                                      "Jeff Conaway",
+                                      "Barry Pearl"
+                                  ],
+                       "director":  "Randal Kleiser",
+                       "overview":  "Australian good girl Sandy and greaser Danny fell in love over the summer. But when they unexpectedly discover they\u0027re now in the same high school, will they be able to rekindle their romance despite..."
+                   },
+                   {
                        "name":  "The Great Escape",
                        "year":  1963,
                        "genres":  [
@@ -6437,6 +6640,50 @@
                                   ],
                        "director":  "Lasse Hallstr├Âm",
                        "overview":  "Professor Wilson discovers a lost Akita puppy on his way home. Despite objections from his wife, Hachi endears himself to the family and grows to be Parker\u0027s loyal companion. As their bond grows deepe..."
+                   },
+                   {
+                       "name":  "Half of a Yellow Sun",
+                       "year":  2013,
+                       "genres":  [
+                                      "Romance",
+                                      "Drama"
+                                  ],
+                       "rating":  4.9,
+                       "cert":  "R",
+                       "runtime":  111,
+                       "resolution":  "804x1920",
+                       "actors":  [
+                                      "Chiwetel Ejiofor",
+                                      "Thandiwe Newton",
+                                      "Anika Noni Rose",
+                                      "Joseph Mawle",
+                                      "John Boyega"
+                                  ],
+                       "director":  "Biyi Bandele",
+                       "overview":  "An epic love story: Olanna and Kainene are glamorous twins, living a privileged city life in newly independent 1960s Nigeria. The two women make very different choices of lovers, but rivalry and betra..."
+                   },
+                   {
+                       "name":  "Halls of Montezuma",
+                       "year":  1951,
+                       "genres":  [
+                                      "Adventure",
+                                      "Drama",
+                                      "Action",
+                                      "War"
+                                  ],
+                       "rating":  5.9,
+                       "cert":  "GB-U",
+                       "runtime":  109,
+                       "resolution":  "576x706",
+                       "actors":  [
+                                      "Richard Widmark",
+                                      "Jack Palance",
+                                      "Reginald Gardiner",
+                                      "Robert Wagner",
+                                      "Karl Malden"
+                                  ],
+                       "director":  "Lewis Milestone",
+                       "overview":  "Richard Widmark leads an all star cast of marine leathernecks including Jack Palance, Robert Wagner, Karl Malden, Richard Boone and Jack Webb into battle on a heavily fortified island. This action-pac..."
                    },
                    {
                        "name":  "Hannibal",
@@ -7485,17 +7732,17 @@
                        "name":  "In the Name of the People",
                        "year":  1985,
                        "genres":  [
-
+                                      "Documentary"
                                   ],
-                       "rating":  null,
+                       "rating":  6,
                        "cert":  null,
                        "runtime":  74,
                        "resolution":  "400x528",
                        "actors":  [
-
+                                      "Martin Sheen"
                                   ],
-                       "director":  null,
-                       "overview":  null
+                       "director":  "Frank Christopher",
+                       "overview":  "In the Name of the People is a 1985 documentary film directed by Frank Christopher about the Salvadoran Civil War. The film follows four filmmakers who secretly entered El Salvador, marched with guerr..."
                    },
                    {
                        "name":  "Inception",
@@ -8377,6 +8624,26 @@
                        "overview":  "Bullied at school and ignored and abused at home by his indifferent mother and older brother, Billy Casper, a 15-year-old working-class Yorkshire boy, tames and trains his pet kestrel falcon whom he n..."
                    },
                    {
+                       "name":  "Khalifa Part 1",
+                       "year":  2026,
+                       "genres":  [
+                                      "Action",
+                                      "Crime"
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  120,
+                       "resolution":  "480x720",
+                       "actors":  [
+                                      "Prithviraj Sukumaran",
+                                      "Mohanlal",
+                                      "Indrans",
+                                      "Neil Nitin Mukesh"
+                                  ],
+                       "director":  "Vysakh",
+                       "overview":  "Set against the backdrop of gold smuggling, the film follows a man (Aamir Ali) drawn into a web of vengeance, legacy and power."
+                   },
+                   {
                        "name":  "The Killing Fields",
                        "year":  1984,
                        "genres":  [
@@ -8643,6 +8910,26 @@
                                   ],
                        "director":  null,
                        "overview":  null
+                   },
+                   {
+                       "name":  "Ladies \u0026 Gentlemen, the Rolling Stones",
+                       "year":  1973,
+                       "genres":  [
+                                      "Music"
+                                  ],
+                       "rating":  5.6,
+                       "cert":  "GB-PG",
+                       "runtime":  82,
+                       "resolution":  "480x716",
+                       "actors":  [
+                                      "Mick Jagger",
+                                      "Keith Richards",
+                                      "Charlie Watts",
+                                      "Bill Wyman",
+                                      "Mick Taylor"
+                                  ],
+                       "director":  "Rollin Binzer",
+                       "overview":  "A concert film taken from two Rolling Stones concerts during their 1972 North American tour. In 1972, the Stones bring their Exile on Main Street tour to Texas: 15 songs, with five from the \"Exile\" al..."
                    },
                    {
                        "name":  "The Lady in the Van",
@@ -9873,6 +10160,27 @@
                        "overview":  "A tribute to the controversial black activist and leader of the struggle for black liberation. He hit bottom during his imprisonment in the \u002750s, he became a Black Muslim and then a leader in the Nati..."
                    },
                    {
+                       "name":  "Mamma Mia!",
+                       "year":  2008,
+                       "genres":  [
+                                      "Comedy",
+                                      "Romance"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-PG",
+                       "runtime":  104,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Meryl Streep",
+                                      "Amanda Seyfried",
+                                      "Pierce Brosnan",
+                                      "Colin Firth",
+                                      "Stellan Skarsg├Ñrd"
+                                  ],
+                       "director":  "Phyllida Lloyd",
+                       "overview":  "A spirited young bride-to-be living with her single mother on a small Greek island secretly invites three of her mother\u0027s ex-boyfriends in hope of finding her biological father to walk her down the ai..."
+                   },
+                   {
                        "name":  "A Man Called Otto",
                        "year":  2022,
                        "genres":  [
@@ -10200,6 +10508,27 @@
                                   ],
                        "director":  "Ridley Scott",
                        "overview":  "A phobic con artist and his protege are on the verge of pulling off a lucrative swindle when the con artist\u0027s teenage daughter arrives unexpectedly."
+                   },
+                   {
+                       "name":  "The Matrix",
+                       "year":  1999,
+                       "genres":  [
+                                      "Action",
+                                      "Science Fiction"
+                                  ],
+                       "rating":  8.2,
+                       "cert":  "GB-15",
+                       "runtime":  131,
+                       "resolution":  "422x720",
+                       "actors":  [
+                                      "Keanu Reeves",
+                                      "Laurence Fishburne",
+                                      "Carrie-Anne Moss",
+                                      "Hugo Weaving",
+                                      "Gloria Foster"
+                                  ],
+                       "director":  "Lana Wachowski",
+                       "overview":  "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth."
                    },
                    {
                        "name":  "The Matrix Reloaded",
@@ -11213,6 +11542,38 @@
                        "overview":  "A drama about explorer John Smith and the clash between Native Americans and English settlers in the 17th century."
                    },
                    {
+                       "name":  "Night at the Museum",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  104,
+                       "resolution":  "556x718",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Night at the Museum-extras",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  16,
+                       "resolution":  "546x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
                        "name":  "Nirvana: Unplugged In New York",
                        "year":  1993,
                        "genres":  [
@@ -11841,38 +12202,6 @@
                        "overview":  "In postÔÇôcivil war Spain, 10-year-old Ofelia moves with her pregnant mother to live under the control of her cruel stepfather. Drawn into a mysterious labyrinth, she meets a faun who reveals that she..."
                    },
                    {
-                       "name":  "Part 1",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  120,
-                       "resolution":  "480x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
-                       "name":  "Part 2",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  68,
-                       "resolution":  "480x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
                        "name":  "Passchendale",
                        "year":  2025,
                        "genres":  [
@@ -12400,6 +12729,27 @@
                                   ],
                        "director":  "Christopher Nolan",
                        "overview":  "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences."
+                   },
+                   {
+                       "name":  "Pretty Woman",
+                       "year":  1990,
+                       "genres":  [
+                                      "Romance",
+                                      "Comedy"
+                                  ],
+                       "rating":  7.5,
+                       "cert":  "GB-15",
+                       "runtime":  120,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "Richard Gere",
+                                      "Julia Roberts",
+                                      "Ralph Bellamy",
+                                      "Jason Alexander",
+                                      "Laura San Giacomo"
+                                  ],
+                       "director":  "Garry Marshall",
+                       "overview":  "While on a business trip in Los Angeles, Edward Lewis, a millionaire entrepreneur who makes a living buying and breaking up companies, picks up a prostitute, Vivian, while asking for directions; after..."
                    },
                    {
                        "name":  "The Promise of Music",
@@ -13232,6 +13582,27 @@
                                   ],
                        "director":  "Andrzej Bartkowiak",
                        "overview":  "Two warring gang families (one African-American, the other Chinese) maneuver for bragging rights to the Oakland, California, docks. Hang Sing and Trish O\u0027Day uncover a trail of deceit that leaves most..."
+                   },
+                   {
+                       "name":  "Run Fatboy Run",
+                       "year":  2007,
+                       "genres":  [
+                                      "Comedy",
+                                      "Romance"
+                                  ],
+                       "rating":  6.2,
+                       "cert":  "GB-12A",
+                       "runtime":  96,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Simon Pegg",
+                                      "Thandiwe Newton",
+                                      "Hank Azaria",
+                                      "Dylan Moran",
+                                      "Harish Patel"
+                                  ],
+                       "director":  "David Schwimmer",
+                       "overview":  "Five years after jilting his pregnant fianc├®e on their wedding day, out-of-shape Dennis decides to run a marathon to win her back."
                    },
                    {
                        "name":  "Rush",
@@ -14857,6 +15228,28 @@
                        "overview":  "Two men share an odd friendship while they care for two women who are both in deep comas."
                    },
                    {
+                       "name":  "Tea with Mussolini",
+                       "year":  1999,
+                       "genres":  [
+                                      "Comedy",
+                                      "Drama",
+                                      "War"
+                                  ],
+                       "rating":  6.4,
+                       "cert":  "GB-PG",
+                       "runtime":  113,
+                       "resolution":  "552x710",
+                       "actors":  [
+                                      "Maggie Smith",
+                                      "Judi Dench",
+                                      "Joan Plowright",
+                                      "Cher",
+                                      "Lily Tomlin"
+                                  ],
+                       "director":  "Franco Zeffirelli",
+                       "overview":  "In 1930s fascist Italy, adolescent Luca just lost his mother. His father, a callous businessman, sends him to be taken care of by British expatriate Mary Wallace. Mary and her cultured friends - inclu..."
+                   },
+                   {
                        "name":  "Team America: Building the World",
                        "year":  2005,
                        "genres":  [
@@ -16344,6 +16737,29 @@
                        "overview":  "The story of the first major battle of the American phase of the Vietnam War and the soldiers on both sides that fought it."
                    },
                    {
+                       "name":  "Weird Science",
+                       "year":  1985,
+                       "genres":  [
+                                      "Comedy",
+                                      "Fantasy",
+                                      "Science Fiction",
+                                      "Romance"
+                                  ],
+                       "rating":  6.5,
+                       "cert":  "GB-12",
+                       "runtime":  90,
+                       "resolution":  "552x718",
+                       "actors":  [
+                                      "Anthony Michael Hall",
+                                      "Kelly LeBrock",
+                                      "Ilan Mitchell-Smith",
+                                      "Bill Paxton",
+                                      "Suzanne Snyder"
+                                  ],
+                       "director":  "John Hughes",
+                       "overview":  "Two unpopular teenagers, Gary and Wyatt, fail at all attempts to be accepted by their peers. Their desperation to be liked leads them to \"create\" a woman via their computer. Their living and breathing..."
+                   },
+                   {
                        "name":  "West Side Story",
                        "year":  2021,
                        "genres":  [
@@ -16406,6 +16822,27 @@
                                   ],
                        "director":  "Ron Shelton",
                        "overview":  "Two street basketball hustlers try to con each other, then team up for a bigger score."
+                   },
+                   {
+                       "name":  "Who Killed Biggie and Tupac?",
+                       "year":  2022,
+                       "genres":  [
+                                      "Documentary",
+                                      "Crime"
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  106,
+                       "resolution":  "336x552",
+                       "actors":  [
+                                      "Stephanie A. Frederic",
+                                      "Greg Kading",
+                                      "Robert Ladd",
+                                      "Cathy Scott",
+                                      "Lil\u0027 Cease"
+                                  ],
+                       "director":  "Kim Duke",
+                       "overview":  "25 years of contempt, controversy, and conspiracy all lead to the same single question: who killed Biggie and Tupac? Now, with exclusive interviews and unique insight into both shootings, this series..."
                    },
                    {
                        "name":  "The Wild Bunch",
@@ -16512,6 +16949,29 @@
                                   ],
                        "director":  "Martin Koolhoven",
                        "overview":  "During World War II in the freezing winter of 1944-45 the western Netherlands are in the grip of a famine. Many people move east to provide for their families. Fourteen year old Michiel can\u0027t wait to..."
+                   },
+                   {
+                       "name":  "The Witch: Part 2. The Other One",
+                       "year":  2022,
+                       "genres":  [
+                                      "Action",
+                                      "Mystery",
+                                      "Thriller",
+                                      "Science Fiction"
+                                  ],
+                       "rating":  7.4,
+                       "cert":  "GB-18",
+                       "runtime":  68,
+                       "resolution":  "480x720",
+                       "actors":  [
+                                      "Shin Sia",
+                                      "Park Eun-bin",
+                                      "Seo Eun-soo",
+                                      "Jin Goo",
+                                      "Sung Yu-been"
+                                  ],
+                       "director":  "Park Hoon-jung",
+                       "overview":  "A girl wakes up in a huge secret laboratory, then accidentally meets another girl who is trying to protect her house from a gang. The mystery girl overthrows the gang with her unexpected powers, and l..."
                    },
                    {
                        "name":  "Withnail \u0026 I",
@@ -18631,14 +19091,6 @@
                   {
                       "name":  "_Loose Singles",
                       "year":  null,
-                      "artist":  "Gypsy Kings",
-                      "genres":  [
-                                     "Other"
-                                 ]
-                  },
-                  {
-                      "name":  "_Loose Singles",
-                      "year":  null,
                       "artist":  "Nice and Smooth",
                       "genres":  [
 
@@ -18683,14 +19135,6 @@
                       "artist":  "Donell Jones ft Left Eye",
                       "genres":  [
                                      "Other"
-                                 ]
-                  },
-                  {
-                      "name":  "_Loose Singles",
-                      "year":  null,
-                      "artist":  "Unknown Artist",
-                      "genres":  [
-
                                  ]
                   },
                   {
@@ -19905,6 +20349,14 @@
                                  ]
                   },
                   {
+                      "name":  "Bella Donna",
+                      "year":  1990,
+                      "artist":  "Stevie Nicks",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Beneath The Boardwalk",
                       "year":  2004,
                       "artist":  "Arctic Monkeys",
@@ -19964,7 +20416,7 @@
                   },
                   {
                       "name":  "The Best Of",
-                      "year":  null,
+                      "year":  2019,
                       "artist":  null,
                       "genres":  [
 
@@ -21189,6 +21641,14 @@
                                  ]
                   },
                   {
+                      "name":  "Come of Age",
+                      "year":  2012,
+                      "artist":  "The Vaccines",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Coming Up",
                       "year":  2003,
                       "artist":  "Ozomatli",
@@ -21476,6 +21936,14 @@
                       "artist":  "Bill Hicks",
                       "genres":  [
                                      "Comedy"
+                                 ]
+                  },
+                  {
+                      "name":  "Dangerous Minds: Music From the Motion Picture",
+                      "year":  1995,
+                      "artist":  "Various Artists",
+                      "genres":  [
+
                                  ]
                   },
                   {
@@ -22533,6 +23001,14 @@
                                  ]
                   },
                   {
+                      "name":  "Forever Faithless: The Greatest Hits",
+                      "year":  2005,
+                      "artist":  "Faithless",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Forty Licks - Disc 1",
                       "year":  null,
                       "artist":  "The Rolling Stones",
@@ -22703,7 +23179,7 @@
                   },
                   {
                       "name":  "Funkdoobiest",
-                      "year":  null,
+                      "year":  1994,
                       "artist":  "Funkdoobiest",
                       "genres":  [
                                      "Other"
@@ -22814,14 +23290,6 @@
                                  ]
                   },
                   {
-                      "name":  "Gipsy Kings (Greatest Hits)",
-                      "year":  1994,
-                      "artist":  "Gipsy Kings",
-                      "genres":  [
-                                     "World"
-                                 ]
-                  },
-                  {
                       "name":  "Give",
                       "year":  2007,
                       "artist":  "Greg Gobel",
@@ -22879,7 +23347,7 @@
                   },
                   {
                       "name":  "Goodbye Country (Hello Nightclub)",
-                      "year":  null,
+                      "year":  2001,
                       "artist":  null,
                       "genres":  [
 
@@ -22909,6 +23377,14 @@
                       "artist":  "Kanye West",
                       "genres":  [
                                      "Hip-Hop"
+                                 ]
+                  },
+                  {
+                      "name":  "A Grand DonÔÇÖt Come for Free",
+                      "year":  2004,
+                      "artist":  "The Streets",
+                      "genres":  [
+
                                  ]
                   },
                   {
@@ -23083,6 +23559,14 @@
                       "artist":  "A.B. Quintanilla III Present Kumbia Kings",
                       "genres":  [
                                      "Latin"
+                                 ]
+                  },
+                  {
+                      "name":  "Green Man \u002711",
+                      "year":  2026,
+                      "artist":  "Various",
+                      "genres":  [
+
                                  ]
                   },
                   {
@@ -24841,6 +25325,22 @@
                                  ]
                   },
                   {
+                      "name":  "Long Road Out Of Eden (Disc 2)",
+                      "year":  2007,
+                      "artist":  "Eagles",
+                      "genres":  [
+                                     "Rock"
+                                 ]
+                  },
+                  {
+                      "name":  "Long Road Out Of Eden CD 1",
+                      "year":  2007,
+                      "artist":  "Eagles",
+                      "genres":  [
+                                     "Rock"
+                                 ]
+                  },
+                  {
                       "name":  "The Long Run",
                       "year":  1979,
                       "artist":  "Eagles",
@@ -25927,6 +26427,14 @@
                                  ]
                   },
                   {
+                      "name":  "O",
+                      "year":  2003,
+                      "artist":  "Damien Rice",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Oasis - Greatest Hits CD1",
                       "year":  null,
                       "artist":  "Oasis",
@@ -26390,6 +26898,14 @@
                       "artist":  "Various Artists",
                       "genres":  [
                                      "Soul"
+                                 ]
+                  },
+                  {
+                      "name":  "Play",
+                      "year":  1999,
+                      "artist":  "Moby",
+                      "genres":  [
+
                                  ]
                   },
                   {
@@ -27674,6 +28190,14 @@
                                  ]
                   },
                   {
+                      "name":  "So Much for the City",
+                      "year":  2003,
+                      "artist":  "The Thrills",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "Solace",
                       "year":  2004,
                       "artist":  "Xavier Rudd",
@@ -27714,6 +28238,14 @@
                       "name":  "Solid Air",
                       "year":  2000,
                       "artist":  "John Martyn",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
+                      "name":  "Some Cities",
+                      "year":  2005,
+                      "artist":  "Doves",
                       "genres":  [
 
                                  ]
@@ -28367,6 +28899,14 @@
                                  ]
                   },
                   {
+                      "name":  "This Is My Truth Tell Me Yours",
+                      "year":  1998,
+                      "artist":  "Manic Street Preachers",
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
                       "name":  "This Place is too DArk",
                       "year":  1985,
                       "artist":  "Barrington  Levy",
@@ -28599,14 +29139,6 @@
                       "artist":  "Barrington Levy",
                       "genres":  [
                                      "Reggae"
-                                 ]
-                  },
-                  {
-                      "name":  "TOTAL UNIVERSE MAN",
-                      "year":  null,
-                      "artist":  "Goons Of Doom",
-                      "genres":  [
-                                     "Other"
                                  ]
                   },
                   {
@@ -29109,6 +29641,14 @@
                       "name":  "Unknown disc (Y5RW)",
                       "year":  2026,
                       "artist":  null,
+                      "genres":  [
+
+                                 ]
+                  },
+                  {
+                      "name":  "UnpluggedÔÇª and Seated",
+                      "year":  1993,
+                      "artist":  "Rod Stewart",
                       "genres":  [
 
                                  ]
