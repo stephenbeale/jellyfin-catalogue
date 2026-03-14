@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-11T06:21:27Z",
+    "updated":  "2026-03-14T19:55:57Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -24,8 +24,8 @@
                        "overview":  "Dan Evans, a small time farmer, is hired to escort Ben Wade, a dangerous outlaw, to Yuma. As Evans and Wade wait for the 3:10 train to Yuma, Wade\u0027s gang is racing to free him."
                    },
                    {
-                       "name":  "10cc Alive: The Classic Hits Tour",
-                       "year":  1995,
+                       "name":  "10CC Alive The Classic Hits Tour",
+                       "year":  2026,
                        "genres":  [
 
                                   ],
@@ -37,7 +37,7 @@
 
                                   ],
                        "director":  null,
-                       "overview":  "10CC play their greatest hits live on stage."
+                       "overview":  null
                    },
                    {
                        "name":  "12 Years a Slave",
@@ -1621,20 +1621,24 @@
                        "overview":  "When U.S. Rangers and an elite Delta Force team attempt to kidnap two underlings of a Somali warlord, their Black Hawk helicopters are shot down, and the Americans suffer heavy casualties, facing inte..."
                    },
                    {
-                       "name":  "Black Narcissus-Feature",
-                       "year":  2026,
+                       "name":  "Black Narcissus",
+                       "year":  1947,
                        "genres":  [
-
+                                      "Drama"
                                   ],
-                       "rating":  null,
-                       "cert":  null,
+                       "rating":  7.5,
+                       "cert":  "GB-U",
                        "runtime":  101,
                        "resolution":  "1080x1476",
                        "actors":  [
-
+                                      "Deborah Kerr",
+                                      "Sabu",
+                                      "David Farrar",
+                                      "Flora Robson",
+                                      "Esmond Knight"
                                   ],
-                       "director":  null,
-                       "overview":  null
+                       "director":  "Emeric Pressburger",
+                       "overview":  "A group of Anglican nuns, led by Sister Clodagh, are sent to a mountain in the Himalayas. The climate in the region is hostile and the nuns are housed in an odd old palace. They work to establish a sc..."
                    },
                    {
                        "name":  "Black Panther",
@@ -5772,6 +5776,27 @@
                                   ],
                        "director":  "Peter Avanzino",
                        "overview":  "Leela becomes an outlaw when she and a group of ecologically-minded feminists attempt to save an asteroid of primitive life forms and the Violet Dwarf star from being destroyed, while Fry joins a secr..."
+                   },
+                   {
+                       "name":  "Gambit",
+                       "year":  2012,
+                       "genres":  [
+                                      "Comedy",
+                                      "Crime"
+                                  ],
+                       "rating":  5.5,
+                       "cert":  "GB-12A",
+                       "runtime":  89,
+                       "resolution":  "816x1920",
+                       "actors":  [
+                                      "Colin Firth",
+                                      "Cameron Diaz",
+                                      "Alan Rickman",
+                                      "Tom Courtenay",
+                                      "Stanley Tucci"
+                                  ],
+                       "director":  "Michael Hoffman",
+                       "overview":  "An art curator decides to seek revenge on his abusive boss by conning him into buying a fake Monet, but his plan requires the help of an eccentric and unpredictable Texas rodeo queen."
                    },
                    {
                        "name":  "Gandhi",
@@ -14667,6 +14692,598 @@
                        "overview":  "Russian and British submarines with nuclear missiles on board both vanish from sight without a trace. England and Russia both blame each other as James Bond tries to solve the riddle of the disappeari..."
                    },
                    {
+                       "name":  "Spy_t00",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  0,
+                       "resolution":  "968x1476",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t01",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  5,
+                       "resolution":  "1080x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t02",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  120,
+                       "resolution":  "804x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t03",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  3,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t04",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  2,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t05",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  4,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t06",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  2,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t07",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  2,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t08",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  4,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t09",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  4,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t10",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  32,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t11",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  130,
+                       "resolution":  "804x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t12",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  5,
+                       "resolution":  "1080x1916",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t13",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  7,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t14",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  9,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t15",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  8,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t16",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  5,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t17",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  2,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t18",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  4,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t19",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  13,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t20",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  2,
+                       "resolution":  "788x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t21",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  11,
+                       "resolution":  "1080x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t22",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  3,
+                       "resolution":  "1014x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t23",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  6,
+                       "resolution":  "1080x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t24",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  6,
+                       "resolution":  "1080x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t25",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  5,
+                       "resolution":  "804x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t26",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  5,
+                       "resolution":  "1080x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t27",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  4,
+                       "resolution":  "1080x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t28",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  2,
+                       "resolution":  "804x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t29",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  3,
+                       "resolution":  "804x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t30",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  3,
+                       "resolution":  "804x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t31",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  5,
+                       "resolution":  "804x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t32",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  3,
+                       "resolution":  "804x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t33",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  2,
+                       "resolution":  "804x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t34",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  2,
+                       "resolution":  "804x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t35",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  4,
+                       "resolution":  "1080x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Spy_t36",
+                       "year":  null,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  null,
+                       "resolution":  null,
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
                        "name":  "Stalingrad",
                        "year":  1993,
                        "genres":  [
@@ -16422,22 +17039,6 @@
                                   ],
                        "director":  "John Glen",
                        "overview":  "A newly-developed microchip designed by Zorin Industries for the British Government that can survive the electromagnetic radiation caused by a nuclear explosion has landed in the hands of the KGB. Jam..."
-                   },
-                   {
-                       "name":  "Vincent and Theo",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  51,
-                       "resolution":  "576x702",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "Volver",
