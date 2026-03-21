@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-21T06:54:56Z",
+    "updated":  "2026-03-21T19:50:24Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -186,22 +186,6 @@
                                   ],
                        "director":  "Stanley Kubrick",
                        "overview":  "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world\u0027s most advanced super computer."
-                   },
-                   {
-                       "name":  "A1_T00-1",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  102,
-                       "resolution":  "426x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "AC/DC: Live At Donington",
@@ -584,6 +568,27 @@
                        "overview":  "Loosely based on the criminal career of Frank Lucas, a gangster from La Grange, North Carolina, who smuggled heroin into the United States on American service planes returning from the Vietnam War, be..."
                    },
                    {
+                       "name":  "Amores Perros",
+                       "year":  2000,
+                       "genres":  [
+                                      "Drama",
+                                      "Thriller"
+                                  ],
+                       "rating":  7.6,
+                       "cert":  "GB-18",
+                       "runtime":  148,
+                       "resolution":  "576x706",
+                       "actors":  [
+                                      "Emilio Echevarr├¡a",
+                                      "Gael Garc├¡a Bernal",
+                                      "Vanessa Bauche",
+                                      "Goya Toledo",
+                                      "├ülvaro Guerrero"
+                                  ],
+                       "director":  "Alejandro Gonz├ílez I├▒├írritu",
+                       "overview":  "A fatalistic car crash in Mexico city sets off a chain of events in the lives of three people: a supermodel, a young man wanting to run off with his sister-in-law, and a homeless man."
+                   },
+                   {
                        "name":  "Angels \u0026 Demons",
                        "year":  2009,
                        "genres":  [
@@ -892,70 +897,6 @@
                                   ],
                        "director":  "George T. Miller",
                        "overview":  "A 1920s mail pilot and a rich man\u0027s daughter crash-land on a mountain full of hungry wolves."
-                   },
-                   {
-                       "name":  "B1_T04-2",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  44,
-                       "resolution":  "426x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
-                       "name":  "B2_T02-3",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  22,
-                       "resolution":  "572x704",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
-                       "name":  "B3_T03-4",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  13,
-                       "resolution":  "570x708",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
-                       "name":  "B4_T01-5",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  15,
-                       "resolution":  "570x708",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "Babel",
@@ -6091,8 +6032,8 @@
                                   ],
                        "rating":  6.3,
                        "cert":  "GB-12",
-                       "runtime":  3,
-                       "resolution":  "414x706",
+                       "runtime":  108,
+                       "resolution":  "426x720",
                        "actors":  [
                                       "Stephen Lang",
                                       "Jeff Daniels",
@@ -6102,38 +6043,6 @@
                                   ],
                        "director":  "Ronald F. Maxwell",
                        "overview":  "The film centers mostly around the personal and professional life of Thomas \"Stonewall\" Jackson, a brilliant if eccentric Confederate general, from the outbreak of the American Civil War until its hal..."
-                   },
-                   {
-                       "name":  "Gods and Generals-Disc 1",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  108,
-                       "resolution":  "426x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
-                   },
-                   {
-                       "name":  "Gods and Generals-Disc 2",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  102,
-                       "resolution":  "426x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null
                    },
                    {
                        "name":  "Gods and Generals-Part 1",
