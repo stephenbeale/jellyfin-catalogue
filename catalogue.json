@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-20T19:40:40Z",
+    "updated":  "2026-03-21T06:54:56Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -6102,6 +6102,38 @@
                                   ],
                        "director":  "Ronald F. Maxwell",
                        "overview":  "The film centers mostly around the personal and professional life of Thomas \"Stonewall\" Jackson, a brilliant if eccentric Confederate general, from the outbreak of the American Civil War until its hal..."
+                   },
+                   {
+                       "name":  "Gods and Generals-Disc 1",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  108,
+                       "resolution":  "426x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
+                   },
+                   {
+                       "name":  "Gods and Generals-Disc 2",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  102,
+                       "resolution":  "426x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null
                    },
                    {
                        "name":  "Gods and Generals-Part 1",
