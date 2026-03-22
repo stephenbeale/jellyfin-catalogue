@@ -101,6 +101,7 @@ SELECT
     t.CommunityRating,
     t.RunTimeTicks,
     t.Overview,
+    t.DateCreated,
     ms.Width AS ResWidth,
     ms.Height AS ResHeight
 FROM TypedBaseItems t
@@ -126,6 +127,7 @@ foreach ($m in $moviesRaw) {
     }
     $actors = if ($actorsMap.ContainsKey($m.Id)) { ,$actorsMap[$m.Id] } else { ,@() }
     $director = if ($directorMap.ContainsKey($m.Id)) { $directorMap[$m.Id] } else { $null }
+    $dateAdded = if ($m.DateCreated) { ($m.DateCreated -replace ' ','T').Substring(0,10) } else { $null }
     $movies += [ordered]@{
         name       = $m.Name
         year       = $m.ProductionYear
@@ -137,6 +139,7 @@ foreach ($m in $moviesRaw) {
         actors     = $actors
         director   = $director
         overview   = Truncate-Overview $m.Overview
+        dateAdded  = $dateAdded
     }
 }
 Write-Host "  Found $($movies.Count) movies"
@@ -152,6 +155,7 @@ SELECT
     s.OfficialRating,
     s.CommunityRating,
     s.Overview,
+    s.DateCreated,
     (SELECT COUNT(*) FROM TypedBaseItems e
      WHERE e.type = 'MediaBrowser.Controller.Entities.TV.Episode'
        AND e.SeriesName = s.Name) AS EpisodeCount
@@ -168,16 +172,18 @@ foreach ($s in $tvRaw) {
     }
     $actors = if ($actorsMap.ContainsKey($s.Id)) { ,$actorsMap[$s.Id] } else { ,@() }
     $director = if ($directorMap.ContainsKey($s.Id)) { $directorMap[$s.Id] } else { $null }
+    $dateAdded = if ($s.DateCreated) { ($s.DateCreated -replace ' ','T').Substring(0,10) } else { $null }
     $tv += [ordered]@{
-        name     = $s.Name
-        year     = $s.ProductionYear
-        genres   = Split-Genres $s.Genres
-        rating   = $rating
-        cert     = if ($s.OfficialRating) { $s.OfficialRating } else { $null }
-        episodes = [int]$s.EpisodeCount
-        actors   = $actors
-        director = $director
-        overview = Truncate-Overview $s.Overview
+        name      = $s.Name
+        year      = $s.ProductionYear
+        genres    = Split-Genres $s.Genres
+        rating    = $rating
+        cert      = if ($s.OfficialRating) { $s.OfficialRating } else { $null }
+        episodes  = [int]$s.EpisodeCount
+        actors    = $actors
+        director  = $director
+        overview  = Truncate-Overview $s.Overview
+        dateAdded = $dateAdded
     }
 }
 Write-Host "  Found $($tv.Count) TV series"
@@ -189,7 +195,8 @@ SELECT
     Name,
     ProductionYear,
     AlbumArtists,
-    Genres
+    Genres,
+    DateCreated
 FROM TypedBaseItems
 WHERE type = 'MediaBrowser.Controller.Entities.Audio.MusicAlbum'
 ORDER BY SortName;
@@ -204,11 +211,13 @@ foreach ($a in $musicRaw) {
         $artist = ($a.AlbumArtists -split '\|')[0].Trim()
         if ($artist -eq '') { $artist = $null }
     }
+    $dateAdded = if ($a.DateCreated) { ($a.DateCreated -replace ' ','T').Substring(0,10) } else { $null }
     $music += [ordered]@{
-        name   = $albumName
-        year   = $a.ProductionYear
-        artist = $artist
-        genres = Split-Genres $a.Genres
+        name      = $albumName
+        year      = $a.ProductionYear
+        artist    = $artist
+        genres    = Split-Genres $a.Genres
+        dateAdded = $dateAdded
     }
 }
 Write-Host "  Found $($music.Count) music albums"
