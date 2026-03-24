@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-24T06:11:49Z",
+    "updated":  "2026-03-24T19:34:18Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -354,6 +354,29 @@
                        "director":  "Oliver Stone",
                        "overview":  "Alexander, the King of Macedonia, leads his legions against the giant Persian Empire. After defeating the Persians, he leads his army across the then known world, venturing farther than any westerner...",
                        "dateAdded":  "2025-11-20"
+                   },
+                   {
+                       "name":  "Alfie",
+                       "year":  2004,
+                       "genres":  [
+                                      "Comedy",
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  5.8,
+                       "cert":  "GB-15",
+                       "runtime":  101,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Jude Law",
+                                      "Marisa Tomei",
+                                      "Omar Epps",
+                                      "Jane Krakowski",
+                                      "Ren├®e Taylor"
+                                  ],
+                       "director":  "Charles Shyer",
+                       "overview":  "A tale of a philosophical womanizer who is forced to question his seemingly carefree existence.",
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "Ali",
@@ -3800,6 +3823,28 @@
                        "dateAdded":  "2026-01-11"
                    },
                    {
+                       "name":  "Darkest Hour",
+                       "year":  2017,
+                       "genres":  [
+                                      "Drama",
+                                      "History"
+                                  ],
+                       "rating":  7.4,
+                       "cert":  "GB-PG",
+                       "runtime":  120,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "Gary Oldman",
+                                      "Stephen Dillane",
+                                      "Lily James",
+                                      "Ronald Pickup",
+                                      "Ben Mendelsohn"
+                                  ],
+                       "director":  "Joe Wright",
+                       "overview":  "In May 1940, the fate of World War II hangs on Winston Churchill, who must decide whether to negotiate with Adolf Hitler or fight on knowing that it could mean the end of the British Empire.",
+                       "dateAdded":  "2026-03-24"
+                   },
+                   {
                        "name":  "Dave",
                        "year":  1993,
                        "genres":  [
@@ -4022,6 +4067,29 @@
                        "director":  "Stanley Kramer",
                        "overview":  "Two convictsÔÇöone white, one blackÔÇöescape while chained to each other.",
                        "dateAdded":  "2025-12-17"
+                   },
+                   {
+                       "name":  "Demolition Man",
+                       "year":  1993,
+                       "genres":  [
+                                      "Crime",
+                                      "Action",
+                                      "Science Fiction"
+                                  ],
+                       "rating":  6.8,
+                       "cert":  "GB-15",
+                       "runtime":  110,
+                       "resolution":  "438x714",
+                       "actors":  [
+                                      "Sylvester Stallone",
+                                      "Wesley Snipes",
+                                      "Sandra Bullock",
+                                      "Nigel Hawthorne",
+                                      "Benjamin Bratt"
+                                  ],
+                       "director":  "Marco Brambilla",
+                       "overview":  "In 1996, brash L.A. detective John Spartan and maniac killer Simon Phoenix are both sentenced to decades in a cryogenic prison as punishment for a rescue mission gone wrong. When Phoenix escapes 36 ye...",
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "The Departed",
@@ -4334,6 +4402,28 @@
                        "director":  "Frank Oz",
                        "overview":  "Con artist Lawrence Jamieson is a longtime resident of a luxurious coastal resort, where he enjoys the lavish fruits of his deceptions -- that is, until a competitor, Freddy Benson, shows up. When the...",
                        "dateAdded":  "2025-12-15"
+                   },
+                   {
+                       "name":  "The Diving Bell and the Butterfly",
+                       "year":  2007,
+                       "genres":  [
+                                      "Drama",
+                                      "History"
+                                  ],
+                       "rating":  7.6,
+                       "cert":  "GB-12",
+                       "runtime":  107,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "Mathieu Amalric",
+                                      "Emmanuelle Seigner",
+                                      "Marie-Jos├®e Croze",
+                                      "Anne Consigny",
+                                      "Patrick Chesnais"
+                                  ],
+                       "director":  "Julian Schnabel",
+                       "overview":  "Jean-Dominique Bauby, editor-in-chief of French fashion bible Elle magazine, has a devastating stroke at age 43. The damage to his brain stem results in locked-in syndrome, with which he is almost com...",
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "Django Unchained",
@@ -4940,6 +5030,29 @@
                        "dateAdded":  "2025-12-08"
                    },
                    {
+                       "name":  "Emma",
+                       "year":  1996,
+                       "genres":  [
+                                      "Romance",
+                                      "Comedy",
+                                      "Drama"
+                                  ],
+                       "rating":  6.6,
+                       "cert":  "GB-U",
+                       "runtime":  116,
+                       "resolution":  "550x714",
+                       "actors":  [
+                                      "Gwyneth Paltrow",
+                                      "Jeremy Northam",
+                                      "Toni Collette",
+                                      "Alan Cumming",
+                                      "Ewan McGregor"
+                                  ],
+                       "director":  "Douglas McGrath",
+                       "overview":  "Emma Woodhouse is a congenial young lady who delights in meddling in other peopleÔÇÖs affairs. She is perpetually trying to unite men and women who are utterly wrong for each other. Despite her intere...",
+                       "dateAdded":  "2026-03-24"
+                   },
+                   {
                        "name":  "The Empire Strikes Back",
                        "year":  1980,
                        "genres":  [
@@ -5228,6 +5341,28 @@
                        "director":  "Michael Moore",
                        "overview":  "Michael Moore\u0027s provocative documentary explores the two most important questions of the Trump Era: How did we get here, and how do we get out.",
                        "dateAdded":  "2026-01-23"
+                   },
+                   {
+                       "name":  "Fame",
+                       "year":  1980,
+                       "genres":  [
+                                      "Drama",
+                                      "Music"
+                                  ],
+                       "rating":  6.4,
+                       "cert":  "GB-15",
+                       "runtime":  128,
+                       "resolution":  "576x716",
+                       "actors":  [
+                                      "Irene Cara",
+                                      "Barry Miller",
+                                      "Maureen Teefy",
+                                      "Paul McCrane",
+                                      "Lee Curreri"
+                                  ],
+                       "director":  "Alan Parker",
+                       "overview":  "A chronicle of the lives of several teenagers who attend a New York high school for students gifted in the performing arts.",
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "Fantasia",
@@ -5701,6 +5836,23 @@
                        "director":  "Sergio Leone",
                        "overview":  "Two bounty hunters both pursue the brutal and sadistic bandit, El Indio, who has a large bounty on his head.",
                        "dateAdded":  "2025-11-28"
+                   },
+                   {
+                       "name":  "For a Few Dollars More-extras",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  126,
+                       "resolution":  "326x716",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "For Your Eyes Only",
@@ -6265,55 +6417,44 @@
                        "dateAdded":  "2025-11-26"
                    },
                    {
-                       "name":  "Gladiator-bonus",
-                       "year":  null,
+                       "name":  "Gladiator",
+                       "year":  2000,
                        "genres":  [
-
+                                      "Action",
+                                      "Drama",
+                                      "Adventure"
                                   ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  null,
-                       "resolution":  null,
+                       "rating":  8.2,
+                       "cert":  "GB-15",
+                       "runtime":  164,
+                       "resolution":  "436x718",
                        "actors":  [
-
+                                      "Russell Crowe",
+                                      "Joaquin Phoenix",
+                                      "Connie Nielsen",
+                                      "Oliver Reed",
+                                      "Richard Harris"
                                   ],
-                       "director":  null,
-                       "overview":  null,
+                       "director":  "Ridley Scott",
+                       "overview":  "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome\u0027s most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiat...",
                        "dateAdded":  "2026-03-23"
                    },
                    {
-                       "name":  "Gladiator-bonus2",
-                       "year":  null,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  null,
-                       "resolution":  null,
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null,
-                       "dateAdded":  "2026-03-23"
-                   },
-                   {
-                       "name":  "Gladiator-Feature",
+                       "name":  "Gladiator-bonus1",
                        "year":  2026,
                        "genres":  [
 
                                   ],
                        "rating":  null,
                        "cert":  null,
-                       "runtime":  164,
-                       "resolution":  "436x718",
+                       "runtime":  197,
+                       "resolution":  "570x698",
                        "actors":  [
 
                                   ],
                        "director":  null,
                        "overview":  null,
-                       "dateAdded":  "2026-03-23"
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "Glengarry Glen Ross",
@@ -6575,6 +6716,27 @@
                        "director":  "Victor Fleming",
                        "overview":  "The spoiled daughter of a Georgia plantation owner conducts a tumultuous romance with a cynical profiteer during the American Civil War and Reconstruction Era.",
                        "dateAdded":  "2026-02-18"
+                   },
+                   {
+                       "name":  "The Good, the Bad and the Ugly",
+                       "year":  1966,
+                       "genres":  [
+                                      "Western"
+                                  ],
+                       "rating":  8.5,
+                       "cert":  null,
+                       "runtime":  156,
+                       "resolution":  "436x718",
+                       "actors":  [
+                                      "Clint Eastwood",
+                                      "Eli Wallach",
+                                      "Lee Van Cleef",
+                                      "Aldo Giuffr├¿",
+                                      "Luigi Pistilli"
+                                  ],
+                       "director":  "Sergio Leone",
+                       "overview":  "While the Civil War rages on between the Union and the Confederacy, three men ÔÇô a quiet loner, a ruthless hitman, and a Mexican bandit ÔÇô comb the American Southwest in search of a strongbox contai...",
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "A Good Day to Die Hard",
@@ -8507,8 +8669,8 @@
                                   ],
                        "rating":  6.8,
                        "cert":  "GB-PG",
-                       "runtime":  86,
-                       "resolution":  "550x702",
+                       "runtime":  103,
+                       "resolution":  "576x720",
                        "actors":  [
                                       "Michael Caine",
                                       "Nigel Green",
@@ -8565,6 +8727,52 @@
                        "director":  "Jon Favreau",
                        "overview":  "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with t...",
                        "dateAdded":  "2026-03-01"
+                   },
+                   {
+                       "name":  "Iron Man 3",
+                       "year":  2013,
+                       "genres":  [
+                                      "Action",
+                                      "Adventure",
+                                      "Science Fiction"
+                                  ],
+                       "rating":  6.9,
+                       "cert":  "GB-12A",
+                       "runtime":  125,
+                       "resolution":  "426x720",
+                       "actors":  [
+                                      "Robert Downey Jr.",
+                                      "Gwyneth Paltrow",
+                                      "Don Cheadle",
+                                      "Guy Pearce",
+                                      "Rebecca Hall"
+                                  ],
+                       "director":  "Shane Black",
+                       "overview":  "When Tony Stark\u0027s world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+                       "dateAdded":  "2026-03-24"
+                   },
+                   {
+                       "name":  "The Italian Job",
+                       "year":  1969,
+                       "genres":  [
+                                      "Crime",
+                                      "Comedy",
+                                      "Thriller"
+                                  ],
+                       "rating":  6.9,
+                       "cert":  "GB-PG",
+                       "runtime":  95,
+                       "resolution":  "436x718",
+                       "actors":  [
+                                      "Michael Caine",
+                                      "No├½l Coward",
+                                      "Benny Hill",
+                                      "Margaret Blye",
+                                      "Raf Vallone"
+                                  ],
+                       "director":  "Peter Collinson",
+                       "overview":  "Charlie\u0027s got a \u0027job\u0027 to do. Having just left prison he finds one of his friends has attempted a high-risk job in Torino, Italy, right under the nose of the mafia. Charlie\u0027s friend doesn\u0027t get very fa...",
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "J. Edgar",
@@ -10461,23 +10669,6 @@
                        "dateAdded":  "2026-02-04"
                    },
                    {
-                       "name":  "The Lord of the Rings The Fellowship of the Ring-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  42,
-                       "resolution":  "574x692",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null,
-                       "dateAdded":  "2026-03-06"
-                   },
-                   {
                        "name":  "The Lord of the Rings: The Fellowship of the Ring",
                        "year":  2001,
                        "genres":  [
@@ -10724,6 +10915,23 @@
                        "director":  "Tom McGrath",
                        "overview":  "Alex, Marty, and other zoo animals find a way to escape from Madagascar when the penguins reassemble a wrecked airplane. The precariously repaired craft stays airborne just long enough to make it to t...",
                        "dateAdded":  "2026-01-17"
+                   },
+                   {
+                       "name":  "Maestro The Reg Harris Story",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  77,
+                       "resolution":  "574x698",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "The Magnificent Seven",
@@ -10997,6 +11205,29 @@
                        "director":  "R.H. Burnside",
                        "overview":  "A wealthy New Yorker falls in love with a burglar\u0027s sister.",
                        "dateAdded":  "2026-01-31"
+                   },
+                   {
+                       "name":  "Marathon Man",
+                       "year":  1976,
+                       "genres":  [
+                                      "Thriller",
+                                      "Crime",
+                                      "Drama"
+                                  ],
+                       "rating":  7.2,
+                       "cert":  "GB-15",
+                       "runtime":  125,
+                       "resolution":  "480x710",
+                       "actors":  [
+                                      "Dustin Hoffman",
+                                      "Laurence Olivier",
+                                      "Roy Scheider",
+                                      "William Devane",
+                                      "Marthe Keller"
+                                  ],
+                       "director":  "John Schlesinger",
+                       "overview":  "A graduate student and obsessive runner in New York is drawn into a mysterious plot involving his brother, a member of the secretive Division.",
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "March or Die",
@@ -11609,6 +11840,29 @@
                        "dateAdded":  "2026-01-12"
                    },
                    {
+                       "name":  "Miss Pettigrew Lives for a Day",
+                       "year":  2008,
+                       "genres":  [
+                                      "Drama",
+                                      "Comedy",
+                                      "Romance"
+                                  ],
+                       "rating":  6.8,
+                       "cert":  "GB-PG",
+                       "runtime":  88,
+                       "resolution":  "434x720",
+                       "actors":  [
+                                      "Frances McDormand",
+                                      "Amy Adams",
+                                      "Lee Pace",
+                                      "Ciar├ín Hinds",
+                                      "Shirley Henderson"
+                                  ],
+                       "director":  "Bharat Nalluri",
+                       "overview":  "London, England, on the eve of World War II. Guinevere Pettigrew, a strict governess who is unable to keep a job, is fired again. Lost in the hostile city, a series of fortunate circumstances lead her...",
+                       "dateAdded":  "2026-03-24"
+                   },
+                   {
                        "name":  "Miss Potter",
                        "year":  2006,
                        "genres":  [
@@ -11651,6 +11905,29 @@
                        "director":  "Jesse Moss",
                        "overview":  "American Christian missionary John Chau was murdered when he tried to illegally contact and convert some of the worldÔÇÖs last uncontacted indigenous people. Through exclusive interviews and archival...",
                        "dateAdded":  "2025-09-28"
+                   },
+                   {
+                       "name":  "Mona Lisa Smile",
+                       "year":  2003,
+                       "genres":  [
+                                      "Drama",
+                                      "History",
+                                      "Romance"
+                                  ],
+                       "rating":  6.9,
+                       "cert":  "GB-12",
+                       "runtime":  114,
+                       "resolution":  "552x718",
+                       "actors":  [
+                                      "Julia Roberts",
+                                      "Kirsten Dunst",
+                                      "Julia Stiles",
+                                      "Maggie Gyllenhaal",
+                                      "Ginnifer Goodwin"
+                                  ],
+                       "director":  "Mike Newell",
+                       "overview":  "Katherine Watson is a recent UCLA graduate hired to teach art history at the prestigious all-female Wellesley College, in 1953. Determined to confront the outdated mores of society and the institution...",
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "Mondays in the Sun",
@@ -13608,8 +13885,8 @@
                                   ],
                        "rating":  7.1,
                        "cert":  "PG",
-                       "runtime":  103,
-                       "resolution":  "576x720",
+                       "runtime":  86,
+                       "resolution":  "550x702",
                        "actors":  [
                                       "Zero Mostel",
                                       "Gene Wilder",
@@ -13619,23 +13896,6 @@
                                   ],
                        "director":  "Mel Brooks",
                        "overview":  "A conniving Broadway producer and his meek accountant plan to profit from charming wealthy old biddies to invest in an overbudget production, and then put on a sure-fire disaster, so nobody will ask f...",
-                       "dateAdded":  "2026-03-15"
-                   },
-                   {
-                       "name":  "The Producers-extras",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  28,
-                       "resolution":  "576x700",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null,
                        "dateAdded":  "2026-03-15"
                    },
                    {
@@ -13962,6 +14222,29 @@
                        "director":  "Francis Ford Coppola",
                        "overview":  "Fresh out of law school and desperate for work, idealistic rookie Rudy Baylor takes on a powerful insurance company accused of denying a dying boyÔÇÖs claim. Teaming up with a scrappy, unlicensed para...",
                        "dateAdded":  "2026-01-12"
+                   },
+                   {
+                       "name":  "Rambo",
+                       "year":  2008,
+                       "genres":  [
+                                      "Action",
+                                      "Thriller",
+                                      "War"
+                                  ],
+                       "rating":  6.7,
+                       "cert":  "GB-18",
+                       "runtime":  92,
+                       "resolution":  "434x702",
+                       "actors":  [
+                                      "Sylvester Stallone",
+                                      "Julie Benz",
+                                      "Matthew Marsden",
+                                      "Graham McTavish",
+                                      "Reynaldo Gallegos"
+                                  ],
+                       "director":  "Sylvester Stallone",
+                       "overview":  "In Thailand, ex-Green Beret John James Rambo joins a group of mercenaries to venture into war-torn neighboring Myanmar to rescue a group of Christian aid workers who have been kidnapped by a ruthless...",
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "Ray",
@@ -15280,8 +15563,8 @@
                                   ],
                        "rating":  8.2,
                        "cert":  "GB-15",
-                       "runtime":  12,
-                       "resolution":  "574x720",
+                       "runtime":  100,
+                       "resolution":  "436x720",
                        "actors":  [
                                       "Leonardo DiCaprio",
                                       "Mark Ruffalo",
@@ -15291,7 +15574,7 @@
                                   ],
                        "director":  "Martin Scorsese",
                        "overview":  "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a...",
-                       "dateAdded":  "2026-03-22"
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "The Silence of the Lambs",
@@ -15751,6 +16034,46 @@
                        "director":  "Sam Raimi",
                        "overview":  "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
                        "dateAdded":  "2026-02-15"
+                   },
+                   {
+                       "name":  "Spider-Man 2",
+                       "year":  2004,
+                       "genres":  [
+                                      "Action",
+                                      "Adventure",
+                                      "Science Fiction"
+                                  ],
+                       "rating":  7.3,
+                       "cert":  "GB-PG",
+                       "runtime":  122,
+                       "resolution":  "428x718",
+                       "actors":  [
+                                      "Tobey Maguire",
+                                      "Kirsten Dunst",
+                                      "James Franco",
+                                      "Alfred Molina",
+                                      "Rosemary Harris"
+                                  ],
+                       "director":  "Sam Raimi",
+                       "overview":  "Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by th...",
+                       "dateAdded":  "2026-03-24"
+                   },
+                   {
+                       "name":  "Spider-Man 2-extras",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  126,
+                       "resolution":  "572x716",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-03-24"
                    },
                    {
                        "name":  "Spider-Man 3",
