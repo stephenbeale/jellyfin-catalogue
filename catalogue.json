@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-25T08:43:44Z",
+    "updated":  "2026-03-26T05:10:32Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -1375,6 +1375,29 @@
                        "dateAdded":  "2025-12-19"
                    },
                    {
+                       "name":  "Bean",
+                       "year":  1997,
+                       "genres":  [
+                                      "Family",
+                                      "Adventure",
+                                      "Comedy"
+                                  ],
+                       "rating":  6.5,
+                       "cert":  "GB-PG",
+                       "runtime":  85,
+                       "resolution":  "550x718",
+                       "actors":  [
+                                      "Rowan Atkinson",
+                                      "Peter MacNicol",
+                                      "Pamela Reed",
+                                      "Tricia Vessey",
+                                      "Andrew Lawrence"
+                                  ],
+                       "director":  "Mel Smith",
+                       "overview":  "Childlike Englishman, Mr. Bean, is an incompetent watchman at the Royal National Gallery. After the museum\u0027s board of directors\u0027 attempt to have him fired is blocked by the chairman, who has taken a l...",
+                       "dateAdded":  "2026-03-25"
+                   },
+                   {
                        "name":  "A Beautiful Mind",
                        "year":  2001,
                        "genres":  [
@@ -1525,6 +1548,25 @@
                        "director":  null,
                        "overview":  null,
                        "dateAdded":  "2026-01-10"
+                   },
+                   {
+                       "name":  "The Best of Spike Milligan",
+                       "year":  2004,
+                       "genres":  [
+                                      "Comedy",
+                                      "Documentary"
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  81,
+                       "resolution":  "574x700",
+                       "actors":  [
+                                      "Spike Milligan",
+                                      "Bruce Hammal"
+                                  ],
+                       "director":  "Alan J.W. Bell",
+                       "overview":  "Widely regarded as the greatest post-war British comedian, Spike Milligan transitioned from the groundbreaking radio comedy The Goons to television without losing any of his anarchic, surreal humor. H...",
+                       "dateAdded":  "2026-03-25"
                    },
                    {
                        "name":  "Big",
@@ -2371,6 +2413,28 @@
                        "dateAdded":  "2025-11-11"
                    },
                    {
+                       "name":  "A Bronx Tale",
+                       "year":  1993,
+                       "genres":  [
+                                      "Drama",
+                                      "Crime"
+                                  ],
+                       "rating":  7.9,
+                       "cert":  "GB-15",
+                       "runtime":  116,
+                       "resolution":  "576x700",
+                       "actors":  [
+                                      "Robert De Niro",
+                                      "Chazz Palminteri",
+                                      "Lillo Brancato",
+                                      "Francis Capra",
+                                      "Taral Hicks"
+                                  ],
+                       "director":  "Robert De Niro",
+                       "overview":  "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster\u0027s growi...",
+                       "dateAdded":  "2026-03-25"
+                   },
+                   {
                        "name":  "The Brothers Grimm",
                        "year":  2005,
                        "genres":  [
@@ -2879,6 +2943,27 @@
                        "dateAdded":  "2025-11-09"
                    },
                    {
+                       "name":  "The Champ",
+                       "year":  1979,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  7,
+                       "cert":  null,
+                       "runtime":  123,
+                       "resolution":  "480x720",
+                       "actors":  [
+                                      "Jon Voight",
+                                      "Faye Dunaway",
+                                      "Rick Schroder",
+                                      "Jack Warden",
+                                      "Arthur Hill"
+                                  ],
+                       "director":  "Franco Zeffirelli",
+                       "overview":  "Billy used to be a great boxer, but he\u0027s settled into a hardscrabble life that revolves around drinking, training horses, and the one bright spot in his existence ÔÇö his young son, T.J. Although Bill...",
+                       "dateAdded":  "2026-03-25"
+                   },
+                   {
                        "name":  "Changes",
                        "year":  1969,
                        "genres":  [
@@ -3208,6 +3293,28 @@
                        "director":  "Stanley Kubrick",
                        "overview":  "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. Th...",
                        "dateAdded":  "2026-01-01"
+                   },
+                   {
+                       "name":  "Close Encounters of the Third Kind",
+                       "year":  1977,
+                       "genres":  [
+                                      "Science Fiction",
+                                      "Drama"
+                                  ],
+                       "rating":  7.4,
+                       "cert":  "GB-PG",
+                       "runtime":  132,
+                       "resolution":  "428x702",
+                       "actors":  [
+                                      "Richard Dreyfuss",
+                                      "Fran├ºois Truffaut",
+                                      "Teri Garr",
+                                      "Melinda Dillon",
+                                      "Bob Balaban"
+                                  ],
+                       "director":  "Steven Spielberg",
+                       "overview":  "After an encounter with UFOs, an electricity linesman feels undeniably drawn to an isolated area in the wilderness where something spectacular is about to happen.",
+                       "dateAdded":  "2026-03-25"
                    },
                    {
                        "name":  "Coach Carter",
@@ -7852,6 +7959,29 @@
                        "dateAdded":  "2025-12-16"
                    },
                    {
+                       "name":  "Homeward Bound: The Incredible Journey",
+                       "year":  1993,
+                       "genres":  [
+                                      "Adventure",
+                                      "Comedy",
+                                      "Family"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-U",
+                       "runtime":  81,
+                       "resolution":  "576x718",
+                       "actors":  [
+                                      "Michael J. Fox",
+                                      "Sally Field",
+                                      "Don Ameche",
+                                      "Kevin Chevalia",
+                                      "Benj Thall"
+                                  ],
+                       "director":  "Duwayne Dunham",
+                       "overview":  "Before the Seavers leave for a family vacation to San Francisco, they drop off their pets -- Chance, an adventurous American bulldog; Shadow, a wise golden retriever; and Sassy, a cautious cat -- at a...",
+                       "dateAdded":  "2026-03-25"
+                   },
+                   {
                        "name":  "Hope and Glory",
                        "year":  1987,
                        "genres":  [
@@ -10934,6 +11064,28 @@
                        "dateAdded":  "2026-03-24"
                    },
                    {
+                       "name":  "The Magdalene Sisters",
+                       "year":  2002,
+                       "genres":  [
+                                      "Drama",
+                                      "History"
+                                  ],
+                       "rating":  7.4,
+                       "cert":  "GB-15",
+                       "runtime":  114,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Anne-Marie Duff",
+                                      "Nora-Jane Noone",
+                                      "Dorothy Duffy",
+                                      "Geraldine McEwan",
+                                      "Eileen Walsh"
+                                  ],
+                       "director":  "Peter Mullan",
+                       "overview":  "Three young Irish women struggle to maintain their spirits while they endure dehumanizing abuse as inmates of a Magdalene Sisters Asylum.",
+                       "dateAdded":  "2026-03-25"
+                   },
+                   {
                        "name":  "The Magnificent Seven",
                        "year":  1960,
                        "genres":  [
@@ -11476,6 +11628,27 @@
                        "director":  null,
                        "overview":  null,
                        "dateAdded":  "2026-01-23"
+                   },
+                   {
+                       "name":  "Me, Myself \u0026 Irene",
+                       "year":  2000,
+                       "genres":  [
+                                      "Comedy"
+                                  ],
+                       "rating":  6.6,
+                       "cert":  "GB-15",
+                       "runtime":  112,
+                       "resolution":  "554x714",
+                       "actors":  [
+                                      "Jim Carrey",
+                                      "Ren├®e Zellweger",
+                                      "Anthony Anderson",
+                                      "Mongo Brownlee",
+                                      "Jerod Mixon"
+                                  ],
+                       "director":  "Peter Farrelly",
+                       "overview":  "Rhode Island State Trooper Charlie Baileygates has a multiple personality disorder. One personality is crazy and aggressive, while the other is more friendly and laid back. Both of these personalities...",
+                       "dateAdded":  "2026-03-25"
                    },
                    {
                        "name":  "Meet Joe Black",
@@ -13363,6 +13536,27 @@
                        "dateAdded":  "2026-02-07"
                    },
                    {
+                       "name":  "Pathfinder",
+                       "year":  1987,
+                       "genres":  [
+                                      "Adventure"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-15",
+                       "runtime":  83,
+                       "resolution":  "436x702",
+                       "actors":  [
+                                      "Mikkel Gaup",
+                                      "Svein Scharffenberg",
+                                      "Ingvald Guttorm",
+                                      "Nils Utsi",
+                                      "Nils-Aslak Valkeap├ñ├ñ"
+                                  ],
+                       "director":  "Nils Gaup",
+                       "overview":  "Around the year 1000 AD warlike people, the so-called \"tjuder\", roam in northern Scandinavia. As they brutally kill a family in a remote area, including the parents and their little daughter, the fami...",
+                       "dateAdded":  "2026-03-25"
+                   },
+                   {
                        "name":  "Paths of Glory",
                        "year":  1957,
                        "genres":  [
@@ -14687,6 +14881,40 @@
                        "dateAdded":  "2026-03-15"
                    },
                    {
+                       "name":  "Robocop Dark Justice",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  91,
+                       "resolution":  "440x706",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-03-25"
+                   },
+                   {
+                       "name":  "Robocop Dark Meltdown",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  78,
+                       "resolution":  "440x706",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-03-25"
+                   },
+                   {
                        "name":  "Rocky",
                        "year":  1976,
                        "genres":  [
@@ -15243,6 +15471,27 @@
                        "dateAdded":  "2026-02-01"
                    },
                    {
+                       "name":  "The Secret of My Success",
+                       "year":  1987,
+                       "genres":  [
+                                      "Comedy"
+                                  ],
+                       "rating":  6.5,
+                       "cert":  "GB-PG",
+                       "runtime":  106,
+                       "resolution":  "410x716",
+                       "actors":  [
+                                      "Michael J. Fox",
+                                      "Helen Slater",
+                                      "Richard Jordan",
+                                      "Margaret Whitton",
+                                      "John Pankow"
+                                  ],
+                       "director":  "Herbert Ross",
+                       "overview":  "Brantley Foster, a well-educated kid from Kansas, has always dreamed of making it big in New York, but once in New York, he learns that jobs - and girls - are hard to get. When Brantley visits his unc...",
+                       "dateAdded":  "2026-03-25"
+                   },
+                   {
                        "name":  "The Secrets of the \u0027Back to the Future\u0027 Trilogy",
                        "year":  1990,
                        "genres":  [
@@ -15442,6 +15691,28 @@
                        "director":  "Chris Bollinger",
                        "overview":  "Former boxing champion is unable to provide for his family and commits suicide. His wife and son, Johnny, are forced to move into a poor, gang-filled neighborhood. Johnny went to private school but no...",
                        "dateAdded":  "2026-03-22"
+                   },
+                   {
+                       "name":  "Shallow Grave",
+                       "year":  1994,
+                       "genres":  [
+                                      "Crime",
+                                      "Thriller"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-18",
+                       "runtime":  89,
+                       "resolution":  "576x718",
+                       "actors":  [
+                                      "Ewan McGregor",
+                                      "Christopher Eccleston",
+                                      "Kerry Fox",
+                                      "Ken Stott",
+                                      "Keith Allen"
+                                  ],
+                       "director":  "Danny Boyle",
+                       "overview":  "When David, Juliet, and Alex find their new roommate dead with a large sum of money, they agree to hide the body and keep the cash. However, this newfound fortune gradually corrodes their friendship.",
+                       "dateAdded":  "2026-03-25"
                    },
                    {
                        "name":  "Sharpe\u0027s Challenge",
@@ -18087,6 +18358,30 @@
                        "director":  null,
                        "overview":  null,
                        "dateAdded":  "2025-12-06"
+                   },
+                   {
+                       "name":  "Waltz with Bashir",
+                       "year":  2008,
+                       "genres":  [
+                                      "Animation",
+                                      "Documentary",
+                                      "Drama",
+                                      "War"
+                                  ],
+                       "rating":  7.7,
+                       "cert":  "GB-18",
+                       "runtime":  87,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Ari Folman",
+                                      "Mickey Leon",
+                                      "Ori Sivan",
+                                      "Yehezkel Lazarov",
+                                      "Ronny Dayag"
+                                  ],
+                       "director":  "Ari Folman",
+                       "overview":  "An Israeli film director interviews fellow veterans of the 1982 invasion of Lebanon to reconstruct his own memories of his term of service in that conflict.",
+                       "dateAdded":  "2026-03-25"
                    },
                    {
                        "name":  "War and Peace",
@@ -21455,6 +21750,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Alright, Still",
+                      "year":  2006,
+                      "artist":  "Lily Allen",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
                       "name":  "Always Outnumbered, Never Outgunned",
                       "year":  2004,
                       "artist":  "The Prodigy",
@@ -23630,6 +23934,42 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Classic",
+                      "year":  2001,
+                      "artist":  "Steve Winwood",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
+                      "name":  "Classic Acoustic",
+                      "year":  2010,
+                      "artist":  "Various",
+                      "genres":  [
+                                     "ballad"
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
+                      "name":  "Classic Acoustic",
+                      "year":  2017,
+                      "artist":  "Various",
+                      "genres":  [
+                                     "contemporary folk"
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
+                      "name":  "Classic Acoustic",
+                      "year":  2017,
+                      "artist":  "Various",
+                      "genres":  [
+                                     "alternative rock"
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
                       "name":  "The Cleaner",
                       "year":  null,
                       "artist":  "Unknown",
@@ -23725,6 +24065,15 @@
                                      "Rock"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Colours of the Wind",
+                      "year":  2026,
+                      "artist":  "Harajuku",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
                   },
                   {
                       "name":  "Come Along \u0026 Ride This Train,",
@@ -24291,6 +24640,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Diamond Life",
+                      "year":  1984,
+                      "artist":  "Sade",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
                       "name":  "Diamonds on the Inside",
                       "year":  2003,
                       "artist":  "Eagle-Eye Cherry",
@@ -24645,6 +25003,15 @@
                                      "Soundtrack"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Echoes of Spain",
+                      "year":  2026,
+                      "artist":  "Isaac Alb├®niz; John Williams",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
                   },
                   {
                       "name":  "Eclectic Mix",
@@ -26069,6 +26436,15 @@
                       "dateAdded":  "2026-03-02"
                   },
                   {
+                      "name":  "The Heart of Song",
+                      "year":  2026,
+                      "artist":  "Morriston RFC Male Voice Choir",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
                       "name":  "Heavy Rhyme Experience, Vol. 1",
                       "year":  1992,
                       "artist":  "The Brand New Heavies",
@@ -26773,6 +27149,15 @@
                       "dateAdded":  "2026-02-22"
                   },
                   {
+                      "name":  "ItÔÇÖs Not Me, ItÔÇÖs You",
+                      "year":  2009,
+                      "artist":  "Lily Allen",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
                       "name":  "It\u0027s Not A Rumour",
                       "year":  2006,
                       "artist":  "Akala",
@@ -27401,6 +27786,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Life in Slow Motion",
+                      "year":  2005,
+                      "artist":  "David Gray",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
                       "name":  "Lifeblood",
                       "year":  2004,
                       "artist":  "Manic Street Preachers",
@@ -27985,6 +28379,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Love Deluxe",
+                      "year":  1992,
+                      "artist":  "Sade",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
                       "name":  "The Love Movement",
                       "year":  1998,
                       "artist":  "A Tribe Called Quest",
@@ -28016,6 +28419,15 @@
                                      "House"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Lovers Rock",
+                      "year":  2000,
+                      "artist":  "Sade",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
                   },
                   {
                       "name":  "The Low End Theory",
@@ -29097,6 +29509,15 @@
                                      "Rap/R\u0026B"
                                  ],
                       "dateAdded":  "2026-03-02"
+                  },
+                  {
+                      "name":  "Noonday Dream",
+                      "year":  2018,
+                      "artist":  "Ben Howard",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
                   },
                   {
                       "name":  "Nothingface",
@@ -30427,6 +30848,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "The Road to Hell",
+                      "year":  1989,
+                      "artist":  "Chris Rea",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
                       "name":  "Robbin\u0027 the Hood",
                       "year":  1994,
                       "artist":  "Sublime",
@@ -30649,6 +31079,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Savage",
+                      "year":  1987,
+                      "artist":  "Eurythmics",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
                       "name":  "School Was My Hustle",
                       "year":  2007,
                       "artist":  "Kidz in the Hall",
@@ -30846,6 +31285,15 @@
                                      "Surf"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Shimli",
+                      "year":  2026,
+                      "artist":  "Cynefin",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
                   },
                   {
                       "name":  "Shine Eye Gal",
@@ -32424,6 +32872,24 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "The Ultimate Collection Disc 1",
+                      "year":  1998,
+                      "artist":  "Santana",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
+                      "name":  "The Ultimate Collection Disc 2",
+                      "year":  1998,
+                      "artist":  "Santana",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
+                  },
+                  {
                       "name":  "The Ultimate Experience",
                       "year":  1993,
                       "artist":  "Jimi Hendrix Experience",
@@ -33245,6 +33711,15 @@
                                      "Rock"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Whoa, Nelly!",
+                      "year":  2001,
+                      "artist":  "Nelly Furtado",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-25"
                   },
                   {
                       "name":  "Whoa, Nelly! [Bonus Tracks]",
