@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-27T21:44:25Z",
+    "updated":  "2026-03-28T17:41:26Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -3699,6 +3699,23 @@
                        "director":  "Tony Scott",
                        "overview":  "After the Cold War, a breakaway Russian republic with nuclear warheads becomes a possible worldwide threat. U.S. submarine Capt. Frank Ramsey signs on a relatively green but highly recommended Lt. Cmd...",
                        "dateAdded":  "2026-03-01"
+                   },
+                   {
+                       "name":  "Cristoforo Colombo-Disc 1",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  94,
+                       "resolution":  "574x682",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-03-27"
                    },
                    {
                        "name":  "The Crow",
@@ -19492,6 +19509,27 @@
                    "director":  null,
                    "overview":  null,
                    "dateAdded":  "2026-01-27"
+               },
+               {
+                   "name":  "Christopher Columbus",
+                   "year":  1985,
+                   "genres":  [
+                                  "Drama",
+                                  "Action \u0026 Adventure"
+                              ],
+                   "rating":  5.3,
+                   "cert":  null,
+                   "episodes":  4,
+                   "actors":  [
+                                  "Gabriel Byrne",
+                                  "Rossano Brazzi",
+                                  "Virna Lisi",
+                                  "Oliver Reed",
+                                  "Raf Vallone"
+                              ],
+                   "director":  null,
+                   "overview":  "After his proposal to sail west to the East Indies is rejected by Portugal, Columbus overcomes court intrigue in Spain to gain support for his expedition.",
+                   "dateAdded":  "2026-03-27"
                },
                {
                    "name":  "Coogan\u0027s Run",
