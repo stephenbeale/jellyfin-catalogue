@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-29T06:21:11Z",
+    "updated":  "2026-03-31T18:22:58Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -618,6 +618,28 @@
                        "dateAdded":  "2025-09-07"
                    },
                    {
+                       "name":  "American Graffiti",
+                       "year":  1973,
+                       "genres":  [
+                                      "Comedy",
+                                      "Drama"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-PG",
+                       "runtime":  108,
+                       "resolution":  "428x718",
+                       "actors":  [
+                                      "Richard Dreyfuss",
+                                      "Ron Howard",
+                                      "Paul Le Mat",
+                                      "Charles Martin Smith",
+                                      "Cindy Williams"
+                                  ],
+                       "director":  "George Lucas",
+                       "overview":  "A couple of high school graduates spend one final night cruising the strip with their buddies before they go off to college.",
+                       "dateAdded":  "2026-03-30"
+                   },
+                   {
                        "name":  "An American Tail",
                        "year":  1986,
                        "genres":  [
@@ -685,6 +707,29 @@
                        "director":  "Ron Howard",
                        "overview":  "Harvard symbologist Robert Langdon is recruited by the Vatican to investigate the apparent return of the Illuminati ÔÇô a secret, underground organization ÔÇô after four cardinals are kidnapped on the...",
                        "dateAdded":  "2025-12-08"
+                   },
+                   {
+                       "name":  "Anonymous",
+                       "year":  2011,
+                       "genres":  [
+                                      "Drama",
+                                      "History",
+                                      "Thriller"
+                                  ],
+                       "rating":  6.4,
+                       "cert":  "GB-12A",
+                       "runtime":  125,
+                       "resolution":  "436x720",
+                       "actors":  [
+                                      "Jamie Campbell Bower",
+                                      "Rhys Ifans",
+                                      "David Thewlis",
+                                      "Joely Richardson",
+                                      "Vanessa Redgrave"
+                                  ],
+                       "director":  "Roland Emmerich",
+                       "overview":  "Set against the backdrop of the succession of Queen Elizabeth I, and the Essex Rebellion against her, the story advances the theory that it was in fact Edward De Vere, Earl of Oxford who penned Shakes...",
+                       "dateAdded":  "2026-03-29"
                    },
                    {
                        "name":  "Another Mother\u0027s Son",
@@ -1567,6 +1612,30 @@
                        "dateAdded":  "2026-03-25"
                    },
                    {
+                       "name":  "Beyond Jurassic Park",
+                       "year":  2001,
+                       "genres":  [
+                                      "Science Fiction",
+                                      "Adventure",
+                                      "Action",
+                                      "Thriller",
+                                      "Documentary"
+                                  ],
+                       "rating":  6.7,
+                       "cert":  null,
+                       "runtime":  88,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "Richard Attenborough",
+                                      "Rick Carter",
+                                      "Michael Crichton",
+                                      "Christopher Boyes"
+                                  ],
+                       "director":  "Laurent Bouzereau",
+                       "overview":  "Prepare to go deeper into the breathtaking adventures of the Jurassic Park Trilogy!  Highlighted by fascinating, never-seen-before footage from all three Jurassic Park films, this DVD offers an exclus...",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "Big",
                        "year":  1988,
                        "genres":  [
@@ -1875,6 +1944,28 @@
                        "dateAdded":  "2026-01-14"
                    },
                    {
+                       "name":  "Blue Crush 2",
+                       "year":  2011,
+                       "genres":  [
+                                      "Adventure",
+                                      "Drama"
+                                  ],
+                       "rating":  5.8,
+                       "cert":  "PG-13",
+                       "runtime":  108,
+                       "resolution":  "572x720",
+                       "actors":  [
+                                      "Sasha Jackson",
+                                      "Sharni Vinson",
+                                      "Elizabeth Mathis",
+                                      "Ben Milliken",
+                                      "Chris Fisher"
+                                  ],
+                       "director":  "Mike Elliott",
+                       "overview":  "Haunted by the memory of her deceased mother, Dana leaves Malibu behind and heads to South Africa to fulfill her mother\u0027s dream of surfing Jefferys Bay.",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "Blue Horizon",
                        "year":  2004,
                        "genres":  [
@@ -1994,6 +2085,27 @@
                        "director":  "Emilio Estevez",
                        "overview":  "In 1968 the lives of a retired doorman, hotel manager, lounge singer, busboy, beautician and others intersect in the wake of Robert F. Kennedy\u0027s assassination at the Ambassador Hotel in Los Angeles.",
                        "dateAdded":  "2025-12-17"
+                   },
+                   {
+                       "name":  "Bobby Jones: Stroke of Genius",
+                       "year":  2004,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  5.9,
+                       "cert":  null,
+                       "runtime":  123,
+                       "resolution":  "410x716",
+                       "actors":  [
+                                      "Jim Caviezel",
+                                      "Claire Forlani",
+                                      "Jeremy Northam",
+                                      "Malcolm McDowell",
+                                      "Aidan Quinn"
+                                  ],
+                       "director":  "Rowdy Herrington",
+                       "overview":  "The story of golf icon and legend, Bobby Jones, who retired from competition at the tender age of 28.",
+                       "dateAdded":  "2026-03-29"
                    },
                    {
                        "name":  "The Bodyguard",
@@ -6172,6 +6284,29 @@
                        "dateAdded":  "2025-11-27"
                    },
                    {
+                       "name":  "Frenzy",
+                       "year":  1972,
+                       "genres":  [
+                                      "Crime",
+                                      "Thriller",
+                                      "Horror"
+                                  ],
+                       "rating":  7.1,
+                       "cert":  "GB-18",
+                       "runtime":  116,
+                       "resolution":  "470x708",
+                       "actors":  [
+                                      "Jon Finch",
+                                      "Barry Foster",
+                                      "Barbara Leigh-Hunt",
+                                      "Anna Massey",
+                                      "Alec McCowen"
+                                  ],
+                       "director":  "Alfred Hitchcock",
+                       "overview":  "London is terrorized by a vicious sex killer known as The Necktie Murderer. Following the brutal slaying of his ex-wife, down-on-his-luck Richard Blaney is suspected by the police of being the killer....",
+                       "dateAdded":  "2026-03-30"
+                   },
+                   {
                        "name":  "Fried Green Tomatoes",
                        "year":  1991,
                        "genres":  [
@@ -7126,6 +7261,28 @@
                        "director":  "John Sturges",
                        "overview":  "The Nazis, exasperated at the number of escapes from their prison camps by a relatively small number of Allied prisoners, relocate them to a high-security \u0027escape-proof\u0027 camp to sit out the remainder...",
                        "dateAdded":  "2026-01-17"
+                   },
+                   {
+                       "name":  "The Great Gatsby",
+                       "year":  1974,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  6.3,
+                       "cert":  "GB-12A",
+                       "runtime":  138,
+                       "resolution":  "574x718",
+                       "actors":  [
+                                      "Robert Redford",
+                                      "Mia Farrow",
+                                      "Bruce Dern",
+                                      "Karen Black",
+                                      "Scott Wilson"
+                                  ],
+                       "director":  "Jack Clayton",
+                       "overview":  "Nick Carraway, a young Midwesterner now living on Long Island, finds himself fascinated by the mysterious past and lavish lifestyle of his neighbor, the nouveau riche Jay Gatsby. He is drawn into Gats...",
+                       "dateAdded":  "2026-03-29"
                    },
                    {
                        "name":  "The Great Wall",
@@ -9218,6 +9375,29 @@
                        "dateAdded":  "2026-03-03"
                    },
                    {
+                       "name":  "Journey\u0027s End",
+                       "year":  2017,
+                       "genres":  [
+                                      "War",
+                                      "Drama",
+                                      "Action"
+                                  ],
+                       "rating":  6.3,
+                       "cert":  "GB-12",
+                       "runtime":  103,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Asa Butterfield",
+                                      "Sam Claflin",
+                                      "Paul Bettany",
+                                      "Tom Sturridge",
+                                      "Toby Jones"
+                                  ],
+                       "director":  "Saul Dibb",
+                       "overview":  "Set in a dugout in Aisne in 1918, a group of British officers, led by the mentally disintegrating young officer Stanhope, variously await their fate.",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "Joyeux Noel",
                        "year":  2005,
                        "genres":  [
@@ -9576,6 +9756,27 @@
                        "director":  "Vysakh",
                        "overview":  "Set against the backdrop of gold smuggling, the film follows a man (Aamir Ali) drawn into a web of vengeance, legacy and power.",
                        "dateAdded":  "2026-01-11"
+                   },
+                   {
+                       "name":  "Kienai Akari",
+                       "year":  2023,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  6.5,
+                       "cert":  null,
+                       "runtime":  45,
+                       "resolution":  "378x720",
+                       "actors":  [
+                                      "Miori Oda",
+                                      "Miho Kanazawa",
+                                      "Kenji Shio",
+                                      "Ayu Kitaura",
+                                      "Miwako Shishido"
+                                  ],
+                       "director":  "Hirotaka Inoue",
+                       "overview":  null,
+                       "dateAdded":  "2026-03-29"
                    },
                    {
                        "name":  "The Killing Fields",
@@ -10814,6 +11015,29 @@
                        "dateAdded":  "2026-03-06"
                    },
                    {
+                       "name":  "The Lone Ranger",
+                       "year":  2013,
+                       "genres":  [
+                                      "Action",
+                                      "Adventure",
+                                      "Western"
+                                  ],
+                       "rating":  6.1,
+                       "cert":  "GB-12A",
+                       "runtime":  150,
+                       "resolution":  "800x1920",
+                       "actors":  [
+                                      "Johnny Depp",
+                                      "Armie Hammer",
+                                      "Tom Wilkinson",
+                                      "William Fichtner",
+                                      "Helena Bonham Carter"
+                                  ],
+                       "director":  "Gore Verbinski",
+                       "overview":  "The Texas Rangers chase down a gang of outlaws led by Butch Cavendish, but the gang ambushes the Rangers, seemingly killing them all. One survivor is found, however, by an American Indian named Tonto,...",
+                       "dateAdded":  "2026-03-30"
+                   },
+                   {
                        "name":  "The Lone Runner",
                        "year":  1986,
                        "genres":  [
@@ -11350,6 +11574,29 @@
                        "dateAdded":  "2025-12-17"
                    },
                    {
+                       "name":  "Man of Steel",
+                       "year":  2013,
+                       "genres":  [
+                                      "Action",
+                                      "Adventure",
+                                      "Science Fiction"
+                                  ],
+                       "rating":  6.6,
+                       "cert":  "GB-12A",
+                       "runtime":  137,
+                       "resolution":  "426x720",
+                       "actors":  [
+                                      "Henry Cavill",
+                                      "Amy Adams",
+                                      "Russell Crowe",
+                                      "Michael Shannon",
+                                      "Kevin Costner"
+                                  ],
+                       "director":  "Zack Snyder",
+                       "overview":  "A young boy learns that he has extraordinary powers and is not of this earth. As a young man, he journeys to discover where he came from and what he was sent here to do. But the hero in him must emerg...",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "The Man with the Golden Gun",
                        "year":  1974,
                        "genres":  [
@@ -11757,6 +12004,29 @@
                        "dateAdded":  "2025-12-19"
                    },
                    {
+                       "name":  "The Meg",
+                       "year":  2018,
+                       "genres":  [
+                                      "Action",
+                                      "Science Fiction",
+                                      "Horror"
+                                  ],
+                       "rating":  6.2,
+                       "cert":  "GB-12A",
+                       "runtime":  109,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Jason Statham",
+                                      "Li Bingbing",
+                                      "Rainn Wilson",
+                                      "Cliff Curtis",
+                                      "Ruby Rose"
+                                  ],
+                       "director":  "Jon Turteltaub",
+                       "overview":  "A deep sea submersible pilot revisits his past fears in the Mariana Trench, and accidentally unleashes the seventy foot ancestor of the Great White Shark believed to be extinct.",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "Memoirs of a Geisha",
                        "year":  2005,
                        "genres":  [
@@ -12161,6 +12431,32 @@
                        "director":  "Jesse Moss",
                        "overview":  "American Christian missionary John Chau was murdered when he tried to illegally contact and convert some of the worldÔÇÖs last uncontacted indigenous people. Through exclusive interviews and archival...",
                        "dateAdded":  "2025-09-28"
+                   },
+                   {
+                       "name":  "Mo\u0027 Money",
+                       "year":  1992,
+                       "genres":  [
+                                      "Action",
+                                      "Comedy",
+                                      "Crime",
+                                      "Romance",
+                                      "Thriller",
+                                      "Drama"
+                                  ],
+                       "rating":  5.5,
+                       "cert":  "R",
+                       "runtime":  86,
+                       "resolution":  "548x702",
+                       "actors":  [
+                                      "Damon Wayans",
+                                      "Stacey Dash",
+                                      "Joe Santos",
+                                      "John Diehl",
+                                      "Harry Lennix"
+                                  ],
+                       "director":  "Peter MacDonald",
+                       "overview":  "Trying to get his act together, a con artist gets a job in a credit card company. He falls in love with a fellow employee, he steals a couple of cards, everything is going great. But soon, the chief o...",
+                       "dateAdded":  "2026-03-29"
                    },
                    {
                        "name":  "Mona Lisa Smile",
@@ -13682,6 +13978,28 @@
                        "dateAdded":  "2026-03-25"
                    },
                    {
+                       "name":  "Pathfinder",
+                       "year":  2007,
+                       "genres":  [
+                                      "Adventure",
+                                      "Action"
+                                  ],
+                       "rating":  5.7,
+                       "cert":  "R",
+                       "runtime":  103,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Karl Urban",
+                                      "Moon Bloodgood",
+                                      "Nicole Mu├▒oz",
+                                      "Clancy Brown",
+                                      "Jay Tavare"
+                                  ],
+                       "director":  "Marcus Nispel",
+                       "overview":  "A Viking boy is left behind after his clan battles a Native American tribe. Raised within the tribe, he ultimately becomes their savior in a fight against the Norsemen.",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "Paths of Glory",
                        "year":  1957,
                        "genres":  [
@@ -14788,6 +15106,30 @@
                        "dateAdded":  "2026-01-20"
                    },
                    {
+                       "name":  "Ride with the Devil",
+                       "year":  1999,
+                       "genres":  [
+                                      "Drama",
+                                      "War",
+                                      "Romance",
+                                      "Western"
+                                  ],
+                       "rating":  6.3,
+                       "cert":  "R",
+                       "runtime":  132,
+                       "resolution":  "438x714",
+                       "actors":  [
+                                      "Skeet Ulrich",
+                                      "Tobey Maguire",
+                                      "Jewel",
+                                      "Jeffrey Wright",
+                                      "Simon Baker"
+                                  ],
+                       "director":  "Ang Lee",
+                       "overview":  "Ride with the Devil follows four people who are fighting for truth and justice amidst the turmoil of the American Civil War. Director Ang Lee takes us to a no man\u0027s land on the Missouri/Kansas border...",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "Riding Giants",
                        "year":  2004,
                        "genres":  [
@@ -15253,6 +15595,28 @@
                        "director":  "Ron Howard",
                        "overview":  "In the 1970s, a rivalry propels race car drivers Niki Lauda and James Hunt to fame and glory ÔÇö until a horrible accident threatens to end it all.",
                        "dateAdded":  "2025-09-26"
+                   },
+                   {
+                       "name":  "Rust and Bone",
+                       "year":  2012,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  7.2,
+                       "cert":  "GB-15",
+                       "runtime":  118,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Marion Cotillard",
+                                      "Matthias Schoenaerts",
+                                      "Armand Verdure",
+                                      "C├®line Sallette",
+                                      "Corinne Masiero"
+                                  ],
+                       "director":  "Jacques Audiard",
+                       "overview":  "Put in charge of his young son, Ali leaves Belgium for Antibes to live with his sister and her husband as a family. Ali\u0027s bond with Stephanie, a killer whale trainer, grows deeper after Stephanie suff...",
+                       "dateAdded":  "2026-03-29"
                    },
                    {
                        "name":  "Sahara",
@@ -15818,6 +16182,29 @@
                        "dateAdded":  "2026-03-22"
                    },
                    {
+                       "name":  "Shakespeare in Love",
+                       "year":  1998,
+                       "genres":  [
+                                      "Romance",
+                                      "History",
+                                      "Comedy"
+                                  ],
+                       "rating":  6.8,
+                       "cert":  "GB-15",
+                       "runtime":  119,
+                       "resolution":  "432x718",
+                       "actors":  [
+                                      "Joseph Fiennes",
+                                      "Gwyneth Paltrow",
+                                      "Geoffrey Rush",
+                                      "Tom Wilkinson",
+                                      "Judi Dench"
+                                  ],
+                       "director":  "John Madden",
+                       "overview":  "Young William Shakespeare is forced to stage his latest comedy, \u0027Romeo and Ethel, the Pirate\u0027s Daughter\u0027, before it\u0027s even written. When lovely noblewoman Viola de Lesseps auditions for a role, they f...",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "Shallow Grave",
                        "year":  1994,
                        "genres":  [
@@ -15959,8 +16346,8 @@
                                   ],
                        "rating":  8.2,
                        "cert":  "GB-15",
-                       "runtime":  100,
-                       "resolution":  "436x720",
+                       "runtime":  138,
+                       "resolution":  "362x720",
                        "actors":  [
                                       "Leonardo DiCaprio",
                                       "Mark Ruffalo",
@@ -15970,7 +16357,7 @@
                                   ],
                        "director":  "Martin Scorsese",
                        "overview":  "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a...",
-                       "dateAdded":  "2026-03-24"
+                       "dateAdded":  "2026-03-29"
                    },
                    {
                        "name":  "The Silence of the Lambs",
@@ -16974,6 +17361,28 @@
                        "dateAdded":  "2025-11-03"
                    },
                    {
+                       "name":  "Summer in February",
+                       "year":  2013,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  5.4,
+                       "cert":  "GB-15",
+                       "runtime":  97,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Dominic Cooper",
+                                      "Emily Browning",
+                                      "Dan Stevens",
+                                      "Hattie Morahan",
+                                      "Mia Austen"
+                                  ],
+                       "director":  "Christopher Menaul",
+                       "overview":  "The Newlyn School of artists flourished at the beginning of the 20th Century and the film focuses on the wild and bohemian Lamorna Group, which included Alfred Munnings and Laura and Harold Knight. Th...",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "Supercharge Me! 30 Days Raw",
                        "year":  2007,
                        "genres":  [
@@ -16989,6 +17398,29 @@
                        "director":  null,
                        "overview":  "SUPERCHARGE ME! is a life blessing message for everyone, said one reviewer. Ever wonder what the opposite of the film SUPER SIZE ME would be like? With a tip of the headdress to Morgan Spurlock of SUP...",
                        "dateAdded":  "2025-09-07"
+                   },
+                   {
+                       "name":  "Supersonic",
+                       "year":  2016,
+                       "genres":  [
+                                      "Music",
+                                      "Documentary",
+                                      "History"
+                                  ],
+                       "rating":  7.4,
+                       "cert":  "GB-15",
+                       "runtime":  117,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "Noel Gallagher",
+                                      "Liam Gallagher",
+                                      "Paul Arthurs",
+                                      "Paul Gallagher",
+                                      "Peggy Gallagher"
+                                  ],
+                       "director":  "Mat Whitecross",
+                       "overview":  "Supersonic charts the meteoric rise of Oasis from the council estates of Manchester to some of the biggest concerts of all time in just three short years.  This palpable, raw and moving film shines a...",
+                       "dateAdded":  "2026-03-29"
                    },
                    {
                        "name":  "Swallows and Amazons",
@@ -17611,6 +18043,27 @@
                        "dateAdded":  "2025-12-18"
                    },
                    {
+                       "name":  "To Be and to Have",
+                       "year":  2002,
+                       "genres":  [
+                                      "Documentary"
+                                  ],
+                       "rating":  7.3,
+                       "cert":  "NR",
+                       "runtime":  100,
+                       "resolution":  "572x658",
+                       "actors":  [
+                                      "Georges Lopez",
+                                      "Johan",
+                                      "Aliz├®",
+                                      "Guillaume",
+                                      "L├®titia"
+                                  ],
+                       "director":  "Nicolas Philibert",
+                       "overview":  "The documentary\u0027s title translates as \"to be and to have\", the two auxiliary verbs in the French language. It is about a primary school in the commune of Saint-├ëtienne-sur-Usson, Puy-de-D├┤me, France...",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "To Kill a Mockingbird",
                        "year":  1962,
                        "genres":  [
@@ -18195,6 +18648,28 @@
                        "dateAdded":  "2025-12-18"
                    },
                    {
+                       "name":  "A United Kingdom",
+                       "year":  2016,
+                       "genres":  [
+                                      "Drama",
+                                      "History"
+                                  ],
+                       "rating":  6.7,
+                       "cert":  "GB-12",
+                       "runtime":  106,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "David Oyelowo",
+                                      "Rosamund Pike",
+                                      "Tom Felton",
+                                      "Jack Davenport",
+                                      "Terry Pheto"
+                                  ],
+                       "director":  "Amma Asante",
+                       "overview":  "The inspiring true story of Seretse Khama, the King of Bechuanaland (modern Botswana), and Ruth Williams, the London office worker he married in 1948 in the face of fierce opposition from their famili...",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "Unknown",
                        "year":  2011,
                        "genres":  [
@@ -18353,6 +18828,46 @@
                        "director":  "Martin Campbell",
                        "overview":  "Trapped near the summit of K2, the world\u0027s second-highest mountain, Annie Garrett radios to base camp for help. Brother Peter hears Annie\u0027s message and assembles a team to save her and her group befor...",
                        "dateAdded":  "2025-09-29"
+                   },
+                   {
+                       "name":  "A Very Long Engagement",
+                       "year":  2004,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance",
+                                      "War"
+                                  ],
+                       "rating":  7.3,
+                       "cert":  "GB-15",
+                       "runtime":  128,
+                       "resolution":  "436x720",
+                       "actors":  [
+                                      "Audrey Tautou",
+                                      "Gaspard Ulliel",
+                                      "Dominique Pinon",
+                                      "Chantal Neuwirth",
+                                      "Andr├® Dussollier"
+                                  ],
+                       "director":  "Jean-Pierre Jeunet",
+                       "overview":  "Young Frenchwoman Mathilde searches for the truth about her missing fianc├®, lost during World War I, and learns many unexpected things along the way. The love of her life is gone. But she refuses to...",
+                       "dateAdded":  "2026-03-30"
+                   },
+                   {
+                       "name":  "A Very Long Engagement-extras",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  74,
+                       "resolution":  "426x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-03-30"
                    },
                    {
                        "name":  "Viceroy\u0027s House",
@@ -18806,6 +19321,28 @@
                        "dateAdded":  "2026-01-19"
                    },
                    {
+                       "name":  "Whale Rider",
+                       "year":  2003,
+                       "genres":  [
+                                      "Drama",
+                                      "Family"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-PG",
+                       "runtime":  97,
+                       "resolution":  "436x710",
+                       "actors":  [
+                                      "Keisha Castle-Hughes",
+                                      "Rawiri Paratene",
+                                      "Vicky Haughton",
+                                      "Cliff Curtis",
+                                      "Grant Roa"
+                                  ],
+                       "director":  "Niki Caro",
+                       "overview":  "A contemporary story of love, rejection, and triumph as a young Maori girl fights to fulfill a destiny her grandfather refuses to recognize.",
+                       "dateAdded":  "2026-03-29"
+                   },
+                   {
                        "name":  "What\u0027s Eating Gilbert Grape",
                        "year":  1993,
                        "genres":  [
@@ -19050,6 +19587,29 @@
                        "director":  "Martin Scorsese",
                        "overview":  "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort\u0027s autobiography.",
                        "dateAdded":  "2026-03-05"
+                   },
+                   {
+                       "name":  "The Wolverine",
+                       "year":  2013,
+                       "genres":  [
+                                      "Action",
+                                      "Science Fiction",
+                                      "Adventure"
+                                  ],
+                       "rating":  6.4,
+                       "cert":  "GB-12A",
+                       "runtime":  126,
+                       "resolution":  "800x1920",
+                       "actors":  [
+                                      "Hugh Jackman",
+                                      "Hiroyuki Sanada",
+                                      "Tao Okamoto",
+                                      "Rila Fukushima",
+                                      "Famke Janssen"
+                                  ],
+                       "director":  "James Mangold",
+                       "overview":  "Wolverine faces his ultimate nemesis - and tests of his physical, emotional, and mortal limits - in a life-changing voyage to modern-day Japan.",
+                       "dateAdded":  "2026-03-29"
                    },
                    {
                        "name":  "The World Is Not Enough",
@@ -20262,6 +20822,26 @@
                    "director":  null,
                    "overview":  null,
                    "dateAdded":  "2026-02-17"
+               },
+               {
+                   "name":  "Only Fools and Horses",
+                   "year":  1981,
+                   "genres":  [
+                                  "Comedy"
+                              ],
+                   "rating":  8.1,
+                   "cert":  "GB-PG",
+                   "episodes":  48,
+                   "actors":  [
+                                  "David Jason",
+                                  "Nicholas Lyndhurst",
+                                  "Buster Merryfield",
+                                  "Gwyneth Strong",
+                                  "Tessa Peake-Jones"
+                              ],
+                   "director":  null,
+                   "overview":  "Only Fools and Horses.... Is a British sitcom created and written by John Sullivan. Seven series were originally transmitted on BBC One from 1981 to 1991, with sixteen sporadic Christmas specials aire...",
+                   "dateAdded":  "2026-03-30"
                },
                {
                    "name":  "The Pacific-Disc 1",
@@ -24453,6 +25033,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "The Cream of Eric Clapton",
+                      "year":  1987,
+                      "artist":  "Eric Clapton",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-29"
+                  },
+                  {
                       "name":  "Crescent",
                       "year":  1964,
                       "artist":  "John Coltrane",
@@ -27325,6 +27914,15 @@
                       "genres":  [
 
                                  ],
+                      "dateAdded":  "2026-03-29"
+                  },
+                  {
+                      "name":  "ItÔÇÖs Not Me, ItÔÇÖs You",
+                      "year":  2009,
+                      "artist":  "Lily Allen",
+                      "genres":  [
+
+                                 ],
                       "dateAdded":  "2026-03-25"
                   },
                   {
@@ -29021,6 +29619,15 @@
                                      "World"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Moondance",
+                      "year":  1990,
+                      "artist":  "Van Morrison",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-29"
                   },
                   {
                       "name":  "Mos Def \u0026 Talib Kweli are Black Star",
@@ -32370,6 +32977,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "T├®kitoi",
+                      "year":  2004,
+                      "artist":  "Rachid Taha",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-29"
+                  },
+                  {
                       "name":  "Ten",
                       "year":  1991,
                       "artist":  "Pearl Jam",
@@ -33786,6 +34402,15 @@
                                      "Reggae"
                                  ],
                       "dateAdded":  "2026-03-02"
+                  },
+                  {
+                      "name":  "West End Girl",
+                      "year":  2026,
+                      "artist":  "Lily Allen",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-29"
                   },
                   {
                       "name":  "Western Dream",
