@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-03-31T18:22:58Z",
+    "updated":  "2026-04-02T12:34:03Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -1860,6 +1860,23 @@
                        "dateAdded":  "2026-03-07"
                    },
                    {
+                       "name":  "Black Swan",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  104,
+                       "resolution":  "428x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-03-31"
+                   },
+                   {
                        "name":  "Blindsided: The Game",
                        "year":  2018,
                        "genres":  [
@@ -2151,6 +2168,28 @@
                        "director":  "Bryan Singer",
                        "overview":  "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock \u0027n\u0027 roll band Queen in 1970. Hit songs become ins...",
                        "dateAdded":  "2026-03-07"
+                   },
+                   {
+                       "name":  "Born on the Fourth of July",
+                       "year":  1989,
+                       "genres":  [
+                                      "Drama",
+                                      "War"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-18",
+                       "runtime":  138,
+                       "resolution":  "316x718",
+                       "actors":  [
+                                      "Tom Cruise",
+                                      "Raymond J. Barry",
+                                      "Caroline Kava",
+                                      "Kyra Sedgwick",
+                                      "Willem Dafoe"
+                                  ],
+                       "director":  "Oliver Stone",
+                       "overview":  "Paralyzed in the Vietnam war, Ron Kovic becomes an anti-war and pro-human rights political activist after feeling betrayed by the country he fought for.",
+                       "dateAdded":  "2026-04-01"
                    },
                    {
                        "name":  "Borstal Boy",
@@ -5684,6 +5723,29 @@
                        "dateAdded":  "2026-01-28"
                    },
                    {
+                       "name":  "The Fast and the Furious",
+                       "year":  2001,
+                       "genres":  [
+                                      "Action",
+                                      "Crime",
+                                      "Thriller"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-15",
+                       "runtime":  102,
+                       "resolution":  "434x720",
+                       "actors":  [
+                                      "Paul Walker",
+                                      "Vin Diesel",
+                                      "Michelle Rodriguez",
+                                      "Jordana Brewster",
+                                      "Rick Yune"
+                                  ],
+                       "director":  "Rob Cohen",
+                       "overview":  "Dominic Toretto is a Los Angeles street racer suspected of masterminding a series of big-rig hijackings. When undercover cop Brian O\u0027Conner infiltrates Toretto\u0027s iconoclastic crew, he falls for Torett...",
+                       "dateAdded":  "2026-03-31"
+                   },
+                   {
                        "name":  "Fat, Sick \u0026 Nearly Dead",
                        "year":  2010,
                        "genres":  [
@@ -6282,6 +6344,29 @@
                        "director":  "Jack McCoy",
                        "overview":  "Jack McCoyÔÇÖs latest film for Billabong! Featuring Joel Parkinson and Australian supergroms James Wood and Ellis Ericson. Narrated by ParkoÔÇÖs trusty hound, Trey and introducing raven-haired beauty...",
                        "dateAdded":  "2025-11-27"
+                   },
+                   {
+                       "name":  "Free Willy",
+                       "year":  1993,
+                       "genres":  [
+                                      "Family",
+                                      "Adventure",
+                                      "Drama"
+                                  ],
+                       "rating":  6.2,
+                       "cert":  "GB-U",
+                       "runtime":  107,
+                       "resolution":  "426x712",
+                       "actors":  [
+                                      "Jason James Richter",
+                                      "Keiko",
+                                      "Lori Petty",
+                                      "August Schellenberg",
+                                      "Michael Madsen"
+                                  ],
+                       "director":  "Simon Wincer",
+                       "overview":  "When maladjusted orphan Jesse vandalizes a theme park, he is placed with foster parents and must work at the park to make amends. There he meets Willy, a young Orca whale who has been separated from h...",
+                       "dateAdded":  "2026-04-01"
                    },
                    {
                        "name":  "Frenzy",
@@ -9099,6 +9184,29 @@
                        "dateAdded":  "2026-03-24"
                    },
                    {
+                       "name":  "It\u0027s a Wonderful Life",
+                       "year":  1946,
+                       "genres":  [
+                                      "Drama",
+                                      "Family",
+                                      "Fantasy"
+                                  ],
+                       "rating":  8.3,
+                       "cert":  "GB-U",
+                       "runtime":  130,
+                       "resolution":  "574x702",
+                       "actors":  [
+                                      "James Stewart",
+                                      "Donna Reed",
+                                      "Lionel Barrymore",
+                                      "Thomas Mitchell",
+                                      "Henry Travers"
+                                  ],
+                       "director":  "Frank Capra",
+                       "overview":  "George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George\u0027s modest building and loan compan...",
+                       "dateAdded":  "2026-03-31"
+                   },
+                   {
                        "name":  "J. Edgar",
                        "year":  2011,
                        "genres":  [
@@ -9120,6 +9228,30 @@
                        "director":  "Clint Eastwood",
                        "overview":  "As the face of law enforcement in the United States for almost 50 years, J. Edgar Hoover was feared and admired, reviled and revered. But behind closed doors, he held secrets that would have destroyed...",
                        "dateAdded":  "2026-01-20"
+                   },
+                   {
+                       "name":  "Jack Reacher",
+                       "year":  2012,
+                       "genres":  [
+                                      "Crime",
+                                      "Drama",
+                                      "Thriller",
+                                      "Action"
+                                  ],
+                       "rating":  6.7,
+                       "cert":  "GB-12A",
+                       "runtime":  125,
+                       "resolution":  "436x720",
+                       "actors":  [
+                                      "Tom Cruise",
+                                      "Rosamund Pike",
+                                      "Richard Jenkins",
+                                      "David Oyelowo",
+                                      "Werner Herzog"
+                                  ],
+                       "director":  "Christopher McQuarrie",
+                       "overview":  "One morning in an ordinary town, five people are shot dead in a seemingly random attack. All evidence points to a single suspect: an ex-military sniper who is quickly brought into custody. The interro...",
+                       "dateAdded":  "2026-04-01"
                    },
                    {
                        "name":  "Jackie Brown",
@@ -11393,6 +11525,29 @@
                        "dateAdded":  "2026-03-25"
                    },
                    {
+                       "name":  "Magic in the Moonlight",
+                       "year":  2014,
+                       "genres":  [
+                                      "Comedy",
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  6.5,
+                       "cert":  "PG-13",
+                       "runtime":  93,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Colin Firth",
+                                      "Emma Stone",
+                                      "Hamish Linklater",
+                                      "Marcia Gay Harden",
+                                      "Jacki Weaver"
+                                  ],
+                       "director":  "St├®phane Foenkinos",
+                       "overview":  "Set in the 1920s French Riviera, a master magician is commissioned to try and expose a psychic as a fraud.",
+                       "dateAdded":  "2026-03-31"
+                   },
+                   {
                        "name":  "The Magnificent Seven",
                        "year":  1960,
                        "genres":  [
@@ -12319,6 +12474,30 @@
                        "dateAdded":  "2025-12-21"
                    },
                    {
+                       "name":  "The Mighty Ducks",
+                       "year":  1992,
+                       "genres":  [
+                                      "Comedy",
+                                      "Family",
+                                      "Drama",
+                                      "Action"
+                                  ],
+                       "rating":  6.6,
+                       "cert":  "GB-PG",
+                       "runtime":  102,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "Emilio Estevez",
+                                      "Joss Ackland",
+                                      "Lane Smith",
+                                      "Heidi Kling",
+                                      "Josef Sommer"
+                                  ],
+                       "director":  "Stephen Herek",
+                       "overview":  "After reckless young lawyer Gordon Bombay gets arrested for drunk driving, he must coach a kids hockey team for his community service. Gordon has experience on the ice, but isn\u0027t eager to return to ho...",
+                       "dateAdded":  "2026-04-01"
+                   },
+                   {
                        "name":  "Millions",
                        "year":  2005,
                        "genres":  [
@@ -12659,6 +12838,40 @@
                        "director":  "Lewis Gilbert",
                        "overview":  "After Drax Industries\u0027 Moonraker space shuttle is hijacked, secret agent James Bond is assigned to investigate, traveling to California to meet the company\u0027s owner, the mysterious Hugo Drax. With the...",
                        "dateAdded":  "2026-01-12"
+                   },
+                   {
+                       "name":  "More Mantovani Magic-Disc 1",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  60,
+                       "resolution":  "574x710",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-04-01"
+                   },
+                   {
+                       "name":  "More Mantovani Magic-Disc 2",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  64,
+                       "resolution":  "574x702",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-04-01"
                    },
                    {
                        "name":  "The Motorcycle Diaries",
@@ -13349,6 +13562,23 @@
                        "director":  "Jon Jones",
                        "overview":  "A young woman\u0027s penchant for sensational Gothic novels leads to misunderstandings in the matters of the heart.",
                        "dateAdded":  "2025-12-16"
+                   },
+                   {
+                       "name":  "Northanger Abbey 1997",
+                       "year":  1997,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  92,
+                       "resolution":  "574x714",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-04-01"
                    },
                    {
                        "name":  "The Notebook",
@@ -15530,6 +15760,28 @@
                        "dateAdded":  "2026-01-19"
                    },
                    {
+                       "name":  "Romeo + Juliet",
+                       "year":  1996,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  6.8,
+                       "cert":  "GB-12",
+                       "runtime":  115,
+                       "resolution":  "426x718",
+                       "actors":  [
+                                      "Leonardo DiCaprio",
+                                      "Claire Danes",
+                                      "Jesse Bradford",
+                                      "Vondie Curtis-Hall",
+                                      "Brian Dennehy"
+                                  ],
+                       "director":  "Baz Luhrmann",
+                       "overview":  "In this contemporary take on William Shakespeare\u0027s classic tragedy, the Montagues and Capulets have moved their ongoing feud to the sweltering suburb of Verona Beach, where Romeo and Juliet fall in lo...",
+                       "dateAdded":  "2026-03-31"
+                   },
+                   {
                        "name":  "Romeo Must Die",
                        "year":  2000,
                        "genres":  [
@@ -15780,6 +16032,27 @@
                        "director":  "Brian De Palma",
                        "overview":  "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eve...",
                        "dateAdded":  "2026-01-13"
+                   },
+                   {
+                       "name":  "Scary Movie",
+                       "year":  2000,
+                       "genres":  [
+                                      "Comedy"
+                                  ],
+                       "rating":  6.4,
+                       "cert":  "GB-18",
+                       "runtime":  88,
+                       "resolution":  "1080x1920",
+                       "actors":  [
+                                      "Anna Faris",
+                                      "Regina Hall",
+                                      "Marlon Wayans",
+                                      "Shawn Wayans",
+                                      "Jon Abrahams"
+                                  ],
+                       "director":  "Keenen Ivory Wayans",
+                       "overview":  "A familiar-looking group of teenagers find themselves being stalked by a more-than-vaguely recognizable masked killer! As the victims begin to pile up and the laughs pile on, none of your favorite sca...",
+                       "dateAdded":  "2026-04-01"
                    },
                    {
                        "name":  "Schindler\u0027s List",
@@ -18271,6 +18544,29 @@
                        "dateAdded":  "2025-12-18"
                    },
                    {
+                       "name":  "Troy",
+                       "year":  2004,
+                       "genres":  [
+                                      "War",
+                                      "Action",
+                                      "History"
+                                  ],
+                       "rating":  7.2,
+                       "cert":  "GB-15",
+                       "runtime":  156,
+                       "resolution":  "424x720",
+                       "actors":  [
+                                      "Brad Pitt",
+                                      "Orlando Bloom",
+                                      "Eric Bana",
+                                      "Brian Cox",
+                                      "Sean Bean"
+                                  ],
+                       "director":  "Wolfgang Petersen",
+                       "overview":  "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to...",
+                       "dateAdded":  "2026-04-01"
+                   },
+                   {
                        "name":  "True Grit",
                        "year":  2010,
                        "genres":  [
@@ -20456,6 +20752,22 @@
                    "director":  null,
                    "overview":  "The year 1540 was a crucial turning point in American history. The Great Indian Wars were incited by Francisco Vazquez de Coronado when his expedition to the Great Plains launched the inevitable 350-y...",
                    "dateAdded":  "2026-01-27"
+               },
+               {
+                   "name":  "Himalaya with Michael Palin",
+                   "year":  2004,
+                   "genres":  [
+                                  "Documentary"
+                              ],
+                   "rating":  8.2,
+                   "cert":  null,
+                   "episodes":  37,
+                   "actors":  [
+                                  "Michael Palin"
+                              ],
+                   "director":  "Roger Mills",
+                   "overview":  "Intrepid adventurer Michael Palin takes a journey through the Himalayas.",
+                   "dateAdded":  "2026-04-01"
                },
                {
                    "name":  "The History of Flight-Great British Jets",
