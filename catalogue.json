@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-04-05T18:29:51Z",
+    "updated":  "2026-04-07T07:10:49Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -85,6 +85,28 @@
                        "director":  "Danny Boyle",
                        "overview":  "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the...",
                        "dateAdded":  "2026-02-01"
+                   },
+                   {
+                       "name":  "The 33",
+                       "year":  2015,
+                       "genres":  [
+                                      "Drama",
+                                      "History"
+                                  ],
+                       "rating":  6.4,
+                       "cert":  "GB-12A",
+                       "runtime":  122,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Antonio Banderas",
+                                      "Rodrigo Santoro",
+                                      "Kate del Castillo",
+                                      "Juliette Binoche",
+                                      "James Brolin"
+                                  ],
+                       "director":  "Patricia Riggen",
+                       "overview":  "Based on the true story of the collapse of a mine in San Jose, ChileÔÇöthat left 33 miners isolated underground for 69 days.",
+                       "dateAdded":  "2026-04-06"
                    },
                    {
                        "name":  "110% Surfing Techniques Vol. 1",
@@ -796,6 +818,28 @@
                        "director":  "Oliver Stone",
                        "overview":  "A star quarterback gets knocked out of the game and an unknown third stringer is called in to replace him. The unknown gives a stunning performance and forces the aging coach to reevaluate his game pl...",
                        "dateAdded":  "2026-02-17"
+                   },
+                   {
+                       "name":  "Any Man\u0027s Death",
+                       "year":  1990,
+                       "genres":  [
+                                      "Action",
+                                      "Drama"
+                                  ],
+                       "rating":  3.7,
+                       "cert":  "GB-15",
+                       "runtime":  105,
+                       "resolution":  "574x712",
+                       "actors":  [
+                                      "John Savage",
+                                      "William Hickey",
+                                      "Mia Sara",
+                                      "Michael Lerner",
+                                      "Ernest Borgnine"
+                                  ],
+                       "director":  "Tom Clegg",
+                       "overview":  "When a photo-journalist vanishes while covering an African civil war, a roll of film holds the only clues to his disappearance. Following the trail found in the photos, a veteran reporter finds himsel...",
+                       "dateAdded":  "2026-04-06"
                    },
                    {
                        "name":  "Apocalypse Now",
@@ -2677,6 +2721,28 @@
                        "dateAdded":  "2026-02-21"
                    },
                    {
+                       "name":  "Burn After Reading",
+                       "year":  2008,
+                       "genres":  [
+                                      "Comedy",
+                                      "Drama"
+                                  ],
+                       "rating":  6.7,
+                       "cert":  "GB-15",
+                       "runtime":  92,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "George Clooney",
+                                      "Frances McDormand",
+                                      "Brad Pitt",
+                                      "John Malkovich",
+                                      "Tilda Swinton"
+                                  ],
+                       "director":  "Ethan Coen",
+                       "overview":  "When a disc containing memoirs of a former CIA analyst falls into the hands of gym employees, Linda and Chad, they see a chance to make enough money for Linda to have life-changing cosmetic surgery. P...",
+                       "dateAdded":  "2026-04-06"
+                   },
+                   {
                        "name":  "Buster",
                        "year":  1988,
                        "genres":  [
@@ -3224,6 +3290,27 @@
                        "director":  "McG",
                        "overview":  "The captivating crime-fighting trio who are masters of disguise, espionage and martial arts are back! When a devious mastermind embroils them in a plot to destroy individual privacy, the Angels, aided...",
                        "dateAdded":  "2026-01-19"
+                   },
+                   {
+                       "name":  "Chasing Mavericks",
+                       "year":  2012,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-PG",
+                       "runtime":  112,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "Gerard Butler",
+                                      "Jonny Weston",
+                                      "Elisabeth Shue",
+                                      "Abigail Spencer",
+                                      "Leven Rambin"
+                                  ],
+                       "director":  "Michael Apted",
+                       "overview":  "Surfer Jay Moriarity sets out to ride the Northern California break known as Mavericks.",
+                       "dateAdded":  "2026-04-06"
                    },
                    {
                        "name":  "Chisum",
@@ -7972,6 +8059,27 @@
                        "dateAdded":  "2026-01-17"
                    },
                    {
+                       "name":  "The Help",
+                       "year":  2011,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  8.2,
+                       "cert":  "GB-12A",
+                       "runtime":  140,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Emma Stone",
+                                      "Viola Davis",
+                                      "Bryce Dallas Howard",
+                                      "Octavia Spencer",
+                                      "Jessica Chastain"
+                                  ],
+                       "director":  "Tate Taylor",
+                       "overview":  "Aibileen Clark is a middle-aged African-American maid who has spent her life raising white children and has recently lost her only son; Minny Jackson is an African-American maid who has often offended...",
+                       "dateAdded":  "2026-04-06"
+                   },
+                   {
                        "name":  "Hidalgo",
                        "year":  2004,
                        "genres":  [
@@ -9982,6 +10090,31 @@
                        "dateAdded":  "2025-12-12"
                    },
                    {
+                       "name":  "Kingdom of Heaven",
+                       "year":  2005,
+                       "genres":  [
+                                      "Drama",
+                                      "Action",
+                                      "Adventure",
+                                      "History",
+                                      "War"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-15",
+                       "runtime":  139,
+                       "resolution":  "436x720",
+                       "actors":  [
+                                      "Orlando Bloom",
+                                      "Eva Green",
+                                      "Jeremy Irons",
+                                      "David Thewlis",
+                                      "Ghassan Massoud"
+                                  ],
+                       "director":  "Ridley Scott",
+                       "overview":  "After his wife dies, a blacksmith named Balian is thrust into royalty, political intrigue and bloody holy wars during the Crusades.",
+                       "dateAdded":  "2026-04-06"
+                   },
+                   {
                        "name":  "A Kinght\u0027s Tale",
                        "year":  2026,
                        "genres":  [
@@ -10849,6 +10982,29 @@
                        "dateAdded":  "2025-11-27"
                    },
                    {
+                       "name":  "A Life Less Ordinary",
+                       "year":  1997,
+                       "genres":  [
+                                      "Fantasy",
+                                      "Comedy",
+                                      "Romance"
+                                  ],
+                       "rating":  6.1,
+                       "cert":  "GB-15",
+                       "runtime":  99,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Ewan McGregor",
+                                      "Cameron Diaz",
+                                      "Holly Hunter",
+                                      "Delroy Lindo",
+                                      "Ian Holm"
+                                  ],
+                       "director":  "Danny Boyle",
+                       "overview":  "A couple of angels, O\u0027Reilly and Jackson, are sent to Earth to make sure that their next supervised love-connection succeeds. They follow Celine, a spoiled rich girl who has just accidentally shot a s...",
+                       "dateAdded":  "2026-04-06"
+                   },
+                   {
                        "name":  "Life of Brian",
                        "year":  1979,
                        "genres":  [
@@ -10868,6 +11024,28 @@
                        "director":  "Terry Jones",
                        "overview":  "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he\u0027s not dodging his followers or being scolded by his shrill mother,...",
                        "dateAdded":  "2026-01-31"
+                   },
+                   {
+                       "name":  "Lima: Breaking the Silence",
+                       "year":  1999,
+                       "genres":  [
+                                      "Drama",
+                                      "Crime"
+                                  ],
+                       "rating":  4.2,
+                       "cert":  null,
+                       "runtime":  90,
+                       "resolution":  "574x704",
+                       "actors":  [
+                                      "Joe Lara",
+                                      "Billy Drago",
+                                      "Christopher Atkins",
+                                      "Bentley Mitchum",
+                                      "Julie St. Claire"
+                                  ],
+                       "director":  "Menahem Golan",
+                       "overview":  "An intense drama based on the true story of Peruvian rebels who in 1997 kidnapped several hundred high-ranking diplomats and government officials in an attempt to force the release of 400 political pr...",
+                       "dateAdded":  "2026-04-06"
                    },
                    {
                        "name":  "Lincoln",
@@ -11981,6 +12159,23 @@
                        "dateAdded":  "2025-12-15"
                    },
                    {
+                       "name":  "The Mask of Zorro",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  132,
+                       "resolution":  "428x702",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-04-05"
+                   },
+                   {
                        "name":  "Massacre in Rome",
                        "year":  1973,
                        "genres":  [
@@ -12496,6 +12691,27 @@
                        "director":  "Stephen Herek",
                        "overview":  "After reckless young lawyer Gordon Bombay gets arrested for drunk driving, he must coach a kids hockey team for his community service. Gordon has experience on the ice, but isn\u0027t eager to return to ho...",
                        "dateAdded":  "2026-04-01"
+                   },
+                   {
+                       "name":  "Million Dollar Baby",
+                       "year":  2004,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  8,
+                       "cert":  "GB-12A",
+                       "runtime":  127,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Clint Eastwood",
+                                      "Hilary Swank",
+                                      "Morgan Freeman",
+                                      "Jay Baruchel",
+                                      "Mike Colter"
+                                  ],
+                       "director":  "Clint Eastwood",
+                       "overview":  "Despondent over a painful estrangement from his daughter, trainer Frankie Dunn isn\u0027t prepared for boxer Maggie Fitzgerald to enter his life. But Maggie\u0027s determined to go pro and to convince Dunn and...",
+                       "dateAdded":  "2026-04-06"
                    },
                    {
                        "name":  "Millions",
@@ -13735,6 +13951,28 @@
                        "dateAdded":  "2026-01-13"
                    },
                    {
+                       "name":  "Of Gods and Men",
+                       "year":  2010,
+                       "genres":  [
+                                      "Drama",
+                                      "History"
+                                  ],
+                       "rating":  6.7,
+                       "cert":  "PG-13",
+                       "runtime":  117,
+                       "resolution":  "436x720",
+                       "actors":  [
+                                      "Lambert Wilson",
+                                      "Michael Lonsdale",
+                                      "Olivier Rabourdin",
+                                      "Philippe Laudenbach",
+                                      "Jacques Herlin"
+                                  ],
+                       "director":  "Xavier Beauvois",
+                       "overview":  "A group of Trappist monks reside in the monastery of Tibhirine in Algeria, where they live in harmony with the largely muslim population. When a bloody conflict between Algeria\u0027s army and Muslim Jihad...",
+                       "dateAdded":  "2026-04-06"
+                   },
+                   {
                        "name":  "An Office and a Gentleman",
                        "year":  2026,
                        "genres":  [
@@ -13974,6 +14212,29 @@
                        "director":  "Sydney Pollack",
                        "overview":  "Tells the life story of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on her 1937 autobiographical novel.",
                        "dateAdded":  "2025-09-26"
+                   },
+                   {
+                       "name":  "Out of Sight",
+                       "year":  1998,
+                       "genres":  [
+                                      "Romance",
+                                      "Comedy",
+                                      "Crime"
+                                  ],
+                       "rating":  6.7,
+                       "cert":  "GB-15",
+                       "runtime":  118,
+                       "resolution":  "414x700",
+                       "actors":  [
+                                      "George Clooney",
+                                      "Jennifer Lopez",
+                                      "Ving Rhames",
+                                      "Don Cheadle",
+                                      "Steve Zahn"
+                                  ],
+                       "director":  "Steven Soderbergh",
+                       "overview":  "Meet Jack Foley, a smooth criminal who bends the law and is determined to make one last heist. Karen Sisco is a federal marshal who chooses all the right moves ÔÇª and all the wrong guys. Now they\u0027re...",
+                       "dateAdded":  "2026-04-06"
                    },
                    {
                        "name":  "The Outlaw Josey Wales",
@@ -15177,6 +15438,29 @@
                        "director":  "Howard Hawks",
                        "overview":  "Following the Civil War, headstrong rancher Thomas Dunson decides to lead a perilous cattle drive from Texas to Missouri. During the exhausting journey, his persistence becomes tyrannical in the eyes...",
                        "dateAdded":  "2025-12-19"
+                   },
+                   {
+                       "name":  "Red Surf",
+                       "year":  1989,
+                       "genres":  [
+                                      "Action",
+                                      "Drama",
+                                      "Thriller"
+                                  ],
+                       "rating":  2.9,
+                       "cert":  null,
+                       "runtime":  104,
+                       "resolution":  "576x710",
+                       "actors":  [
+                                      "George Clooney",
+                                      "Doug Savant",
+                                      "Dedee Pfeiffer",
+                                      "Philip McKeon",
+                                      "Rick Najera"
+                                  ],
+                       "director":  "H. Gordon Boos",
+                       "overview":  "Remar and Attila are a couple of surfers who also deal drugs to make a living. They are trying to set up a final deal with local drug lord, Calavera, when their friend True Blue is busted by the cops....",
+                       "dateAdded":  "2026-04-06"
                    },
                    {
                        "name":  "Red Tails",
@@ -20328,6 +20612,28 @@
                        "dateAdded":  "2025-09-07"
                    },
                    {
+                       "name":  "Zero Dark Thirty",
+                       "year":  2012,
+                       "genres":  [
+                                      "Thriller",
+                                      "Drama"
+                                  ],
+                       "rating":  7,
+                       "cert":  "GB-15",
+                       "runtime":  151,
+                       "resolution":  "556x720",
+                       "actors":  [
+                                      "Jessica Chastain",
+                                      "Jason Clarke",
+                                      "Kyle Chandler",
+                                      "Jennifer Ehle",
+                                      "Mark Strong"
+                                  ],
+                       "director":  "Kathryn Bigelow",
+                       "overview":  "A chronicle of the decade-long hunt for al-Qaeda terrorist leader Osama bin Laden after the September 2001 attacks, and his death at the hands of the Navy S.E.A.L. Team 6 in May, 2011.",
+                       "dateAdded":  "2026-04-06"
+                   },
+                   {
                        "name":  "Zulu",
                        "year":  2013,
                        "genres":  [
@@ -21032,6 +21338,44 @@
                    "dateAdded":  "2026-01-27"
                },
                {
+                   "name":  "Merlin",
+                   "year":  2008,
+                   "genres":  [
+                                  "Action \u0026 Adventure",
+                                  "Drama",
+                                  "Sci-Fi \u0026 Fantasy"
+                              ],
+                   "rating":  7.8,
+                   "cert":  "GB-15",
+                   "episodes":  13,
+                   "actors":  [
+                                  "Colin Morgan",
+                                  "Angel Coulby",
+                                  "Bradley James",
+                                  "Katie McGrath",
+                                  "Richard Wilson"
+                              ],
+                   "director":  null,
+                   "overview":  "The unlikely friendship between Merlin, a young man gifted with extraordinary magical powers, and Prince Arthur, heir to the crown of Camelot.",
+                   "dateAdded":  "2026-04-05"
+               },
+               {
+                   "name":  "Merlin-Special Features",
+                   "year":  null,
+                   "genres":  [
+
+                              ],
+                   "rating":  null,
+                   "cert":  null,
+                   "episodes":  3,
+                   "actors":  [
+
+                              ],
+                   "director":  null,
+                   "overview":  null,
+                   "dateAdded":  "2026-04-05"
+               },
+               {
                    "name":  "Miss Marple: At Bertram\u0027s Hotel",
                    "year":  1987,
                    "genres":  [
@@ -21102,21 +21446,22 @@
                },
                {
                    "name":  "The Office",
-                   "year":  2005,
+                   "year":  2001,
                    "genres":  [
                                   "Comedy"
                               ],
-                   "rating":  8.6,
-                   "cert":  "GB-12",
-                   "episodes":  16,
+                   "rating":  7.8,
+                   "cert":  "GB-15",
+                   "episodes":  12,
                    "actors":  [
-                                  "Rainn Wilson",
-                                  "John Krasinski",
-                                  "Jenna Fischer",
-                                  "Ed Helms"
+                                  "Ricky Gervais",
+                                  "Martin Freeman",
+                                  "Mackenzie Crook",
+                                  "Lucy Davis",
+                                  "Stirling Gallacher"
                               ],
                    "director":  null,
-                   "overview":  "The everyday lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company.",
+                   "overview":  "Nightmare boss. Tedious colleagues. Pointless tasks. Welcome to Wernham Hogg. Fancy a tea break with David Brent? Classic comedy from the archive.",
                    "dateAdded":  "2026-02-21"
                },
                {
