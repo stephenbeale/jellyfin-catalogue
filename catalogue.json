@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-04-07T07:10:49Z",
+    "updated":  "2026-04-11T17:38:00Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -729,6 +729,28 @@
                        "director":  "Ron Howard",
                        "overview":  "Harvard symbologist Robert Langdon is recruited by the Vatican to investigate the apparent return of the Illuminati ÔÇô a secret, underground organization ÔÇô after four cardinals are kidnapped on the...",
                        "dateAdded":  "2025-12-08"
+                   },
+                   {
+                       "name":  "Anna Karenina",
+                       "year":  1997,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  6.1,
+                       "cert":  "PG-13",
+                       "runtime":  124,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Sophie Marceau",
+                                      "Sean Bean",
+                                      "Alfred Molina",
+                                      "Mia Kirshner",
+                                      "James Fox"
+                                  ],
+                       "director":  "Bernard Rose",
+                       "overview":  "In Imperial Russia, Anna, wife of the officer Karenin, goes to Moscow to visit her brother. On the way, she meets charming cavalry officer Vronsky, to whom she\u0027s immediately attracted. But in St. Pete...",
+                       "dateAdded":  "2026-04-07"
                    },
                    {
                        "name":  "Anonymous",
@@ -2457,6 +2479,28 @@
                        "director":  "Blake Edwards",
                        "overview":  "Holly Golightly is an eccentric New York City playgirl determined to marry a Brazilian millionaire. But when young writer Paul Varjak moves into her apartment building, her past threatens to get in th...",
                        "dateAdded":  "2025-09-01"
+                   },
+                   {
+                       "name":  "The Breakfast Club",
+                       "year":  1985,
+                       "genres":  [
+                                      "Comedy",
+                                      "Drama"
+                                  ],
+                       "rating":  7.7,
+                       "cert":  "GB-15",
+                       "runtime":  93,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Emilio Estevez",
+                                      "Judd Nelson",
+                                      "Molly Ringwald",
+                                      "Anthony Michael Hall",
+                                      "Ally Sheedy"
+                                  ],
+                       "director":  "John Hughes",
+                       "overview":  "Five high school students from different walks of life endure a Saturday detention under a power-hungry principal. The disparate group includes rebel John, princess Claire, outcast Allison, brainy Bri...",
+                       "dateAdded":  "2026-04-07"
                    },
                    {
                        "name":  "Bridge of Spies",
@@ -9569,26 +9613,20 @@
                        "dateAdded":  "2025-09-26"
                    },
                    {
-                       "name":  "Johnny English Strikes Again",
-                       "year":  2018,
+                       "name":  "Johnny English Strikes Again-Feature",
+                       "year":  2026,
                        "genres":  [
-                                      "Action",
-                                      "Adventure",
-                                      "Comedy"
+
                                   ],
-                       "rating":  6.3,
-                       "cert":  "GB-PG",
+                       "rating":  null,
+                       "cert":  null,
                        "runtime":  85,
                        "resolution":  "428x720",
                        "actors":  [
-                                      "Rowan Atkinson",
-                                      "Olga Kurylenko",
-                                      "Ben Miller",
-                                      "Emma Thompson",
-                                      "Jake Lacy"
+
                                   ],
-                       "director":  "David Kerr",
-                       "overview":  "Disaster strikes when a criminal mastermind reveals the identities of all active undercover agents in Britain. The secret service can now rely on only one man - Johnny English. Currently teaching at a...",
+                       "director":  null,
+                       "overview":  null,
                        "dateAdded":  "2026-03-28"
                    },
                    {
@@ -20715,6 +20753,54 @@
                    "director":  null,
                    "overview":  "From England to Egypt, accompanied by his elegant and trustworthy sidekicks, the intelligent yet eccentrically-refined Belgian detective Hercule Poirot pits his wits against a collection of first clas...",
                    "dateAdded":  "2026-01-27"
+               },
+               {
+                   "name":  "Agatha Christie\u0027s Poirot-Murder at the Gallop",
+                   "year":  null,
+                   "genres":  [
+
+                              ],
+                   "rating":  null,
+                   "cert":  null,
+                   "episodes":  1,
+                   "actors":  [
+
+                              ],
+                   "director":  null,
+                   "overview":  null,
+                   "dateAdded":  "2026-04-07"
+               },
+               {
+                   "name":  "Agatha Christie\u0027s Poirot-The Kidnapped Prime Minister-The Adevnture of the Western Star",
+                   "year":  null,
+                   "genres":  [
+
+                              ],
+                   "rating":  null,
+                   "cert":  null,
+                   "episodes":  2,
+                   "actors":  [
+
+                              ],
+                   "director":  null,
+                   "overview":  null,
+                   "dateAdded":  "2026-04-07"
+               },
+               {
+                   "name":  "Agatha Christie\u0027s Poirot-The Murder of Roger Ackroyd",
+                   "year":  null,
+                   "genres":  [
+
+                              ],
+                   "rating":  null,
+                   "cert":  null,
+                   "episodes":  1,
+                   "actors":  [
+
+                              ],
+                   "director":  null,
+                   "overview":  null,
+                   "dateAdded":  "2026-04-07"
                },
                {
                    "name":  "BBC Human Planet Series 1",
