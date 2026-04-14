@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-04-12T15:09:08Z",
+    "updated":  "2026-04-14T18:16:16Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -3957,6 +3957,28 @@
                        "dateAdded":  "2026-02-16"
                    },
                    {
+                       "name":  "Crazy Rich Asians",
+                       "year":  2018,
+                       "genres":  [
+                                      "Comedy",
+                                      "Romance"
+                                  ],
+                       "rating":  7.1,
+                       "cert":  "GB-12",
+                       "runtime":  116,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Constance Wu",
+                                      "Henry Golding",
+                                      "Michelle Yeoh",
+                                      "Gemma Chan",
+                                      "Lisa Lu"
+                                  ],
+                       "director":  "Jon M. Chu",
+                       "overview":  "An American-born Chinese economics professor accompanies her boyfriend to Singapore for his best friend\u0027s wedding, only to get thrust into the lives of Asia\u0027s rich and famous.",
+                       "dateAdded":  "2026-04-12"
+                   },
+                   {
                        "name":  "Crimson Tide",
                        "year":  1995,
                        "genres":  [
@@ -4247,6 +4269,29 @@
                        "director":  "Joe Wright",
                        "overview":  "In May 1940, the fate of World War II hangs on Winston Churchill, who must decide whether to negotiate with Adolf Hitler or fight on knowing that it could mean the end of the British Empire.",
                        "dateAdded":  "2026-03-24"
+                   },
+                   {
+                       "name":  "Das Boot",
+                       "year":  1981,
+                       "genres":  [
+                                      "Drama",
+                                      "History",
+                                      "War"
+                                  ],
+                       "rating":  8.1,
+                       "cert":  "GB-15",
+                       "runtime":  177,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "J├╝rgen Prochnow",
+                                      "Herbert Gr├Ânemeyer",
+                                      "Klaus Wennemann",
+                                      "Hubertus Bengsch",
+                                      "Martin Semmelrogge"
+                                  ],
+                       "director":  "Wolfgang Petersen",
+                       "overview":  "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their l...",
+                       "dateAdded":  "2026-04-12"
                    },
                    {
                        "name":  "Dave",
@@ -4965,6 +5010,27 @@
                        "director":  "Lasse Hallstr├Âm",
                        "overview":  "A dog goes on quest to discover his purpose in life over the course of several lifetimes with multiple owners.",
                        "dateAdded":  "2025-09-23"
+                   },
+                   {
+                       "name":  "Dogtown and Z-Boys",
+                       "year":  2002,
+                       "genres":  [
+                                      "Documentary"
+                                  ],
+                       "rating":  7,
+                       "cert":  "PG-13",
+                       "runtime":  91,
+                       "resolution":  "576x708",
+                       "actors":  [
+                                      "Jay Adams",
+                                      "Tony Alva",
+                                      "Stacy Peralta",
+                                      "Steve Caballero",
+                                      "Tony Hawk"
+                                  ],
+                       "director":  "Stacy Peralta",
+                       "overview":  "This award-winning, thrilling story is about a group of discarded kids who revolutionized skateboarding and shaped the attitude and culture of modern day extreme sports. Featuring old skool skating fo...",
+                       "dateAdded":  "2026-04-12"
                    },
                    {
                        "name":  "Don Juan DeMarco",
@@ -8323,6 +8389,28 @@
                        "dateAdded":  "2025-11-26"
                    },
                    {
+                       "name":  "A Hologram for the King",
+                       "year":  2016,
+                       "genres":  [
+                                      "Comedy",
+                                      "Drama"
+                                  ],
+                       "rating":  5.9,
+                       "cert":  "GB-12A",
+                       "runtime":  94,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Tom Hanks",
+                                      "Sarita Choudhury",
+                                      "Sidse Babett Knudsen",
+                                      "Ben Whishaw",
+                                      "Tom Skerritt"
+                                  ],
+                       "director":  "Tom Tykwer",
+                       "overview":  "Alan Clay, a struggling American businessman, travels to Saudi Arabia to sell a new technology to the King, only to be challenged by endless Middle Eastern bureaucracy, a perpetually absent monarch, a...",
+                       "dateAdded":  "2026-04-12"
+                   },
+                   {
                        "name":  "Home Alone",
                        "year":  1990,
                        "genres":  [
@@ -9613,20 +9701,26 @@
                        "dateAdded":  "2025-09-26"
                    },
                    {
-                       "name":  "Johnny English Strikes Again-Feature",
-                       "year":  2026,
+                       "name":  "Johnny English Strikes Again",
+                       "year":  2018,
                        "genres":  [
-
+                                      "Action",
+                                      "Adventure",
+                                      "Comedy"
                                   ],
-                       "rating":  null,
-                       "cert":  null,
+                       "rating":  6.3,
+                       "cert":  "GB-PG",
                        "runtime":  85,
                        "resolution":  "428x720",
                        "actors":  [
-
+                                      "Rowan Atkinson",
+                                      "Olga Kurylenko",
+                                      "Ben Miller",
+                                      "Emma Thompson",
+                                      "Jake Lacy"
                                   ],
-                       "director":  null,
-                       "overview":  null,
+                       "director":  "David Kerr",
+                       "overview":  "Disaster strikes when a criminal mastermind reveals the identities of all active undercover agents in Britain. The secret service can now rely on only one man - Johnny English. Currently teaching at a...",
                        "dateAdded":  "2026-03-28"
                    },
                    {
@@ -11498,6 +11592,28 @@
                        "director":  "Peter Jackson",
                        "overview":  "Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring--but on separate paths. Their destinies lie at two towers--Orthanc Tower in Isengard, where...",
                        "dateAdded":  "2025-11-13"
+                   },
+                   {
+                       "name":  "Lords of Dogtown",
+                       "year":  2005,
+                       "genres":  [
+                                      "Drama",
+                                      "Action"
+                                  ],
+                       "rating":  7.1,
+                       "cert":  "PG-13",
+                       "runtime":  106,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "John Robinson",
+                                      "Emile Hirsch",
+                                      "Rebecca De Mornay",
+                                      "William Mapother",
+                                      "Julio Oscar Mechoso"
+                                  ],
+                       "director":  "Catherine Hardwicke",
+                       "overview":  "The radical true story behind three teenage surfers from Venice Beach, California, who took skateboarding to the extreme and changed the world of sports forever. Stacy Peralta, Tony Alva and Jay Adams...",
+                       "dateAdded":  "2026-04-12"
                    },
                    {
                        "name":  "Lorenzo\u0027s Oil",
