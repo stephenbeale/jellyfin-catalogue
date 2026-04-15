@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-04-15T08:11:08Z",
+    "updated":  "2026-04-15T09:44:32Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -4355,6 +4355,29 @@
                        "director":  "Fred Zinnemann",
                        "overview":  "An international assassin known as ÔÇÿThe JackalÔÇÖ is employed by disgruntled French generals to kill President Charles de Gaulle, with a dedicated gendarme on the assassinÔÇÖs trail.",
                        "dateAdded":  "2026-01-19"
+                   },
+                   {
+                       "name":  "Days of Glory",
+                       "year":  1944,
+                       "genres":  [
+                                      "War",
+                                      "Romance",
+                                      "Drama"
+                                  ],
+                       "rating":  5.8,
+                       "cert":  "NR",
+                       "runtime":  119,
+                       "resolution":  "432x718",
+                       "actors":  [
+                                      "Tamara Toumanova",
+                                      "Gregory Peck",
+                                      "Alan Reed",
+                                      "Maria Palmer",
+                                      "Lowell Gilmore"
+                                  ],
+                       "director":  "Jacques Tourneur",
+                       "overview":  "A heroic guerilla group fights back against impossible odds during the 1941 Nazi invasion of Russia.",
+                       "dateAdded":  "2026-04-15"
                    },
                    {
                        "name":  "Days of Thunder",
