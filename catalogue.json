@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-04-15T09:44:32Z",
+    "updated":  "2026-04-16T18:10:07Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -3355,6 +3355,29 @@
                        "director":  "Michael Apted",
                        "overview":  "Surfer Jay Moriarity sets out to ride the Northern California break known as Mavericks.",
                        "dateAdded":  "2026-04-06"
+                   },
+                   {
+                       "name":  "Chicago",
+                       "year":  2002,
+                       "genres":  [
+                                      "Comedy",
+                                      "Crime",
+                                      "Drama"
+                                  ],
+                       "rating":  7.1,
+                       "cert":  "GB-12A",
+                       "runtime":  109,
+                       "resolution":  "552x718",
+                       "actors":  [
+                                      "Ren├®e Zellweger",
+                                      "Catherine Zeta-Jones",
+                                      "Richard Gere",
+                                      "Queen Latifah",
+                                      "Ekaterina Chtchelkanova"
+                                  ],
+                       "director":  "Rob Marshall",
+                       "overview":  "Murderesses Velma Kelly and Roxie Hart find themselves on death row together and fight for the fame that will keep them from the gallows in 1920s Chicago.",
+                       "dateAdded":  "2026-04-15"
                    },
                    {
                        "name":  "Chisum",
@@ -21479,6 +21502,22 @@
                    "dateAdded":  "2025-12-31"
                },
                {
+                   "name":  "Jane Eyre",
+                   "year":  1983,
+                   "genres":  [
+                                  "Drama"
+                              ],
+                   "rating":  7.1,
+                   "cert":  "12+",
+                   "episodes":  11,
+                   "actors":  [
+
+                              ],
+                   "director":  "Julian Amyes",
+                   "overview":  "After a bleak childhood, Jane Eyre goes out into the world to become a governess. As she lives happily in her new position at Thornfield Hall, she meets the dark, cold, and abrupt master of the house,...",
+                   "dateAdded":  "2026-04-15"
+               },
+               {
                    "name":  "Joking Apart",
                    "year":  1991,
                    "genres":  [
@@ -22356,6 +22395,23 @@
                    "director":  null,
                    "overview":  "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-s...",
                    "dateAdded":  "2025-09-22"
+               },
+               {
+                   "name":  "Wuthering Heights",
+                   "year":  1978,
+                   "genres":  [
+                                  "Drama"
+                              ],
+                   "rating":  5.3,
+                   "cert":  "GB-12",
+                   "episodes":  5,
+                   "actors":  [
+                                  "Ken Hutchison",
+                                  "Brian Wilde"
+                              ],
+                   "director":  null,
+                   "overview":  "Young orphan Heathcliff is adopted by the wealthy Earnshaw family and moves into their estate, Wuthering Heights. Soon, the new resident falls for his compassionate foster sister, Cathy. The two share...",
+                   "dateAdded":  "2026-04-15"
                }
            ],
     "music":  [
