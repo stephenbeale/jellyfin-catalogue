@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-04-19T09:51:56Z",
+    "updated":  "2026-04-22T12:31:55Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -732,23 +732,24 @@
                    },
                    {
                        "name":  "Anna Karenina",
-                       "year":  1997,
+                       "year":  2012,
                        "genres":  [
                                       "Drama",
-                                      "Romance"
+                                      "Romance",
+                                      "History"
                                   ],
-                       "rating":  6.1,
-                       "cert":  "PG-13",
+                       "rating":  6.7,
+                       "cert":  "GB-12A",
                        "runtime":  124,
                        "resolution":  "428x720",
                        "actors":  [
-                                      "Sophie Marceau",
-                                      "Sean Bean",
-                                      "Alfred Molina",
-                                      "Mia Kirshner",
-                                      "James Fox"
+                                      "Keira Knightley",
+                                      "Jude Law",
+                                      "Aaron Taylor-Johnson",
+                                      "Matthew Macfadyen",
+                                      "Eric MacLennan"
                                   ],
-                       "director":  "Bernard Rose",
+                       "director":  "Joe Wright",
                        "overview":  "In Imperial Russia, Anna, wife of the officer Karenin, goes to Moscow to visit her brother. On the way, she meets charming cavalry officer Vronsky, to whom she\u0027s immediately attracted. But in St. Pete...",
                        "dateAdded":  "2026-04-07"
                    },
@@ -1552,6 +1553,27 @@
                        "dateAdded":  "2025-12-15"
                    },
                    {
+                       "name":  "The Believer",
+                       "year":  2001,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  6.9,
+                       "cert":  "GB-15",
+                       "runtime":  98,
+                       "resolution":  "576x700",
+                       "actors":  [
+                                      "Ryan Gosling",
+                                      "Summer Phoenix",
+                                      "Theresa Russell",
+                                      "Billy Zane",
+                                      "Garret Dillahunt"
+                                  ],
+                       "director":  "Henry Bean",
+                       "overview":  "A hardcore US racist skinhead who, because of his intelligence, leads a gang dedicated to fighting the enemy: the supposed American-Jewish conspiracy for domination. However, he\u0027s hiding a secret: he\u0027...",
+                       "dateAdded":  "2026-04-19"
+                   },
+                   {
                        "name":  "Benda Bilili!",
                        "year":  2010,
                        "genres":  [
@@ -1657,6 +1679,23 @@
                        "director":  null,
                        "overview":  null,
                        "dateAdded":  "2026-01-10"
+                   },
+                   {
+                       "name":  "The Best of Eric Sykes",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  80,
+                       "resolution":  "576x702",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-04-19"
                    },
                    {
                        "name":  "The Best of Spike Milligan",
@@ -1941,6 +1980,27 @@
                        "director":  null,
                        "overview":  null,
                        "dateAdded":  "2026-03-31"
+                   },
+                   {
+                       "name":  "Bleed for This",
+                       "year":  2016,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  6.8,
+                       "cert":  "GB-15",
+                       "runtime":  112,
+                       "resolution":  "430x720",
+                       "actors":  [
+                                      "Miles Teller",
+                                      "Aaron Eckhart",
+                                      "Katey Sagal",
+                                      "Ciar├ín Hinds",
+                                      "Ted Levine"
+                                  ],
+                       "director":  "Ben Younger",
+                       "overview":  "The inspirational story of World Champion Boxer Vinny Pazienza, who after a near fatal car crash, which left him not knowing if he\u0027d ever walk again, made one of sports most incredible comebacks.",
+                       "dateAdded":  "2026-04-19"
                    },
                    {
                        "name":  "Blindsided: The Game",
@@ -3094,6 +3154,29 @@
                        "dateAdded":  "2025-11-28"
                    },
                    {
+                       "name":  "Casino Royale",
+                       "year":  1967,
+                       "genres":  [
+                                      "Adventure",
+                                      "Action",
+                                      "Comedy"
+                                  ],
+                       "rating":  5.3,
+                       "cert":  "GB-U",
+                       "runtime":  126,
+                       "resolution":  "324x704",
+                       "actors":  [
+                                      "David Niven",
+                                      "Peter Sellers",
+                                      "Ursula Andress",
+                                      "Orson Welles",
+                                      "Joanna Pettet"
+                                  ],
+                       "director":  "Val Guest",
+                       "overview":  "Sir James Bond is called back out of retirement to stop SMERSH. In order to trick SMERSH, James thinks up the ultimate plan - that every agent will be named \u0027James Bond\u0027. One of the Bonds, whose real...",
+                       "dateAdded":  "2026-04-19"
+                   },
+                   {
                        "name":  "Casper",
                        "year":  2026,
                        "genres":  [
@@ -3574,6 +3657,28 @@
                        "director":  "Charlie Chaplin",
                        "overview":  "A tramp falls in love with a beautiful blind flower girl. His on-and-off friendship with a wealthy man allows him to be the girl\u0027s benefactor and suitor.",
                        "dateAdded":  "2026-01-12"
+                   },
+                   {
+                       "name":  "City of God",
+                       "year":  2002,
+                       "genres":  [
+                                      "Drama",
+                                      "Crime"
+                                  ],
+                       "rating":  8.4,
+                       "cert":  "GB-18",
+                       "runtime":  124,
+                       "resolution":  "554x720",
+                       "actors":  [
+                                      "Alexandre Rodrigues",
+                                      "Leandro Firmino",
+                                      "Phellipe Haagensen",
+                                      "Douglas Silva",
+                                      "Jonathan Haagensen"
+                                  ],
+                       "director":  "Fernando Meirelles",
+                       "overview":  "In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighbo...",
+                       "dateAdded":  "2026-04-19"
                    },
                    {
                        "name":  "A Clockwork Orange",
@@ -5726,6 +5831,23 @@
                        "dateAdded":  "2025-11-27"
                    },
                    {
+                       "name":  "The Evil of Frankenstein",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  87,
+                       "resolution":  "1040x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-04-20"
+                   },
+                   {
                        "name":  "Evita",
                        "year":  1996,
                        "genres":  [
@@ -6724,6 +6846,29 @@
                        "dateAdded":  "2026-01-19"
                    },
                    {
+                       "name":  "Fury",
+                       "year":  2014,
+                       "genres":  [
+                                      "War",
+                                      "Drama",
+                                      "Action"
+                                  ],
+                       "rating":  7.5,
+                       "cert":  "GB-15",
+                       "runtime":  129,
+                       "resolution":  "428x720",
+                       "actors":  [
+                                      "Brad Pitt",
+                                      "Shia LaBeouf",
+                                      "Logan Lerman",
+                                      "Michael Pe├▒a",
+                                      "Jon Bernthal"
+                                  ],
+                       "director":  "David Ayer",
+                       "overview":  "April, 1945. As the Allies make their final push in the European Theatre, a battle-hardened army sergeant named Wardaddy commands a Sherman tank and her five-man crew on a deadly mission behind enemy...",
+                       "dateAdded":  "2026-04-19"
+                   },
+                   {
                        "name":  "Futurama: The Beast with a Billion Backs",
                        "year":  2008,
                        "genres":  [
@@ -7500,6 +7645,29 @@
                        "director":  "Olivier Dahan",
                        "overview":  "The story of former Hollywood star Grace Kelly\u0027s crisis of marriage and identity, during a political dispute between Monaco\u0027s Prince Rainier III and France\u0027s Charles De Gaulle, and a looming French in...",
                        "dateAdded":  "2026-03-01"
+                   },
+                   {
+                       "name":  "The Graduate",
+                       "year":  1967,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance",
+                                      "Comedy"
+                                  ],
+                       "rating":  7.6,
+                       "cert":  "GB-12A",
+                       "runtime":  101,
+                       "resolution":  "430x718",
+                       "actors":  [
+                                      "Dustin Hoffman",
+                                      "Anne Bancroft",
+                                      "Katharine Ross",
+                                      "Murray Hamilton",
+                                      "William Daniels"
+                                  ],
+                       "director":  "Mike Nichols",
+                       "overview":  "A disillusioned college graduate finds himself torn between his older lover and her daughter.",
+                       "dateAdded":  "2026-04-19"
                    },
                    {
                        "name":  "Grand Slam",
@@ -13418,6 +13586,30 @@
                        "dateAdded":  "2026-02-07"
                    },
                    {
+                       "name":  "Munich",
+                       "year":  2005,
+                       "genres":  [
+                                      "Drama",
+                                      "Action",
+                                      "History",
+                                      "Thriller"
+                                  ],
+                       "rating":  7.1,
+                       "cert":  "GB-15",
+                       "runtime":  157,
+                       "resolution":  "436x718",
+                       "actors":  [
+                                      "Eric Bana",
+                                      "Daniel Craig",
+                                      "Ciar├ín Hinds",
+                                      "Mathieu Kassovitz",
+                                      "Hanns Zischler"
+                                  ],
+                       "director":  "Steven Spielberg",
+                       "overview":  "During the 1972 Olympic Games in Munich, eleven Israeli athletes are taken hostage and murdered by a Palestinian terrorist group known as Black September. In retaliation, the Israeli government recrui...",
+                       "dateAdded":  "2026-04-19"
+                   },
+                   {
                        "name":  "Murder on the Orient Express",
                        "year":  2017,
                        "genres":  [
@@ -15684,6 +15876,28 @@
                        "director":  "Anthony Hemingway",
                        "overview":  "The story of the Tuskegee Airmen, the first African-American pilots to fly in a combat squadron during World War II.",
                        "dateAdded":  "2026-03-22"
+                   },
+                   {
+                       "name":  "Redacted",
+                       "year":  2007,
+                       "genres":  [
+                                      "War",
+                                      "Drama"
+                                  ],
+                       "rating":  6,
+                       "cert":  "GB-15",
+                       "runtime":  86,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Izzy Diaz",
+                                      "Rob Devaney",
+                                      "Ty Jones",
+                                      "Anas Wellman",
+                                      "Mike Figueroa"
+                                  ],
+                       "director":  "Brian De Palma",
+                       "overview":  "A fictional documentary discusses the effects the Iraq war has had on soldiers and local people through interviews with members of an American military unit, the media, and local Iraqis.",
+                       "dateAdded":  "2026-04-19"
                    },
                    {
                        "name":  "The Remains of the Day",
@@ -18550,6 +18764,27 @@
                        "dateAdded":  "2026-01-10"
                    },
                    {
+                       "name":  "Thelma \u0026 Louise: Born to Live",
+                       "year":  2025,
+                       "genres":  [
+                                      "Documentary"
+                                  ],
+                       "rating":  8.5,
+                       "cert":  null,
+                       "runtime":  124,
+                       "resolution":  "436x716",
+                       "actors":  [
+                                      "Susan Sarandon",
+                                      "Geena Davis",
+                                      "Ridley Scott",
+                                      "Rebecca Traister",
+                                      "Callie Khouri"
+                                  ],
+                       "director":  "L├®ni M├®rat",
+                       "overview":  "The story was born from the pen of debutante Callie Khouri: Thelma, married to a macho man, and Louise, an independent waitress, go on a girls\u0027 getaway that turns into a runaway when the latter, durin...",
+                       "dateAdded":  "2026-04-19"
+                   },
+                   {
                        "name":  "The Theory of Everything",
                        "year":  2014,
                        "genres":  [
@@ -20805,6 +21040,23 @@
                        "director":  null,
                        "overview":  "The sequel to the acclaimed Kely Slater and the Young Guns DVD is here. Take a very large boat, a helicopter, jetskis and mix it all up in the Mentawais with Kelly and Quiksilver\u0027s team of hotshots. N...",
                        "dateAdded":  "2026-01-20"
+                   },
+                   {
+                       "name":  "Yves Saint Laurent",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  101,
+                       "resolution":  "430x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-04-20"
                    },
                    {
                        "name":  "Zen and Zero",
