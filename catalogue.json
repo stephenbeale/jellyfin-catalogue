@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-04-23T05:52:19Z",
+    "updated":  "2026-04-24T19:30:52Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -5832,19 +5832,24 @@
                    },
                    {
                        "name":  "The Evil of Frankenstein",
-                       "year":  2026,
+                       "year":  1964,
                        "genres":  [
-
+                                      "Horror",
+                                      "Science Fiction"
                                   ],
-                       "rating":  null,
-                       "cert":  null,
+                       "rating":  6.1,
+                       "cert":  "GB-12",
                        "runtime":  87,
                        "resolution":  "1040x1920",
                        "actors":  [
-
+                                      "Peter Cushing",
+                                      "Peter Woodthorpe",
+                                      "Duncan Lamont",
+                                      "Sandor El├¿s",
+                                      "Katy Wild"
                                   ],
-                       "director":  null,
-                       "overview":  null,
+                       "director":  "Freddie Francis",
+                       "overview":  "Once hounded from his castle by outraged villagers for creating a monstrous living being, Baron Frankenstein returns to Karlstaad. High in the mountains they stumble on the body of the creature, perfe...",
                        "dateAdded":  "2026-04-20"
                    },
                    {
@@ -21043,19 +21048,23 @@
                    },
                    {
                        "name":  "Yves Saint Laurent",
-                       "year":  2026,
+                       "year":  2014,
                        "genres":  [
-
+                                      "Drama"
                                   ],
-                       "rating":  null,
-                       "cert":  null,
+                       "rating":  6.6,
+                       "cert":  "R",
                        "runtime":  101,
                        "resolution":  "430x720",
                        "actors":  [
-
+                                      "Pierre Niney",
+                                      "Guillaume Gallienne",
+                                      "Nikolai Kinski",
+                                      "Charlotte Le Bon",
+                                      "Xavier Lafitte"
                                   ],
-                       "director":  null,
-                       "overview":  null,
+                       "director":  "Jalil Lespert",
+                       "overview":  "A look at the life of French designer Yves Saint Laurent from the beginning of his career in 1958 when he met his lover and business partner, Pierre Berge.",
                        "dateAdded":  "2026-04-20"
                    },
                    {
@@ -23698,6 +23707,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "All That You Can",
+                      "year":  2017,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-24"
+                  },
+                  {
                       "name":  "All Time Greatest Hits",
                       "year":  1995,
                       "artist":  "Barry White",
@@ -23813,6 +23831,15 @@
 
                                  ],
                       "dateAdded":  "2026-03-02"
+                  },
+                  {
+                      "name":  "Anthems for Doomed Youth",
+                      "year":  2015,
+                      "artist":  "The Libertines",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-29"
                   },
                   {
                       "name":  "Anthology",
@@ -26042,6 +26069,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Come Away With Me",
+                      "year":  2002,
+                      "artist":  "Norah Jones",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-19"
+                  },
+                  {
                       "name":  "Come Find Yourself",
                       "year":  1996,
                       "artist":  "Fun Lovin\u0027 Criminals",
@@ -26238,6 +26274,15 @@
                                      "Rock"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Cowboys From Hell",
+                      "year":  1990,
+                      "artist":  "Pantera",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-22"
                   },
                   {
                       "name":  "The Cream of Eric Clapton",
@@ -26872,6 +26917,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Dyddiau Du, Dyddiau Gwyn",
+                      "year":  2010,
+                      "artist":  "Cowbois Rhos Botwnnog",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-23"
+                  },
+                  {
                       "name":  "Dynasty Roc La Familia",
                       "year":  2000,
                       "artist":  "Jay-Z",
@@ -26906,6 +26960,15 @@
                                      "Reggae"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "The Early Classics Disc 1",
+                      "year":  2026,
+                      "artist":  "Bob Marley",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-24"
                   },
                   {
                       "name":  "Easy Learning Italian-S1 D1",
@@ -27044,6 +27107,24 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Elegant Slumming",
+                      "year":  1993,
+                      "artist":  "M People",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-22"
+                  },
+                  {
+                      "name":  "The Element of Freedom",
+                      "year":  2009,
+                      "artist":  "Alicia Keys",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-22"
+                  },
+                  {
                       "name":  "Elephunk",
                       "year":  2003,
                       "artist":  "Black Eyed Peas",
@@ -27089,6 +27170,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Endtroducing.....",
+                      "year":  1996,
+                      "artist":  "DJ Shadow",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2025-09-07"
+                  },
+                  {
                       "name":  "Englishman - Robin Hood",
                       "year":  1979,
                       "artist":  "Barrington Levy",
@@ -27096,6 +27186,15 @@
                                      "Reggae"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Enlli Disc 1",
+                      "year":  2002,
+                      "artist":  "Llio Rhydderch",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-22"
                   },
                   {
                       "name":  "Enter the Wu-Tang (36 Chambers)",
@@ -27141,6 +27240,24 @@
                                      "Soul And R\u0026B"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "The Essential Bob Dylan Disc 1",
+                      "year":  2001,
+                      "artist":  "Bob Dylan",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-23"
+                  },
+                  {
+                      "name":  "The Essential Bob Dylan Disc 2",
+                      "year":  2001,
+                      "artist":  "Bob Dylan",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-23"
                   },
                   {
                       "name":  "The Essential Collection",
@@ -28117,6 +28234,15 @@
                       "dateAdded":  "2026-03-02"
                   },
                   {
+                      "name":  "The Greatest Hits",
+                      "year":  1999,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-22"
+                  },
+                  {
                       "name":  "Greatest Hits",
                       "year":  null,
                       "artist":  "Track",
@@ -28253,6 +28379,15 @@
                                      "Rock"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Green Shadows",
+                      "year":  2003,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-24"
                   },
                   {
                       "name":  "Guero",
@@ -29187,6 +29322,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Jagged Little Pill",
+                      "year":  null,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-23"
+                  },
+                  {
                       "name":  "Jailbreak",
                       "year":  2003,
                       "artist":  "AC/DC",
@@ -29387,6 +29531,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "King Of Cuban Rhythm",
+                      "year":  2026,
+                      "artist":  "Xavier Cugat",
+                      "genres":  [
+                                     "Latin"
+                                 ],
+                      "dateAdded":  "2026-04-22"
+                  },
+                  {
                       "name":  "The King Tubby Tapes cd1",
                       "year":  null,
                       "artist":  "Horace Andy",
@@ -29484,6 +29637,15 @@
                                      "Hip-Hop"
                                  ],
                       "dateAdded":  "2026-03-02"
+                  },
+                  {
+                      "name":  "La Recia",
+                      "year":  2026,
+                      "artist":  "Cimarron",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-23"
                   },
                   {
                       "name":  "La storia 1-2",
@@ -30283,6 +30445,15 @@
                       "genres":  [
 
                                  ],
+                      "dateAdded":  "2026-04-01"
+                  },
+                  {
+                      "name":  "The Lord of the Rings: The Two Towers: Original Motion Picture Soundtrack",
+                      "year":  2002,
+                      "artist":  "Howard Shore",
+                      "genres":  [
+
+                                 ],
                       "dateAdded":  "2026-02-22"
                   },
                   {
@@ -30361,6 +30532,15 @@
 
                                  ],
                       "dateAdded":  "2026-03-25"
+                  },
+                  {
+                      "name":  "Love Kraft Disc 1",
+                      "year":  2005,
+                      "artist":  "Super Furry Animals",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-22"
                   },
                   {
                       "name":  "The Love Movement",
@@ -31309,6 +31489,15 @@
                                      "Rock"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Never Forget: The Ultimate Collection",
+                      "year":  2005,
+                      "artist":  "Take That",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-22"
                   },
                   {
                       "name":  "Nevermind",
@@ -32639,6 +32828,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Reload",
+                      "year":  1999,
+                      "artist":  "Tom Jones",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-23"
+                  },
+                  {
                       "name":  "Reloaded",
                       "year":  2005,
                       "artist":  "Smif \u0027N\u0027 Wessun",
@@ -33271,6 +33469,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Shelter",
+                      "year":  1997,
+                      "artist":  "The Brand New Heavies",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-19"
+                  },
+                  {
                       "name":  "Shimli",
                       "year":  2026,
                       "artist":  "Cynefin",
@@ -33776,6 +33983,15 @@
                       "dateAdded":  "2026-03-02"
                   },
                   {
+                      "name":  "St. Elsewhere",
+                      "year":  2006,
+                      "artist":  "Gnarls Barkley",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-01"
+                  },
+                  {
                       "name":  "Stamina",
                       "year":  2007,
                       "artist":  "Israel Vibration",
@@ -33820,6 +34036,15 @@
                                      "Electronica"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Stars",
+                      "year":  1991,
+                      "artist":  "Simply Red",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-23"
                   },
                   {
                       "name":  "State of the Arts",
@@ -34137,6 +34362,15 @@
                                      "Alternative"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Tasty",
+                      "year":  2003,
+                      "artist":  "Kelis",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-22"
                   },
                   {
                       "name":  "Tchamantch├®",
@@ -34565,6 +34799,15 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "A toda Cuba le gusta",
+                      "year":  1997,
+                      "artist":  "Afro-Cuban All Stars",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-23"
+                  },
+                  {
                       "name":  "Tom Jones \u0026 Jools Holland",
                       "year":  2004,
                       "artist":  "Tom Jones/Jools Holland",
@@ -34645,6 +34888,15 @@
                                      "Rock"
                                  ],
                       "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "The Trawlerman\u0027s Song",
+                      "year":  2005,
+                      "artist":  "Mark Knopfler",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-19"
                   },
                   {
                       "name":  "Tribal Voice",
@@ -35165,6 +35417,15 @@
 
                                  ],
                       "dateAdded":  "2026-02-04"
+                  },
+                  {
+                      "name":  "Unknown disc (E.OE)",
+                      "year":  null,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-22"
                   },
                   {
                       "name":  "Unknown disc (SICF)",
