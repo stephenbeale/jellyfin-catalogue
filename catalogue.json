@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-04-24T19:30:52Z",
+    "updated":  "2026-04-25T17:18:33Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -22816,7 +22816,8 @@
                       "year":  1998,
                       "artist":  "Hieroglyphics",
                       "genres":  [
-                                     "Rap \u0026 Hip-Hop"
+                                     "Rap \u0026 Hip-Hop",
+                                     "Hip Hop"
                                  ],
                       "dateAdded":  "2025-09-07"
                   },
@@ -23707,9 +23708,9 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
-                      "name":  "All That You Can",
+                      "name":  "All That You CanÔÇÖt Leave Behind",
                       "year":  2017,
-                      "artist":  null,
+                      "artist":  "U2",
                       "genres":  [
 
                                  ],
@@ -25952,6 +25953,33 @@
                                      "alternative rock"
                                  ],
                       "dateAdded":  "2026-03-25"
+                  },
+                  {
+                      "name":  "Classic Acoustic CD 1",
+                      "year":  null,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-16"
+                  },
+                  {
+                      "name":  "Classic Acoustic CD 2",
+                      "year":  null,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-16"
+                  },
+                  {
+                      "name":  "Classic Acoustic CD 3",
+                      "year":  null,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-16"
                   },
                   {
                       "name":  "The Cleaner",
@@ -28361,6 +28389,15 @@
                                      "Latin"
                                  ],
                       "dateAdded":  "2026-03-02"
+                  },
+                  {
+                      "name":  "Green Man \u002711",
+                      "year":  null,
+                      "artist":  null,
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-03-08"
                   },
                   {
                       "name":  "Green Man \u002711",
