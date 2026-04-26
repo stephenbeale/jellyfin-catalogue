@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-04-25T17:18:33Z",
+    "updated":  "2026-04-26T08:03:39Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -18661,23 +18661,6 @@
                        "dateAdded":  "2026-02-09"
                    },
                    {
-                       "name":  "Tenko-Series 3-Disc 4",
-                       "year":  2025,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  214,
-                       "resolution":  "576x698",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null,
-                       "dateAdded":  "2025-12-30"
-                   },
-                   {
                        "name":  "The Terminal",
                        "year":  2004,
                        "genres":  [
@@ -22507,6 +22490,22 @@
                    "dateAdded":  "2025-12-30"
                },
                {
+                   "name":  "Tenko-Series 3-Disc 4",
+                   "year":  null,
+                   "genres":  [
+
+                              ],
+                   "rating":  null,
+                   "cert":  null,
+                   "episodes":  1,
+                   "actors":  [
+
+                              ],
+                   "director":  null,
+                   "overview":  null,
+                   "dateAdded":  "2025-12-30"
+               },
+               {
                    "name":  "Tinker Tailor Soldier Spy BBC 1979",
                    "year":  1979,
                    "genres":  [
@@ -23641,6 +23640,15 @@
                                      "Other"
                                  ],
                       "dateAdded":  "2026-03-02"
+                  },
+                  {
+                      "name":  "Ain\u0027t You Heard",
+                      "year":  2026,
+                      "artist":  "Various",
+                      "genres":  [
+
+                                 ],
+                      "dateAdded":  "2026-04-25"
                   },
                   {
                       "name":  "The Album",
@@ -25934,6 +25942,24 @@
                       "genres":  [
                                      "ballad"
                                  ],
+                      "dateAdded":  "2026-03-16"
+                  },
+                  {
+                      "name":  "Classic Acoustic",
+                      "year":  2017,
+                      "artist":  "Various",
+                      "genres":  [
+                                     "alternative rock"
+                                 ],
+                      "dateAdded":  "2026-03-16"
+                  },
+                  {
+                      "name":  "Classic Acoustic",
+                      "year":  2010,
+                      "artist":  "Various",
+                      "genres":  [
+                                     "ballad"
+                                 ],
                       "dateAdded":  "2026-03-25"
                   },
                   {
@@ -25955,29 +25981,11 @@
                       "dateAdded":  "2026-03-25"
                   },
                   {
-                      "name":  "Classic Acoustic CD 1",
-                      "year":  null,
-                      "artist":  null,
+                      "name":  "Classic Acoustic",
+                      "year":  2017,
+                      "artist":  "Various",
                       "genres":  [
-
-                                 ],
-                      "dateAdded":  "2026-03-16"
-                  },
-                  {
-                      "name":  "Classic Acoustic CD 2",
-                      "year":  null,
-                      "artist":  null,
-                      "genres":  [
-
-                                 ],
-                      "dateAdded":  "2026-03-16"
-                  },
-                  {
-                      "name":  "Classic Acoustic CD 3",
-                      "year":  null,
-                      "artist":  null,
-                      "genres":  [
-
+                                     "contemporary folk"
                                  ],
                       "dateAdded":  "2026-03-16"
                   },
@@ -28392,8 +28400,8 @@
                   },
                   {
                       "name":  "Green Man \u002711",
-                      "year":  null,
-                      "artist":  null,
+                      "year":  2026,
+                      "artist":  "Various",
                       "genres":  [
 
                                  ],
