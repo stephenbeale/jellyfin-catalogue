@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-04-27T04:27:29Z",
+    "updated":  "2026-04-28T15:00:31Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -35192,7 +35192,34 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
+                      "name":  "Trojan Box Set: Roots Disc 1",
+                      "year":  1999,
+                      "artist":  "Various Artists",
+                      "genres":  [
+                                     "Reggae"
+                                 ],
+                      "dateAdded":  "2025-09-07"
+                  },
+                  {
                       "name":  "Trojan Box Set: Roots Disc 2",
+                      "year":  1999,
+                      "artist":  "Various Artists",
+                      "genres":  [
+                                     "Reggae"
+                                 ],
+                      "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Trojan Box Set: Roots Disc 2",
+                      "year":  1999,
+                      "artist":  "Various Artists",
+                      "genres":  [
+                                     "Reggae"
+                                 ],
+                      "dateAdded":  "2025-09-07"
+                  },
+                  {
+                      "name":  "Trojan Box Set: Roots Disc 3",
                       "year":  1999,
                       "artist":  "Various Artists",
                       "genres":  [
