@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-05-01T08:08:33Z",
+    "updated":  "2026-05-01T09:48:47Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -4128,6 +4128,78 @@
                        "director":  "Jon M. Chu",
                        "overview":  "An American-born Chinese economics professor accompanies her boyfriend to Singapore for his best friend\u0027s wedding, only to get thrust into the lives of Asia\u0027s rich and famous.",
                        "dateAdded":  "2026-04-12"
+                   },
+                   {
+                       "name":  "Creed",
+                       "year":  2015,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  7.4,
+                       "cert":  "GB-12A",
+                       "runtime":  null,
+                       "resolution":  null,
+                       "actors":  [
+                                      "Michael B. Jordan",
+                                      "Sylvester Stallone",
+                                      "Tessa Thompson",
+                                      "Phylicia Rash─üd",
+                                      "Andre Ward"
+                                  ],
+                       "director":  "George Pierre",
+                       "overview":  "The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.",
+                       "dateAdded":  "2026-05-01"
+                   },
+                   {
+                       "name":  "Creed III_t00",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  6,
+                       "resolution":  "834x1090",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-05-01"
+                   },
+                   {
+                       "name":  "Creed III_t01",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  3,
+                       "resolution":  "1080x1920",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-05-01"
+                   },
+                   {
+                       "name":  "Creed III_t02",
+                       "year":  null,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  null,
+                       "resolution":  null,
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-05-01"
                    },
                    {
                        "name":  "Crimson Tide",
