@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-06-13T11:40:18Z",
+    "updated":  "2026-06-14T15:42:10Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -8628,6 +8628,29 @@
                        "dateAdded":  "2026-01-12"
                    },
                    {
+                       "name":  "The Hitchhiker\u0027s Guide to the Galaxy",
+                       "year":  2005,
+                       "genres":  [
+                                      "Adventure",
+                                      "Comedy",
+                                      "Science Fiction"
+                                  ],
+                       "rating":  6.7,
+                       "cert":  "GB-PG",
+                       "runtime":  5,
+                       "resolution":  "322x702",
+                       "actors":  [
+                                      "Martin Freeman",
+                                      "Yasiin Bey",
+                                      "Zooey Deschanel",
+                                      "Sam Rockwell",
+                                      "Alan Rickman"
+                                  ],
+                       "director":  "Garth Jennings",
+                       "overview":  "Mere seconds before the Earth is to be demolished by an alien construction crew, Arthur Dent is swept off the planet by his friend Ford Prefect, a researcher penning a new edition of \"The Hitchhiker\u0027s...",
+                       "dateAdded":  "2026-06-13"
+                   },
+                   {
                        "name":  "Hitchiker\u0027s Guide to the Galaxy",
                        "year":  2026,
                        "genres":  [
@@ -11079,6 +11102,28 @@
                        "dateAdded":  "2026-02-18"
                    },
                    {
+                       "name":  "Last Tango in Paris",
+                       "year":  1972,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  6.9,
+                       "cert":  "GB-18",
+                       "runtime":  124,
+                       "resolution":  "432x720",
+                       "actors":  [
+                                      "Marlon Brando",
+                                      "Maria Schneider",
+                                      "Maria Michi",
+                                      "Giovanna Galletti",
+                                      "Jean-Pierre L├®aud"
+                                  ],
+                       "director":  "Bernardo Bertolucci",
+                       "overview":  "A recently widowed American begins an anonymous sexual relationship with a young Parisian woman.",
+                       "dateAdded":  "2026-06-13"
+                   },
+                   {
                        "name":  "The Last Temptation of Christ",
                        "year":  1988,
                        "genres":  [
@@ -12504,6 +12549,27 @@
                        "director":  "R.H. Burnside",
                        "overview":  "A wealthy New Yorker falls in love with a burglar\u0027s sister.",
                        "dateAdded":  "2026-01-31"
+                   },
+                   {
+                       "name":  "Manon of the Spring",
+                       "year":  1986,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  7.6,
+                       "cert":  "PG",
+                       "runtime":  109,
+                       "resolution":  "432x718",
+                       "actors":  [
+                                      "Yves Montand",
+                                      "Daniel Auteuil",
+                                      "Emmanuelle B├®art",
+                                      "Hippolyte Girardot",
+                                      "Margarita Lozano"
+                                  ],
+                       "director":  "Claude Berri",
+                       "overview":  "In this, the sequel to Jean de Florette, Manon has grown into a beautiful young shepherdess living in the idyllic Provencal countryside. She plots vengeance on the men who greedily conspired to acquir...",
+                       "dateAdded":  "2026-06-13"
                    },
                    {
                        "name":  "Marathon Man",
@@ -15717,6 +15783,29 @@
                        "dateAdded":  "2025-12-15"
                    },
                    {
+                       "name":  "The Quiet Man",
+                       "year":  1952,
+                       "genres":  [
+                                      "Romance",
+                                      "Comedy",
+                                      "Drama"
+                                  ],
+                       "rating":  7.3,
+                       "cert":  "GB-U",
+                       "runtime":  129,
+                       "resolution":  "576x700",
+                       "actors":  [
+                                      "John Wayne",
+                                      "Maureen O\u0027Hara",
+                                      "Victor McLaglen",
+                                      "Barry Fitzgerald",
+                                      "Ward Bond"
+                                  ],
+                       "director":  "John Ford",
+                       "overview":  "An American man returns to the village of his birth in Ireland, where he finds love and conflict.",
+                       "dateAdded":  "2026-06-13"
+                   },
+                   {
                        "name":  "Quiksilver 110 240",
                        "year":  2026,
                        "genres":  [
@@ -15949,6 +16038,46 @@
                        "director":  "Stephen Daldry",
                        "overview":  "The story of Michael Berg, a German lawyer who, as a teenager in the late 1950s, had an affair with an older woman, Hanna, who then disappeared only to resurface years later as one of the defendants i...",
                        "dateAdded":  "2026-02-22"
+                   },
+                   {
+                       "name":  "Red Dwarf Back to Earth-extras",
+                       "year":  2026,
+                       "genres":  [
+
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  48,
+                       "resolution":  "576x720",
+                       "actors":  [
+
+                                  ],
+                       "director":  null,
+                       "overview":  null,
+                       "dateAdded":  "2026-06-13"
+                   },
+                   {
+                       "name":  "Red Dwarf: Back to Earth",
+                       "year":  2009,
+                       "genres":  [
+                                      "Comedy",
+                                      "TV Movie",
+                                      "Science Fiction"
+                                  ],
+                       "rating":  6,
+                       "cert":  null,
+                       "runtime":  72,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Craig Charles",
+                                      "Chris Barrie",
+                                      "Danny John-Jules",
+                                      "Robert Llewellyn",
+                                      "Sophie Winkleman"
+                                  ],
+                       "director":  "Doug Naylor",
+                       "overview":  "Hurled through a portal, the Red Dwarf crew discover theyÔÇÖre just characters in a TV series. Can they track down their creators and discover how long they have left to live?",
+                       "dateAdded":  "2026-06-13"
                    },
                    {
                        "name":  "Red River",
@@ -16679,6 +16808,27 @@
                        "director":  "Andrzej Bartkowiak",
                        "overview":  "Two warring gang families (one African-American, the other Chinese) maneuver for bragging rights to the Oakland, California, docks. Hang Sing and Trish O\u0027Day uncover a trail of deceit that leaves most...",
                        "dateAdded":  "2026-01-26"
+                   },
+                   {
+                       "name":  "Romuald \u0026 Juliette",
+                       "year":  1989,
+                       "genres":  [
+                                      "Comedy"
+                                  ],
+                       "rating":  6.7,
+                       "cert":  null,
+                       "runtime":  107,
+                       "resolution":  "552x716",
+                       "actors":  [
+                                      "Daniel Auteuil",
+                                      "Firmine Richard",
+                                      "Pierre Vernier",
+                                      "Maxime Leroux",
+                                      "Gilles Privat"
+                                  ],
+                       "director":  "Coline Serreau",
+                       "overview":  "A company president gets framed with a food-poisoning scandal and the only person who can help him is the evening cleaning-woman, who always seems to be at the right place at the right time.",
+                       "dateAdded":  "2026-06-13"
                    },
                    {
                        "name":  "Run Fatboy Run",
@@ -19974,6 +20124,28 @@
                        "director":  "Cameron Crowe",
                        "overview":  "David Aames has it all: wealth, good looks and gorgeous women on his arm. But just as he begins falling for the warmhearted Sofia, his face is horribly disfigured in a car accident. That\u0027s just the be...",
                        "dateAdded":  "2026-01-13"
+                   },
+                   {
+                       "name":  "Vanity Fair",
+                       "year":  2004,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  5.8,
+                       "cert":  "GB-PG",
+                       "runtime":  135,
+                       "resolution":  "436x720",
+                       "actors":  [
+                                      "Reese Witherspoon",
+                                      "Eileen Atkins",
+                                      "Jim Broadbent",
+                                      "Gabriel Byrne",
+                                      "Romola Garai"
+                                  ],
+                       "director":  "Mira Nair",
+                       "overview":  "In early 19th century England, orphaned Becky Sharp defies her poverty-stricken background and ascends the social ladder alongside her best friend.",
+                       "dateAdded":  "2026-06-13"
                    },
                    {
                        "name":  "Vera Drake",
