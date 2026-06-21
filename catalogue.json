@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-06-20T20:17:29Z",
+    "updated":  "2026-06-21T08:33:26Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -284,6 +284,28 @@
                        "director":  "Stanislav Govorukhin",
                        "overview":  "Without a book about the adventures of Tom and his friends Huckleberry Finn and Becky Thatcher, one can not imagine the childhood of a child! The small but brave heroes Tom and Huck search for the tre...",
                        "dateAdded":  "2025-09-29"
+                   },
+                   {
+                       "name":  "After You",
+                       "year":  2003,
+                       "genres":  [
+                                      "Comedy",
+                                      "Romance"
+                                  ],
+                       "rating":  6.1,
+                       "cert":  "R",
+                       "runtime":  106,
+                       "resolution":  "552x714",
+                       "actors":  [
+                                      "Daniel Auteuil",
+                                      "Sandrine Kiberlain",
+                                      "Marilyne Canto",
+                                      "Mich├¿le Moretti",
+                                      "Jos├® Garcia"
+                                  ],
+                       "director":  "Pierre Salvadori",
+                       "overview":  "Antoine works in a bar in Paris. One evening on his way home from work, he intervenes when a man tries to commit suicide. He feels strangely guilty about having saved the man\u0027s life and constantly tri...",
+                       "dateAdded":  "2026-06-20"
                    },
                    {
                        "name":  "Airplane!",
@@ -1850,6 +1872,29 @@
                        "director":  "John Milius",
                        "overview":  "Three 1960s California surfers fool around, drift apart and reunite years later to ride epic waves.",
                        "dateAdded":  "2026-01-28"
+                   },
+                   {
+                       "name":  "Billy Elliot",
+                       "year":  2000,
+                       "genres":  [
+                                      "Drama",
+                                      "Comedy",
+                                      "Music"
+                                  ],
+                       "rating":  7.6,
+                       "cert":  "GB-15",
+                       "runtime":  106,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "Jamie Bell",
+                                      "Gary Lewis",
+                                      "Julie Walters",
+                                      "Jean Heywood",
+                                      "Jamie Draven"
+                                  ],
+                       "director":  "Stephen Daldry",
+                       "overview":  "County Durham, England, 1984. The miners\u0027 strike has started and the police have started coming up from Bethnal Green, starting a class war with the lower classes suffering. Caught in the middle of th...",
+                       "dateAdded":  "2026-06-20"
                    },
                    {
                        "name":  "Bitter Moon",
@@ -8637,8 +8682,8 @@
                                   ],
                        "rating":  6.7,
                        "cert":  "GB-PG",
-                       "runtime":  5,
-                       "resolution":  "322x702",
+                       "runtime":  104,
+                       "resolution":  "430x720",
                        "actors":  [
                                       "Martin Freeman",
                                       "Yasiin Bey",
@@ -8648,23 +8693,6 @@
                                   ],
                        "director":  "Garth Jennings",
                        "overview":  "Mere seconds before the Earth is to be demolished by an alien construction crew, Arthur Dent is swept off the planet by his friend Ford Prefect, a researcher penning a new edition of \"The Hitchhiker\u0027s...",
-                       "dateAdded":  "2026-06-13"
-                   },
-                   {
-                       "name":  "Hitchiker\u0027s Guide to the Galaxy",
-                       "year":  2026,
-                       "genres":  [
-
-                                  ],
-                       "rating":  null,
-                       "cert":  null,
-                       "runtime":  104,
-                       "resolution":  "430x720",
-                       "actors":  [
-
-                                  ],
-                       "director":  null,
-                       "overview":  null,
                        "dateAdded":  "2026-01-16"
                    },
                    {
@@ -9109,6 +9137,27 @@
                        "director":  "Clare Lewins",
                        "overview":  "Unprecedented access to Muhammad Ali\u0027s personal archive of \"audio journals\" as well as interviews and testimonials from his inner circle of family and friends are used to tell the legend\u0027s life story.",
                        "dateAdded":  "2026-01-31"
+                   },
+                   {
+                       "name":  "I Live in Fear",
+                       "year":  1955,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  7.3,
+                       "cert":  null,
+                       "runtime":  99,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Toshir┼ì Mifune",
+                                      "Takashi Shimura",
+                                      "Minoru Chiaki",
+                                      "Masao Shimizu",
+                                      "Eiko Miyoshi"
+                                  ],
+                       "director":  "Akira Kurosawa",
+                       "overview":  "An aging foundry patriarch, gripped by terror of nuclear annihilation, tries to uproot his family to Brazil. When they petition to have him declared incompetent, a family-court counselor witnesses his...",
+                       "dateAdded":  "2026-06-20"
                    },
                    {
                        "name":  "I, Robot",
@@ -9618,6 +9667,29 @@
                        "director":  "Christopher Nolan",
                        "overview":  "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
                        "dateAdded":  "2026-02-24"
+                   },
+                   {
+                       "name":  "Interview with the Vampire",
+                       "year":  1994,
+                       "genres":  [
+                                      "Horror",
+                                      "Drama",
+                                      "Fantasy"
+                                  ],
+                       "rating":  7.4,
+                       "cert":  "GB-18",
+                       "runtime":  118,
+                       "resolution":  "568x718",
+                       "actors":  [
+                                      "Tom Cruise",
+                                      "Brad Pitt",
+                                      "Antonio Banderas",
+                                      "Christian Slater",
+                                      "Stephen Rea"
+                                  ],
+                       "director":  "Neil Jordan",
+                       "overview":  "A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter.",
+                       "dateAdded":  "2026-06-20"
                    },
                    {
                        "name":  "Into the Wild",
@@ -14369,6 +14441,29 @@
                        "director":  null,
                        "overview":  null,
                        "dateAdded":  "2026-04-01"
+                   },
+                   {
+                       "name":  "Norwegian Couscous",
+                       "year":  2021,
+                       "genres":  [
+                                      "Romance",
+                                      "Comedy",
+                                      "Drama"
+                                  ],
+                       "rating":  null,
+                       "cert":  null,
+                       "runtime":  148,
+                       "resolution":  "552x718",
+                       "actors":  [
+                                      "Fredrik Stenberg Ditlev-Simonsen",
+                                      "Sarah Benfaddoul",
+                                      "Nedja Bouzaida",
+                                      "Idriss Bouignane",
+                                      "Linn Widad Firdaous Nikkerud"
+                                  ],
+                       "director":  "Mohamed Chakiri",
+                       "overview":  "Dounia is in love with Norwegian Erik, which makes her cultural chameleon way of living challenging when he wants to get to know her Moroccan culture. Can her different worlds unite, and can love over...",
+                       "dateAdded":  "2026-06-20"
                    },
                    {
                        "name":  "The Notebook",
@@ -20705,6 +20800,28 @@
                        "director":  "John Hughes",
                        "overview":  "Two unpopular teenagers, Gary and Wyatt, fail at all attempts to be accepted by their peers. Their desperation to be liked leads them to \"create\" a woman via their computer. Their living and breathing...",
                        "dateAdded":  "2026-03-09"
+                   },
+                   {
+                       "name":  "The Well Digger\u0027s Daughter",
+                       "year":  2011,
+                       "genres":  [
+                                      "Romance",
+                                      "Drama"
+                                  ],
+                       "rating":  6.8,
+                       "cert":  "GB-PG",
+                       "runtime":  105,
+                       "resolution":  "552x720",
+                       "actors":  [
+                                      "Daniel Auteuil",
+                                      "├Çstrid Berg├¿s-Frisbey",
+                                      "Kad Merad",
+                                      "Sabine Az├®ma",
+                                      "Jean-Pierre Darroussin"
+                                  ],
+                       "director":  "Daniel Auteuil",
+                       "overview":  "It\u0027s the beginning of the WWII. South of France. Patricia, 18, is the oldest daughter of a well-digger, Pascal, who considers her a princess because of her moral qualities. She\u0027s kind, devoted. One da...",
+                       "dateAdded":  "2026-06-20"
                    },
                    {
                        "name":  "West Side Story",
