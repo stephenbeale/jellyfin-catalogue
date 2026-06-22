@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-06-21T08:33:26Z",
+    "updated":  "2026-06-22T04:57:49Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -284,6 +284,27 @@
                        "director":  "Stanislav Govorukhin",
                        "overview":  "Without a book about the adventures of Tom and his friends Huckleberry Finn and Becky Thatcher, one can not imagine the childhood of a child! The small but brave heroes Tom and Huck search for the tre...",
                        "dateAdded":  "2025-09-29"
+                   },
+                   {
+                       "name":  "After Thomas",
+                       "year":  2006,
+                       "genres":  [
+                                      "Drama"
+                                  ],
+                       "rating":  6.1,
+                       "cert":  null,
+                       "runtime":  93,
+                       "resolution":  "576x718",
+                       "actors":  [
+                                      "Keeley Hawes",
+                                      "Ben Miles",
+                                      "Andrew Byrne",
+                                      "Sheila Hancock",
+                                      "Lorraine Pilkington"
+                                  ],
+                       "director":  "Simon Shore",
+                       "overview":  "Television film adaptation of the true story (\"A Friend Like Henry\" by Nuala Gardner) of a young autistic boy and his extraordinary friendship with his dog, Thomas.",
+                       "dateAdded":  "2026-06-21"
                    },
                    {
                        "name":  "After You",
@@ -1575,6 +1596,51 @@
                        "dateAdded":  "2025-12-15"
                    },
                    {
+                       "name":  "Becoming Jane",
+                       "year":  2007,
+                       "genres":  [
+                                      "Romance",
+                                      "Drama"
+                                  ],
+                       "rating":  7.3,
+                       "cert":  "GB-PG",
+                       "runtime":  131,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Anne Hathaway",
+                                      "James McAvoy",
+                                      "Julie Walters",
+                                      "James Cromwell",
+                                      "Maggie Smith"
+                                  ],
+                       "director":  "Julian Jarrold",
+                       "overview":  "Though young Jane Austen\u0027s financially strapped parents expect her to marry the nephew of wealthy Lady Gresham, Jane herself knows that such a union will destroy her creativity and sense of self-worth...",
+                       "dateAdded":  "2026-06-21"
+                   },
+                   {
+                       "name":  "Being Julia",
+                       "year":  2004,
+                       "genres":  [
+                                      "Comedy",
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  6.4,
+                       "cert":  "GB-12",
+                       "runtime":  100,
+                       "resolution":  "544x720",
+                       "actors":  [
+                                      "Annette Bening",
+                                      "Jeremy Irons",
+                                      "Miriam Margolyes",
+                                      "Bruce Greenwood",
+                                      "Michael Gambon"
+                                  ],
+                       "director":  "Istv├ín Szab├│",
+                       "overview":  "Julia Lambert is a true diva: beautiful, talented, weathly and famous.  She has it all - including a devoted husband who has mastermined her brilliant career - but after years of shining in the spotli...",
+                       "dateAdded":  "2026-06-21"
+                   },
+                   {
                        "name":  "The Believer",
                        "year":  2001,
                        "genres":  [
@@ -2753,6 +2819,28 @@
                        "director":  "Sharon Maguire",
                        "overview":  "Bridget Jones is an average woman struggling against expectations. As a New Year\u0027s resolution, Bridget decides to take control of her life, starting by keeping a diary in which she will always tell th...",
                        "dateAdded":  "2025-11-11"
+                   },
+                   {
+                       "name":  "Bright Star",
+                       "year":  2009,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  6.6,
+                       "cert":  "GB-PG",
+                       "runtime":  114,
+                       "resolution":  "552x716",
+                       "actors":  [
+                                      "Abbie Cornish",
+                                      "Ben Whishaw",
+                                      "Paul Schneider",
+                                      "Kerry Fox",
+                                      "Edie Martin"
+                                  ],
+                       "director":  "Jane Campion",
+                       "overview":  "In 1818, high-spirited young Fanny Brawne finds herself increasingly intrigued by the handsome but aloof poet John Keats, who lives next door to her family friends the Dilkes. After reading a book of...",
+                       "dateAdded":  "2026-06-21"
                    },
                    {
                        "name":  "A Bronx Tale",
@@ -4344,6 +4432,30 @@
                        "director":  "David Fincher",
                        "overview":  "Born under unusual circumstances, Benjamin Button springs into being as an elderly man in a New Orleans nursing home and ages in reverse. Twelve years after his birth, he meets Daisy, a child who flit...",
                        "dateAdded":  "2025-09-26"
+                   },
+                   {
+                       "name":  "Cyrano de Bergerac",
+                       "year":  1990,
+                       "genres":  [
+                                      "Drama",
+                                      "Comedy",
+                                      "History",
+                                      "Romance"
+                                  ],
+                       "rating":  7.3,
+                       "cert":  "PG-13",
+                       "runtime":  138,
+                       "resolution":  "572x656",
+                       "actors":  [
+                                      "G├®rard Depardieu",
+                                      "Anne Brochet",
+                                      "Vincent Perez",
+                                      "Jacques Weber",
+                                      "Roland Bertin"
+                                  ],
+                       "director":  "Romain Br├®mond",
+                       "overview":  "Famed swordsman and poet Cyrano de Bergerac is in love with his cousin Roxane. He has never expressed his love for her as he his large nose undermines his self-confidence. Then he finds a way to expre...",
+                       "dateAdded":  "2026-06-21"
                    },
                    {
                        "name":  "The Da Vinci Code",
@@ -6912,6 +7024,28 @@
                        "dateAdded":  "2026-03-30"
                    },
                    {
+                       "name":  "Frida",
+                       "year":  2002,
+                       "genres":  [
+                                      "Drama",
+                                      "Romance"
+                                  ],
+                       "rating":  7.4,
+                       "cert":  "GB-15",
+                       "runtime":  118,
+                       "resolution":  "552x702",
+                       "actors":  [
+                                      "Salma Hayek Pinault",
+                                      "Alfred Molina",
+                                      "M├¡a Maestro",
+                                      "Patricia Reyes Sp├¡ndola",
+                                      "Edward Norton"
+                                  ],
+                       "director":  "Julie Taymor",
+                       "overview":  "A biography of artist Frida Kahlo, who channeled the pain of a crippling injury and her tempestuous marriage into her work.",
+                       "dateAdded":  "2026-06-21"
+                   },
+                   {
                        "name":  "Fried Green Tomatoes",
                        "year":  1991,
                        "genres":  [
@@ -7778,6 +7912,29 @@
                        "director":  "Richard Donner",
                        "overview":  "Young teen Mikey Walsh and his friends set off on a quest to find Pirate One-Eyed Willie\u0027s treasure in hopes of saving their homes from demolition. However, on their quest to find the treasure, they r...",
                        "dateAdded":  "2025-11-25"
+                   },
+                   {
+                       "name":  "Gosford Park",
+                       "year":  2001,
+                       "genres":  [
+                                      "Drama",
+                                      "Mystery",
+                                      "Thriller"
+                                  ],
+                       "rating":  6.8,
+                       "cert":  "GB-15",
+                       "runtime":  131,
+                       "resolution":  "576x720",
+                       "actors":  [
+                                      "Maggie Smith",
+                                      "Michael Gambon",
+                                      "Kristin Scott Thomas",
+                                      "Camilla Rutherford",
+                                      "Charles Dance"
+                                  ],
+                       "director":  "Robert Altman",
+                       "overview":  "In 1930s England, a group of pretentious rich and famous gather together for a weekend of relaxation at a hunting resort. But when a murder occurs, each one of these interesting characters becomes a s...",
+                       "dateAdded":  "2026-06-21"
                    },
                    {
                        "name":  "Grace of Monaco",
@@ -11217,6 +11374,28 @@
                        "dateAdded":  "2026-01-11"
                    },
                    {
+                       "name":  "The Lawnmower Man",
+                       "year":  1992,
+                       "genres":  [
+                                      "Science Fiction",
+                                      "Horror"
+                                  ],
+                       "rating":  5.6,
+                       "cert":  "GB-15",
+                       "runtime":  108,
+                       "resolution":  "576x700",
+                       "actors":  [
+                                      "Jeff Fahey",
+                                      "Pierce Brosnan",
+                                      "Jenny Wright",
+                                      "Mark Bringelson",
+                                      "Geoffrey Lewis"
+                                  ],
+                       "director":  "Dean Norris",
+                       "overview":  "A simple man is turned into a genius through the application of computer science.",
+                       "dateAdded":  "2026-06-21"
+                   },
+                   {
                        "name":  "Lawrence of Arabia",
                        "year":  1962,
                        "genres":  [
@@ -12531,6 +12710,28 @@
                        "dateAdded":  "2026-03-29"
                    },
                    {
+                       "name":  "Man on the Train",
+                       "year":  2002,
+                       "genres":  [
+                                      "Crime",
+                                      "Drama"
+                                  ],
+                       "rating":  6.7,
+                       "cert":  null,
+                       "runtime":  87,
+                       "resolution":  "472x716",
+                       "actors":  [
+                                      "Jean Rochefort",
+                                      "Johnny Hallyday",
+                                      "Jean-Fran├ºois St├®venin",
+                                      "Pascal Parmentier",
+                                      "Charlie Nelson"
+                                  ],
+                       "director":  "Patrice Leconte",
+                       "overview":  "A man, Milan steps off a train, into a small French village. As he waits for the day when he will rob the town bank, he runs into an old retired poetry teacher named M. Manesquier. The two men strike...",
+                       "dateAdded":  "2026-06-21"
+                   },
+                   {
                        "name":  "The Man with the Golden Gun",
                        "year":  1974,
                        "genres":  [
@@ -12951,6 +13152,28 @@
                        "director":  "Peter Farrelly",
                        "overview":  "Rhode Island State Trooper Charlie Baileygates has a multiple personality disorder. One personality is crazy and aggressive, while the other is more friendly and laid back. Both of these personalities...",
                        "dateAdded":  "2026-03-25"
+                   },
+                   {
+                       "name":  "Mean Machine",
+                       "year":  2001,
+                       "genres":  [
+                                      "Comedy",
+                                      "Drama"
+                                  ],
+                       "rating":  6.3,
+                       "cert":  "GB-15",
+                       "runtime":  95,
+                       "resolution":  "576x712",
+                       "actors":  [
+                                      "Vinnie Jones",
+                                      "David Kelly",
+                                      "David Hemmings",
+                                      "Ralph Brown",
+                                      "Vas Blackwood"
+                                  ],
+                       "director":  "Barry Skolnick",
+                       "overview":  "Disgraced ex-England football captain, Danny \u0027Mean Machine\u0027 Meehan, is thrown in jail for assaulting two police officers. He keeps his head down and has the opportunity to forget everything and change...",
+                       "dateAdded":  "2026-06-21"
                    },
                    {
                        "name":  "Meet Joe Black",
@@ -13381,6 +13604,28 @@
                        "director":  "Steven Spielberg",
                        "overview":  "John Anderton is a top \u0027Precrime\u0027 cop in the late-21st century, when technology can predict crimes before they\u0027re committed. But Anderton becomes the quarry when another investigator targets him for a...",
                        "dateAdded":  "2026-01-12"
+                   },
+                   {
+                       "name":  "Miss Peregrine\u0027s Home for Peculiar Children",
+                       "year":  2016,
+                       "genres":  [
+                                      "Adventure",
+                                      "Fantasy"
+                                  ],
+                       "rating":  6.8,
+                       "cert":  "GB-12",
+                       "runtime":  122,
+                       "resolution":  "554x720",
+                       "actors":  [
+                                      "Eva Green",
+                                      "Asa Butterfield",
+                                      "Samuel L. Jackson",
+                                      "Judi Dench",
+                                      "Rupert Everett"
+                                  ],
+                       "director":  "Tim Burton",
+                       "overview":  "A teenager finds himself transported to an island where he must help protect a group of orphans with special powers from creatures intent on destroying them.",
+                       "dateAdded":  "2026-06-21"
                    },
                    {
                        "name":  "Miss Pettigrew Lives for a Day",
