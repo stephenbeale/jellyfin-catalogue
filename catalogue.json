@@ -1,5 +1,5 @@
 ﻿{
-    "updated":  "2026-07-19T19:19:32Z",
+    "updated":  "2026-07-22T18:10:14Z",
     "movies":  [
                    {
                        "name":  "3:10 to Yuma",
@@ -24950,18 +24950,18 @@
                       "dateAdded":  "2025-09-07"
                   },
                   {
-                      "name":  "Babylon by Bus",
-                      "year":  1978,
-                      "artist":  "Bob Marley \u0026 The Wailers",
+                      "name":  "Babylon By Bus",
+                      "year":  null,
+                      "artist":  "Bob Marley",
                       "genres":  [
                                      "Reggae"
                                  ],
                       "dateAdded":  "2025-09-07"
                   },
                   {
-                      "name":  "Babylon By Bus",
-                      "year":  null,
-                      "artist":  "Bob Marley",
+                      "name":  "Babylon by Bus",
+                      "year":  1978,
+                      "artist":  "Bob Marley \u0026 The Wailers",
                       "genres":  [
                                      "Reggae"
                                  ],
@@ -27778,17 +27778,9 @@
                   {
                       "name":  "Early Classics",
                       "year":  null,
-                      "artist":  "Bob Marley",
-                      "genres":  [
-                                     "Other"
-                                 ],
-                      "dateAdded":  "2025-09-07"
-                  },
-                  {
-                      "name":  "Early Classics",
-                      "year":  1960,
                       "artist":  "Bob Marley \u0026 The Wailers",
                       "genres":  [
+                                     "Other",
                                      "Reggae"
                                  ],
                       "dateAdded":  "2025-09-07"
