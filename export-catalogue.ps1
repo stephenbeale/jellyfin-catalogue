@@ -10,7 +10,11 @@
 #>
 
 param(
-    [string]$DbPath = 'C:\ProgramData\Jellyfin\Server\data\library.db',
+    # Jellyfin 10.9 replaced the old raw-SQLite library.db (TypedBaseItems/People/mediastreams)
+    # with a new EF Core schema in jellyfin.db (BaseItems/Peoples+PeopleBaseItemMap/MediaStreamInfos).
+    # This script targets the new schema; library.db.old is the pre-migration file, kept by Jellyfin
+    # for reference only and no longer updated.
+    [string]$DbPath = 'C:\ProgramData\Jellyfin\Server\data\jellyfin.db',
     [string]$RepoDir = $PSScriptRoot
 )
 
@@ -56,20 +60,23 @@ function Truncate-Overview {
 }
 
 # --- People lookup (actors & directors for movies and TV) ---
+# Note: PeopleBaseItemMap.Role holds the on-screen character name for actors (e.g. "Queen Elizabeth I"),
+# not the Actor/Director classification - that lives on Peoples.PersonType instead.
 Write-Host 'Querying people (actors & directors)...'
 $peopleRaw = Invoke-Sqlite @"
 SELECT
-    p.ItemId,
+    m.ItemId,
     p.Name,
     p.PersonType
-FROM People p
-JOIN TypedBaseItems t ON t.guid = p.ItemId
+FROM PeopleBaseItemMap m
+JOIN Peoples p ON p.Id = m.PeopleId
+JOIN BaseItems t ON t.Id = m.ItemId
 WHERE p.PersonType IN ('Actor', 'Director')
-  AND t.type IN (
+  AND t.Type IN (
     'MediaBrowser.Controller.Entities.Movies.Movie',
     'MediaBrowser.Controller.Entities.TV.Series'
   )
-ORDER BY p.ItemId, p.PersonType, p.ListOrder;
+ORDER BY m.ItemId, p.PersonType, m.ListOrder;
 "@
 
 $actorsMap = @{}
@@ -93,7 +100,7 @@ Write-Host "  Loaded $($actorsMap.Count) items with actors, $($directorMap.Count
 Write-Host 'Querying movies...'
 $moviesRaw = Invoke-Sqlite @"
 SELECT
-    t.guid AS Id,
+    t.Id AS Id,
     t.Name,
     t.ProductionYear,
     t.Genres,
@@ -104,9 +111,9 @@ SELECT
     t.DateCreated,
     ms.Width AS ResWidth,
     ms.Height AS ResHeight
-FROM TypedBaseItems t
-LEFT JOIN mediastreams ms ON ms.ItemId = t.guid AND ms.StreamType = 'Video' AND ms.StreamIndex = 0
-WHERE t.type = 'MediaBrowser.Controller.Entities.Movies.Movie'
+FROM BaseItems t
+LEFT JOIN MediaStreamInfos ms ON ms.ItemId = t.Id AND ms.StreamType = 1 AND ms.StreamIndex = 0
+WHERE t.Type = 'MediaBrowser.Controller.Entities.Movies.Movie'
   AND COALESCE(t.IsVirtualItem, 0) = 0
 ORDER BY t.SortName;
 "@
@@ -148,7 +155,7 @@ Write-Host "  Found $($movies.Count) movies"
 Write-Host 'Querying TV series...'
 $tvRaw = Invoke-Sqlite @"
 SELECT
-    s.guid AS Id,
+    s.Id AS Id,
     s.Name,
     s.ProductionYear,
     s.Genres,
@@ -156,11 +163,11 @@ SELECT
     s.CommunityRating,
     s.Overview,
     s.DateCreated,
-    (SELECT COUNT(*) FROM TypedBaseItems e
-     WHERE e.type = 'MediaBrowser.Controller.Entities.TV.Episode'
-       AND e.SeriesName = s.Name) AS EpisodeCount
-FROM TypedBaseItems s
-WHERE s.type = 'MediaBrowser.Controller.Entities.TV.Series'
+    (SELECT COUNT(*) FROM BaseItems e
+     WHERE e.Type = 'MediaBrowser.Controller.Entities.TV.Episode'
+       AND e.SeriesId = s.Id) AS EpisodeCount
+FROM BaseItems s
+WHERE s.Type = 'MediaBrowser.Controller.Entities.TV.Series'
 ORDER BY s.SortName;
 "@
 
@@ -197,8 +204,8 @@ SELECT
     AlbumArtists,
     Genres,
     DateCreated
-FROM TypedBaseItems
-WHERE type = 'MediaBrowser.Controller.Entities.Audio.MusicAlbum'
+FROM BaseItems
+WHERE Type = 'MediaBrowser.Controller.Entities.Audio.MusicAlbum'
 ORDER BY SortName;
 "@
 
