@@ -40,3 +40,14 @@ unpushed, no open PRs.
   — these CSVs are regenerable local artifacts, not committed data, and are
   now covered by `.gitignore` (`*.csv`, added alongside this note after
   turning up untracked in a `git status` during session close-out).
+
+### 2026-10-04 - Export committed to the checked-out branch, not master
+
+- Live site stuck at 2026-07-28: the export's `git commit` went to the checked-out
+  branch (`feature/music-track-listings`, unpushed) and `git push origin master`
+  pushed nothing. Fixed with plumbing commits straight to master (see CHANGELOG).
+- The `JellyfinCatalogueExport` scheduled task was found **disabled** (last run
+  2026-10-04 09:36, result 0). It was left disabled: its action runs the main
+  checkout's copy of the script, which is the feature branch with uncommitted work.
+  Re-enable once that branch has merged master.
+
