@@ -16,6 +16,11 @@ An offline, searchable catalogue of your media library, for Jellyfin servers. De
 - **Works offline:** install it to your home screen and it keeps working with no signal, using the copy saved on the phone
 - **Auto-updated** daily on a schedule
 
+## Two ways to run it
+
+- **Jellyfin plugin (easiest, recommended for others):** install JF Catalogue from a plugin repository and configure it in the Jellyfin dashboard. Your server serves the catalogue at a private link, with nothing else to set up. See [`plugin/README.md`](plugin/README.md).
+- **Static site (this repo's original setup):** a script exports `catalogue.json` and pushes it to GitHub Pages, so the catalogue is hosted outside your server. Described below.
+
 ## How it works
 
 ```

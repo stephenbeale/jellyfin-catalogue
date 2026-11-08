@@ -1,0 +1,84 @@
+name: Plugin
+
+# Builds the JF Catalogue Jellyfin plugin for each supported server line on every change.
+# Pushing a tag like plugin-v0.1.0 also publishes a GitHub release with the zips and adds
+# them to plugin/manifest.json, the plugin repository URL users add in Jellyfin.
+
+on:
+  push:
+    branches: [master]
+    tags: ['plugin-v*']
+    paths: ['plugin/**', 'index.html', 'sw.js', 'manifest.webmanifest', 'icons/**', '.github/workflows/plugin.yml']
+  pull_request:
+    paths: ['plugin/**', 'index.html', 'sw.js', 'manifest.webmanifest', 'icons/**', '.github/workflows/plugin.yml']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          # The 4th version number is the server line, so each server picks its own build.
+          - { jellyfin: '12.4.0', tfm: 'net10.0', abi: '12.4.0.0', line: '12' }
+          - { jellyfin: '10.11.11', tfm: 'net9.0', abi: '10.11.0.0', line: '11' }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Work out version
+        id: v
+        run: |
+          base=0.0.0
+          if [[ "$GITHUB_REF" == refs/tags/plugin-v* ]]; then base="${GITHUB_REF#refs/tags/plugin-v}"; fi
+          echo "version=$base.${{ matrix.line }}" >> "$GITHUB_OUTPUT"
+      - name: Build
+        working-directory: plugin/Jellyfin.Plugin.JFCatalogue
+        run: >
+          dotnet build -c Release -nologo
+          -p:JellyfinVersion=${{ matrix.jellyfin }} -p:JellyfinTfm=${{ matrix.tfm }}
+          -p:AssemblyVersion=${{ steps.v.outputs.version }} -p:FileVersion=${{ steps.v.outputs.version }}
+          -o ../../out
+      - name: Zip
+        run: |
+          zip -j "jf-catalogue_${{ steps.v.outputs.version }}.zip" out/Jellyfin.Plugin.JFCatalogue.dll
+          echo "${{ matrix.abi }}" > "jf-catalogue_${{ steps.v.outputs.version }}.abi"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jf-catalogue-${{ matrix.line }}
+          path: |
+            jf-catalogue_*.zip
+            jf-catalogue_*.abi
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/plugin-v')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" dist/*.zip --title "JF Catalogue ${GITHUB_REF_NAME#plugin-v}" --generate-notes
+      - name: Add to plugin repository manifest
+        run: |
+          for zip in dist/*.zip; do
+            name=$(basename "$zip" .zip); version=${name#jf-catalogue_}
+            python plugin/update_manifest.py plugin/manifest.json "$version" "$(cat "dist/$name.abi")" "$zip" \
+              "https://github.com/${GITHUB_REPOSITORY}/releases/download/${GITHUB_REF_NAME}/$name.zip" \
+              "See https://github.com/${GITHUB_REPOSITORY}/releases/tag/${GITHUB_REF_NAME}"
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add plugin/manifest.json
+          git commit -m "Plugin manifest: add ${GITHUB_REF_NAME}"
+          # The daily catalogue export also pushes to master; retry over a fresh fetch if it raced us.
+          for i in 1 2 3; do git pull --rebase -q origin master && git push origin HEAD:master && break; sleep 5; done

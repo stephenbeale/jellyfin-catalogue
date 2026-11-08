@@ -3,3 +3,5 @@
 catalogue.config.json
 catalogue.json.tmp
 !icons/*.png
+plugin/**/bin/
+plugin/**/obj/

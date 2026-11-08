@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-11-08 - Jellyfin plugin
+
+- **Added:** `plugin/`, the **JF Catalogue** Jellyfin plugin. The server itself serves the offline catalogue app at a private link (`/JFCatalogue/<secret>/`). There is no GitHub, PowerShell or scheduled task to set up, so other people can use it.
+- **Settings page** in the Jellyfin dashboard: title, content types, which libraries, whether to include plot summaries and cast, link on/off, new link (revokes the old one), and Save and rebuild with item counts.
+- Rebuilds daily through a Jellyfin scheduled task ("Rebuild JF Catalogue"), so failures show in Scheduled Tasks and the server log. If nothing is selected, the rebuild fails with a clear message instead of publishing an empty catalogue. The timestamp is kept when nothing changed. `catalogue.json` is served with an ETag, so phones revalidate cheaply (304).
+- The page, service worker, manifest and icons are embedded from the repo's own site files, so there's one copy of the web app.
+- **Distribution:** `plugin/manifest.json` is a Jellyfin plugin repository. `.github/workflows/plugin.yml` builds for Jellyfin 12.x (.NET 10) and 10.11 (.NET 9) on every change, and on a `plugin-v*` tag publishes a release and updates the manifest.
+- **Tested against real Jellyfin servers in Docker (12.4.0 and 10.11.11)** with a generated test library (real H.264/MP3 files, NFO metadata):
+  - plugin loads and builds the catalogue
+  - all endpoints work: trailing-slash redirect, 404 for a wrong key or unknown file, 401 for rebuild without admin, ETag gives 304
+  - library filter and content-type toggles work, and the title is HTML/JSON-escaped
+  - the dashboard settings page works end to end in Chromium
+  - with the Jellyfin server stopped, the installed app still opens and searches from the saved copy
+  - installing from a plugin repository gave each server the right build
+  - the output is identical to `export-catalogue-api.ps1`, which was also run against the real 12.4 server for the first time
+- Not supported: Jellyfin 10.10 and older (different scheduled-task API).
+
 ## 2026-11-08 - Offline, installable phone app
 
 - **Added:** the site is now an installable web app that works with no signal. `sw.js` (service worker) keeps the page and `catalogue.json` on the phone. The catalogue is network-first with a 4-second timeout, falling back to the saved copy, so weak shop signal doesn't leave a blank screen. A yellow banner shows when the saved copy is in use and when it was exported.
