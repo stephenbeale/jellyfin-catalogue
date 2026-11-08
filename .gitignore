@@ -1,2 +1,4 @@
 *.png
 *.csv
+catalogue.config.json
+catalogue.json.tmp

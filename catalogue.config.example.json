@@ -1,0 +1,6 @@
+{
+  "serverUrl": "http://localhost:8096",
+  "apiKey": "paste-your-jellyfin-api-key-here",
+  "userId": "",
+  "libraries": []
+}
