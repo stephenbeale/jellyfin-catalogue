@@ -51,3 +51,43 @@ unpushed, no open PRs.
   checkout's copy of the script, which is the feature branch with uncommitted work.
   Re-enable once that branch has merged master.
 
+
+### 2026-11-08 - JF Catalogue: API exporter, offline PWA, Jellyfin plugin (PR #10)
+
+**Work Completed (squash-merged as PR #10, tagged `plugin-v0.1.0`):**
+- `export-catalogue-api.ps1`: exports via the Jellyfin REST API (API key) instead of
+  SQLite. Exits 1 on any error, exits 2 and leaves `catalogue.json` alone on a >20% count
+  drop (`-Force`), keeps the timestamp when nothing changed (no daily no-op commits).
+  Git publish extracted to `publish-catalogue.ps1`, shared with the legacy exporter.
+  This closes follow-up 2 from 2026-08-29 (silent failure) for the API path.
+- Offline installable PWA: `sw.js`, `manifest.webmanifest`, `icons/`. App renamed
+  **JF Catalogue** (not "Jellyfin ..." to avoid looking official; unaffiliated note in README).
+- `plugin/`: Jellyfin plugin (C#, .NET 10 for Jellyfin 12.x, .NET 9 build for 10.11).
+  Serves the PWA at `/JFCatalogue/<shareKey>/`, dashboard settings page, daily scheduled
+  task "Rebuild JF Catalogue". `plugin/manifest.json` = plugin repository; workflow
+  `.github/workflows/plugin.yml` builds on PRs and on a `plugin-v*` tag releases + updates
+  the manifest on master (4th version digit = server line: .12 / .11).
+- Tested against real Jellyfin 12.4.0 and 10.11.11 in Docker (`dockerd` + `jellyfin/jellyfin`
+  image works in cloud sessions), including install from a plugin repo and offline use with
+  the server stopped. Exporter and plugin output were identical on the same server.
+
+**Next Steps / Known Follow-ups:**
+1. Not yet done on real hardware: the exporter on Steve's server and Windows PowerShell 5.1;
+   install + airplane mode on a real Android phone and iPhone; the plugin on Steve's server
+   (check its Jellyfin version: 10.11+ required, 10.10 won't build).
+2. `JellyfinCatalogueExport` scheduled task is still **disabled** (see 2026-10-04). If keeping
+   the GitHub Pages site, point it at `export-catalogue-api.ps1 -Publish` with a
+   `catalogue.config.json` and re-enable it. The main checkout is still on the unmerged
+   `feature/music-track-listings` branch with uncommitted work.
+3. README "Current library" counts were refreshed to 1217/99/1497; CHANGELOG is current.
+   (Closes follow-up 1 from 2026-08-29.)
+4. Ideas not started: barcode scanning in shops (possible paid tier), Plex/Emby support,
+   name "Jolly Fine" (check Jellyfin naming guidance and availability first).
+
+**Technical Notes:**
+- Plugin page is anonymous by design (home-screen apps have no Jellyfin session); access is
+  the 128-bit share key. jellyfin-web's custom-element polyfill throws on
+  `document.createElement(name, { is })`, so the config page builds checkboxes via innerHTML.
+- Release flow: push tag `plugin-vX.Y.Z` -> workflow builds 12.x + 10.11, creates the
+  GitHub release, commits `plugin/manifest.json` to master. Users add
+  `https://raw.githubusercontent.com/stephenbeale/jellyfin-catalogue/master/plugin/manifest.json`.
