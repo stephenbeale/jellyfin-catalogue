@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-08 - Offline, installable phone app
+
+- **Added:** the site is now an installable web app that works with no signal. `sw.js` (service worker) keeps the page and `catalogue.json` on the phone. The catalogue is network-first with a 4-second timeout, falling back to the saved copy, so weak shop signal doesn't leave a blank screen. A yellow banner shows when the saved copy is in use and when it was exported.
+- Added `manifest.webmanifest` and icons (`icons/`, PNGs whitelisted in `.gitignore`), with an **Install app** button on Android/Chrome and **Use offline** instructions on iPhone.
+- `qr.html` now builds the QR code for whatever URL it's served from, instead of a hardcoded GitHub Pages address, so copies of the site work too.
+- Tested in Chromium with phone emulation, served under `/jellyfin-catalogue/` as on GitHub Pages: installable (no installability errors). With the network offline, all 1217 movies render and search works. A 9-second catalogue response falls back to the saved copy at about 4.5s. Not yet tried on a real phone.
+
 ## 2026-11-08 - API-based exporter (works on any Jellyfin install)
 
 - **Added:** `export-catalogue-api.ps1` reads the library over the Jellyfin REST API with an API key, instead of querying the server's SQLite database. Jellyfin upgrades that change the internal schema (as 10.9 did on 2026-07-28) no longer break the export. It runs on Windows PowerShell 5.1 and PowerShell 7 (Windows/Linux/macOS), against local, Docker, NAS or remote servers, with no `sqlite3.exe` or DB file access.

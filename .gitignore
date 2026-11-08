@@ -2,3 +2,4 @@
 *.csv
 catalogue.config.json
 catalogue.json.tmp
+!icons/*.png

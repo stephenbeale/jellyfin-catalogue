@@ -11,6 +11,7 @@ Offline searchable catalogue of a Jellyfin media library. Designed for checking 
 - **Sort** by name (A-Z) or year (newest first)
 - **Card layout** with metadata badges (cert, rating, runtime, resolution, episode count)
 - **Mobile-first** dark theme, designed for phone screens
+- **Works offline:** install it to your home screen and it keeps working with no signal, using the copy saved on the phone
 - **Auto-updated** daily on a schedule
 
 ## How it works
@@ -61,6 +62,16 @@ The export is meant to fail loudly, not silently:
 
 Point your scheduler's "on failure" alerting at the exit code.
 
+## Using it on your phone
+
+1. Open the site once with a connection. The catalogue is saved on the phone from then on.
+2. Add it to your home screen:
+   - **Android (Chrome):** tap **Install app** at the bottom of the page, or menu > *Install app*
+   - **iPhone (Safari):** Share > *Add to Home Screen* (the **Use offline** button explains this)
+3. In a shop with no signal, it opens from the saved copy and a yellow banner shows when that copy was exported. If the signal is weak, it waits up to 4 seconds for fresh data and then falls back to the saved copy.
+
+Each time you open it with a connection, it picks up the latest export.
+
 ## Files
 
 | File | Description |
@@ -70,7 +81,9 @@ Point your scheduler's "on failure" alerting at the exit code.
 | `publish-catalogue.ps1` | Commits `catalogue.json` straight onto `master` and pushes, whatever branch is checked out |
 | `catalogue.config.example.json` | Template for `catalogue.config.json` |
 | `catalogue.json` | Generated data (not manually edited) |
-| `qr.html` | QR code page for quick phone access |
+| `qr.html` | QR code page for quick phone access (points at whichever site it's served from) |
+| `sw.js` | Service worker: offline caching of the page and catalogue |
+| `manifest.webmanifest`, `icons/` | Makes the site installable as a home-screen app |
 | `export-catalogue.ps1` | Legacy exporter: reads Jellyfin's SQLite DB directly (needs `sqlite3.exe` and local DB access; breaks on schema changes). Kept until the API exporter has replaced it in the scheduled task. |
 | `sqlite3.exe` | Portable SQLite binary for the legacy exporter |
 

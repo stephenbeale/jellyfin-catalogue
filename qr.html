@@ -23,7 +23,13 @@
 </head>
 <body>
   <h1>Scan to open catalogue</h1>
-  <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=https%3A%2F%2Fstephenbeale.github.io%2Fjellyfin-catalogue%2F" alt="QR Code" width="300" height="300">
+  <img id="qr" alt="QR code linking to the catalogue" width="300" height="300">
+  <script>
+    // Points at this copy of the site, wherever it is hosted.
+    const target = new URL('./', location.href).href;
+    document.getElementById('qr').src =
+      'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=' + encodeURIComponent(target);
+  </script>
   <a href="./">Or click here to open directly</a>
 </body>
 </html>
