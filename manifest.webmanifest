@@ -1,7 +1,7 @@
 {
-  "name": "Jellyfin Catalogue",
-  "short_name": "Catalogue",
-  "description": "Offline searchable catalogue of a Jellyfin media library.",
+  "name": "JF Catalogue",
+  "short_name": "JF Catalogue",
+  "description": "Offline searchable catalogue of your media library, for Jellyfin.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

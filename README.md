@@ -1,8 +1,10 @@
-# Jellyfin Catalogue
+# JF Catalogue
 
-Offline searchable catalogue of a Jellyfin media library. Designed for checking what you already own from your phone while out shopping for DVDs/Blu-rays, even when the Jellyfin server is off.
+An offline, searchable catalogue of your media library, for Jellyfin servers. Designed for checking what you already own from your phone while out shopping for DVDs/Blu-rays, even when the server is off.
 
 **Live site:** https://stephenbeale.github.io/jellyfin-catalogue/
+
+> JF Catalogue is an independent project, not affiliated with or endorsed by the Jellyfin project.
 
 ## Features
 
