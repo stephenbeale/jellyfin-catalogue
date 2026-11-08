@@ -1,0 +1,12 @@
+[
+  {
+    "guid": "b46eac48-82aa-4990-b6d3-cb1e32170ead",
+    "name": "JF Catalogue",
+    "description": "An offline, searchable catalogue of your library for your phone. Open the link once, add it to your home screen, and check what you already own while out shopping, even with no signal or the server off.",
+    "overview": "Offline catalogue of your library for your phone",
+    "owner": "stephenbeale",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/stephenbeale/jellyfin-catalogue/master/icons/icon-512.png",
+    "versions": []
+  }
+]

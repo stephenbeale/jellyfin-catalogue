@@ -3,7 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jellyfin Catalogue</title>
+<title>JF Catalogue</title>
+<meta name="description" content="Offline searchable catalogue of your media library, for Jellyfin.">
+<meta name="theme-color" content="#1a1a2e">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="JF Catalogue">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
   :root {
     --bg: #0f0f0f;
@@ -294,6 +303,34 @@
     color: var(--text-muted);
   }
 
+  .status {
+    margin: 10px 12px 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    background: var(--tag-bg);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+  }
+  .status[hidden] { display: none; }
+  .status.offline { border-color: #b8860b; color: #f0c040; }
+
+  .install-btn {
+    background: none;
+    border: 1px solid var(--accent-dim);
+    color: var(--accent);
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 0.75rem;
+    margin-left: 6px;
+    cursor: pointer;
+  }
+
+  /* Installed app on iPhone: keep the sticky header clear of the notch/status bar */
+  @media (display-mode: standalone) {
+    .header { padding-top: max(16px, env(safe-area-inset-top)); }
+  }
+
   @media (min-width: 600px) {
     .cards {
       display: grid;
@@ -312,7 +349,7 @@
 <body>
 
 <div class="header">
-  <h1><span>&#127916;</span> Jellyfin Catalogue</h1>
+  <h1><span>&#127916;</span> JF Catalogue</h1>
 
   <div class="tabs">
     <button class="tab active" data-tab="movies">
@@ -345,6 +382,7 @@
   </div>
 </div>
 
+<div class="status" id="status" role="status" hidden></div>
 <div class="results-info" id="results-info"></div>
 <div class="cards" id="cards"></div>
 <div class="footer" id="footer"></div>
@@ -360,12 +398,20 @@ async function init() {
   const cardsEl = document.getElementById('cards');
   cardsEl.innerHTML = '<div class="loading">Loading catalogue...</div>';
 
+  let fromCache = false;
   try {
     const res = await fetch('catalogue.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    fromCache = res.headers.get('X-Catalogue-Source') === 'cache';
     data = await res.json();
   } catch (e) {
-    cardsEl.innerHTML = '<div class="loading">Failed to load catalogue.json</div>';
+    cardsEl.innerHTML = navigator.onLine
+      ? '<div class="loading">Failed to load catalogue.json</div>'
+      : '<div class="loading">You\'re offline and no saved copy of the catalogue is on this device yet. Open it once with a connection and it will work offline from then on.</div>';
     return;
+  }
+  if (fromCache) {
+    showStatus('No signal \u2013 showing the copy saved on this phone (updated ' + formatDate(data.updated) + ')', true);
   }
 
   document.getElementById('count-movies').textContent = data.movies.length;
@@ -697,7 +743,61 @@ function getOscarWins(name, year) {
   return OSCAR_WINS[key] || 0;
 }
 
-init();
+// --- Offline support & install ---
+const footerReady = init();
+
+function showStatus(text, offline) {
+  const el = document.getElementById('status');
+  el.textContent = text;
+  el.classList.toggle('offline', !!offline);
+  el.hidden = false;
+}
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch((err) => console.warn('Service worker not registered:', err));
+  });
+}
+
+// Android/desktop Chrome & Edge: offer a one-tap install button in the footer.
+let installPrompt = null;
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  installPrompt = e;
+  addInstallButton('Install app', async () => {
+    installPrompt.prompt();
+    await installPrompt.userChoice;
+    installPrompt = null;
+    removeInstallButton();
+  });
+});
+window.addEventListener('appinstalled', removeInstallButton);
+
+// iPhone/iPad Safari has no install prompt; explain the manual step instead.
+const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent) ||
+  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+const isStandalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+if (isIos && !isStandalone) {
+  addInstallButton('Use offline', () => {
+    alert('To keep this catalogue on your iPhone and use it offline:\n\n1. Tap the Share button\n2. Choose "Add to Home Screen"');
+  });
+}
+
+function addInstallButton(label, onClick) {
+  removeInstallButton();
+  const btn = document.createElement('button');
+  btn.className = 'install-btn';
+  btn.id = 'install-btn';
+  btn.textContent = label;
+  btn.addEventListener('click', onClick);
+  // The footer is filled in by init(); wait for it so the button isn't overwritten.
+  footerReady.then(() => document.getElementById('footer').appendChild(btn));
+}
+function removeInstallButton() {
+  const btn = document.getElementById('install-btn');
+  if (btn) btn.remove();
+}
+
 </script>
 </body>
 </html>

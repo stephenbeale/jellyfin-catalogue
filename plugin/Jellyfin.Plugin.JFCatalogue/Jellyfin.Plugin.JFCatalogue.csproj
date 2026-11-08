@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Jellyfin 12.x runs on .NET 10. To build for an older server, override both, e.g.
+         dotnet build -p:JellyfinVersion=10.11.11 -p:JellyfinTfm=net9.0   (10.10.x: net8.0) -->
+    <JellyfinVersion Condition="'$(JellyfinVersion)' == ''">12.4.0</JellyfinVersion>
+    <JellyfinTfm Condition="'$(JellyfinTfm)' == ''">net10.0</JellyfinTfm>
+    <TargetFramework>$(JellyfinTfm)</TargetFramework>
+    <RootNamespace>Jellyfin.Plugin.JFCatalogue</RootNamespace>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <!-- Jellyfin already ships these assemblies; don't copy them next to the plugin. -->
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jellyfin.Controller" Version="$(JellyfinVersion)" ExcludeAssets="runtime" />
+    <PackageReference Include="Jellyfin.Model" Version="$(JellyfinVersion)" ExcludeAssets="runtime" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Configuration\configPage.html" />
+    <!-- The catalogue web app is the repo's own site files, embedded so there is one copy. -->
+    <EmbeddedResource Include="..\..\index.html" LogicalName="web/index.html" />
+    <EmbeddedResource Include="..\..\sw.js" LogicalName="web/sw.js" />
+    <EmbeddedResource Include="..\..\manifest.webmanifest" LogicalName="web/manifest.webmanifest" />
+    <EmbeddedResource Include="..\..\icons\*.png;..\..\icons\*.svg" LogicalName="web/icons/%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

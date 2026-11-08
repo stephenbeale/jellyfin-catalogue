@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JF Catalogue</title>
+</head>
+<body>
+    <div id="JFCatalogueConfigPage" data-role="page" class="page type-interior pluginConfigurationPage" data-require="emby-input,emby-button,emby-checkbox">
+        <div data-role="content">
+            <div class="content-primary">
+                <form id="JFCatalogueConfigForm">
+                    <div class="verticalSection">
+                        <h2 class="sectionTitle">JF Catalogue</h2>
+                        <p>An offline, searchable list of your library for your phone, so you can check what you already own while out shopping. Open the link below on your phone, add it to the home screen, and it keeps working with no signal.</p>
+                    </div>
+
+                    <div class="verticalSection">
+                        <h3 class="sectionTitle">Your catalogue link</h3>
+                        <div class="checkboxContainer checkboxContainer-withDescription">
+                            <label class="emby-checkbox-label">
+                                <input id="jfcSharingEnabled" type="checkbox" is="emby-checkbox" />
+                                <span>Catalogue link is on</span>
+                            </label>
+                            <div class="fieldDescription checkboxFieldDescription">Anyone with the link can see the catalogue (titles and details, not your media). Turn off to disable it.</div>
+                        </div>
+                        <div class="inputContainer">
+                            <label class="inputLabel inputLabelUnfocused" for="jfcLink">Link</label>
+                            <input id="jfcLink" type="text" is="emby-input" readonly />
+                            <div class="fieldDescription">Open it on your phone, then Share &gt; Add to Home Screen (iPhone) or Install app (Android). Uses the address you're viewing this dashboard on: if your phone reaches the server by a different address, swap the start of the link for that.</div>
+                        </div>
+                        <div style="display:flex;gap:.5em;flex-wrap:wrap;margin-bottom:1.5em">
+                            <button is="emby-button" type="button" id="jfcCopy" class="raised emby-button"><span>Copy link</span></button>
+                            <a is="emby-linkbutton" id="jfcOpen" class="raised emby-button" target="_blank" rel="noopener"><span>Open</span></a>
+                            <button is="emby-button" type="button" id="jfcRegenerate" class="raised emby-button"><span>New link (old one stops working)</span></button>
+                        </div>
+                    </div>
+
+                    <div class="verticalSection">
+                        <h3 class="sectionTitle">What to include</h3>
+                        <div class="inputContainer">
+                            <label class="inputLabel inputLabelUnfocused" for="jfcTitle">Title</label>
+                            <input id="jfcTitle" type="text" is="emby-input" maxlength="40" />
+                            <div class="fieldDescription">Shown at the top of the catalogue and under its home-screen icon.</div>
+                        </div>
+                        <div class="checkboxContainer">
+                            <label class="emby-checkbox-label"><input id="jfcIncludeMovies" type="checkbox" is="emby-checkbox" /><span>Movies</span></label>
+                            <label class="emby-checkbox-label"><input id="jfcIncludeTv" type="checkbox" is="emby-checkbox" /><span>TV series</span></label>
+                            <label class="emby-checkbox-label"><input id="jfcIncludeMusic" type="checkbox" is="emby-checkbox" /><span>Music albums</span></label>
+                        </div>
+                        <h4>Libraries</h4>
+                        <div class="fieldDescription" style="margin-bottom:.5em">Tick none to include every library.</div>
+                        <div class="checkboxContainer" id="jfcLibraries"></div>
+                        <div class="checkboxContainer">
+                            <label class="emby-checkbox-label"><input id="jfcIncludeOverviews" type="checkbox" is="emby-checkbox" /><span>Plot summaries</span></label>
+                            <label class="emby-checkbox-label"><input id="jfcIncludeCast" type="checkbox" is="emby-checkbox" /><span>Actors and directors</span></label>
+                        </div>
+                    </div>
+
+                    <div class="verticalSection">
+                        <p class="fieldDescription">The catalogue rebuilds daily (change the time in Dashboard &gt; Scheduled Tasks &gt; "Rebuild JF Catalogue") and right after you save here.</p>
+                        <p id="jfcStatus" class="fieldDescription"></p>
+                        <button is="emby-button" type="submit" class="raised button-submit block emby-button"><span>Save and rebuild</span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            (function () {
+                var pluginId = 'b46eac48-82aa-4990-b6d3-cb1e32170ead';
+                var page = document.querySelector('#JFCatalogueConfigPage');
+                var current = null;
+
+                function $(id) { return page.querySelector('#' + id); }
+
+                function linkFor(key) {
+                    return ApiClient.serverAddress().replace(/\/+$/, '') + '/JFCatalogue/' + key + '/';
+                }
+
+                function showLink() {
+                    var url = linkFor(current.ShareKey);
+                    $('jfcLink').value = current.SharingEnabled ? url : '(link is off)';
+                    $('jfcOpen').href = url;
+                    $('jfcOpen').style.display = current.SharingEnabled ? '' : 'none';
+                    $('jfcCopy').disabled = !current.SharingEnabled;
+                }
+
+                function newKey() {
+                    var bytes = new Uint8Array(16);
+                    crypto.getRandomValues(bytes);
+                    return Array.prototype.map.call(bytes, function (b) { return ('0' + b.toString(16)).slice(-2); }).join('');
+                }
+
+                function setStatus(text) { $('jfcStatus').textContent = text; }
+
+                function rebuild() {
+                    setStatus('Rebuilding catalogue...');
+                    return ApiClient.ajax({ type: 'POST', url: ApiClient.getUrl('JFCatalogue/Rebuild'), dataType: 'json' })
+                        .then(function (c) {
+                            setStatus('Catalogue rebuilt: ' + c.Movies + ' movies, ' + c.Tv + ' TV series, ' + c.Music + ' albums.');
+                        }, function (err) {
+                            setStatus('Rebuild failed. Check that at least one content type and a library with matching items are selected, then see the server log.');
+                            console.error('JF Catalogue rebuild failed', err);
+                        });
+                }
+
+                function save(config) {
+                    return ApiClient.updatePluginConfiguration(pluginId, config).then(function (result) {
+                        Dashboard.processPluginConfigurationUpdateResult(result);
+                        current = config;
+                        showLink();
+                    });
+                }
+
+                page.addEventListener('pageshow', function () {
+                    Dashboard.showLoadingMsg();
+                    Promise.all([ApiClient.getPluginConfiguration(pluginId), ApiClient.getVirtualFolders()]).then(function (r) {
+                        current = r[0];
+                        var folders = r[1] || [];
+                        $('jfcTitle').value = current.Title || '';
+                        $('jfcSharingEnabled').checked = current.SharingEnabled;
+                        $('jfcIncludeMovies').checked = current.IncludeMovies;
+                        $('jfcIncludeTv').checked = current.IncludeTv;
+                        $('jfcIncludeMusic').checked = current.IncludeMusic;
+                        $('jfcIncludeOverviews').checked = current.IncludeOverviews;
+                        $('jfcIncludeCast').checked = current.IncludeCast;
+
+                        var selected = current.LibraryIds || [];
+                        var container = $('jfcLibraries');
+                        container.innerHTML = '';
+                        folders.forEach(function (f) {
+                            // Parsed markup, not createElement(name, { is }): jellyfin-web's custom
+                            // element polyfill only accepts the old string form and throws on it.
+                            var label = document.createElement('label');
+                            label.className = 'emby-checkbox-label';
+                            label.innerHTML = '<input type="checkbox" is="emby-checkbox" class="jfcLibrary" /><span></span>';
+                            container.appendChild(label);
+                            var input = label.querySelector('input');
+                            input.dataset.id = f.ItemId;
+                            input.checked = selected.indexOf(f.ItemId) !== -1;
+                            label.querySelector('span').textContent = f.Name;
+                        });
+
+                        showLink();
+                        setStatus('');
+                        Dashboard.hideLoadingMsg();
+                    });
+                });
+
+                $('jfcSharingEnabled').addEventListener('change', function () {
+                    current.SharingEnabled = this.checked;
+                    showLink();
+                });
+
+                $('jfcCopy').addEventListener('click', function () {
+                    var url = linkFor(current.ShareKey);
+                    if (navigator.clipboard && window.isSecureContext) {
+                        navigator.clipboard.writeText(url).then(function () { Dashboard.alert('Link copied.'); });
+                    } else {
+                        $('jfcLink').select();
+                        document.execCommand('copy');
+                        Dashboard.alert('Link copied.');
+                    }
+                });
+
+                $('jfcRegenerate').addEventListener('click', function () {
+                    if (!confirm('Make a new link? The old link, and home-screen apps made from it, will stop working.')) {
+                        return;
+                    }
+                    var config = Object.assign({}, current, { ShareKey: newKey() });
+                    save(config);
+                });
+
+                page.querySelector('#JFCatalogueConfigForm').addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    Dashboard.showLoadingMsg();
+                    var config = Object.assign({}, current, {
+                        Title: $('jfcTitle').value.trim() || 'JF Catalogue',
+                        SharingEnabled: $('jfcSharingEnabled').checked,
+                        IncludeMovies: $('jfcIncludeMovies').checked,
+                        IncludeTv: $('jfcIncludeTv').checked,
+                        IncludeMusic: $('jfcIncludeMusic').checked,
+                        IncludeOverviews: $('jfcIncludeOverviews').checked,
+                        IncludeCast: $('jfcIncludeCast').checked,
+                        LibraryIds: Array.prototype.map.call(page.querySelectorAll('.jfcLibrary:checked'), function (i) { return i.dataset.id; })
+                    });
+                    save(config).then(rebuild).then(function () { Dashboard.hideLoadingMsg(); });
+                    return false;
+                });
+            })();
+        </script>
+    </div>
+</body>
+</html>
